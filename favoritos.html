@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.json">
+<title>Mis Favoritos - MallorcaGo</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+body{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('img/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.static-header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.logo-main {
+    display: inline-flex;
+    align-items: baseline;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+.text-mallorca {
+    color: #FFD700;
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 0 0 15px rgba(255,215,0,0.6);
+}
+.text-go-container {
+    display: inline-flex;
+    align-items: center;
+}
+.text-go {
+    color: #FF4500;
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 0 0 20px rgba(255,69,0,0.9);
+    margin-left: 4px;
+}
+.simple-arrow {
+    width: 32px;
+    height: 32px;
+    margin-left: 4px;
+    filter: drop-shadow(0 0 8px rgba(255,69,0,0.8));
+    transform: translateY(2px);
+}
+.page-title {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #FF4500;
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 0 0 15px rgba(255,69,0,0.5);
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.settings-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: #f5f5dc;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    border: 2px solid black;
+    box-shadow: 0 4px 0 black;
+    z-index: 110;
+}
+.settings-icon:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 black;
+}
+.settings-modal {
+    display: none;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    background: #f5f5dc;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    z-index: 200;
+    width: 200px;
+    box-shadow: 0 8px 0 black;
+    text-align: center;
+}
+.settings-modal h3 {
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.lang-option {
+    display: block;
+    width: 100%;
+    background: #FFD700;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close-settings {
+    margin-top: 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+.back-btn {
+    background: #FFD700;
+    border: 3px solid #000;
+    padding: 8px 25px;
+    font-weight: 900;
+    border-radius: 30px;
+    box-shadow: 0 4px 0 #000;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin: 10px auto;
+    font-size: 0.9rem;
+}
+.poetic-desc {
+    max-width: 600px;
+    text-align: center;
+    font-weight: 900;
+    color: #FFD700;
+    -webkit-text-stroke: 1.2px black;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    margin: 0 auto 2rem auto;
+    font-size: 1.1rem;
+}
+.fav-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    gap: 20px;
+    margin: 0 auto;
+}
+.route-card {
+    background: #f5f5dc;
+    border: 3px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 0 black;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.route-card:hover {
+    transform: translateY(-5px);
+}
+.fav-remove {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #f5f5dc;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 0 2px 0 black;
+    z-index: 10;
+    color: #dc3545;
+    font-weight: bold;
+}
+.image-container {
+    height: 180px;
+    width: 100%;
+    background: #ccc;
+}
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.route-content {
+    padding: 15px;
+}
+.route-title {
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #FF4500;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.route-loc {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.semaforo {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.baja { background: #28a745; color: white; }
+.media { background: #ffc107; color: black; }
+.alta { background: #dc3545; color: white; }
+.route-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background: rgba(0,0,0,0.08);
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: 900;
+    border: 1px solid black;
+}
+.fest-card {
+    background: #f5f5dc;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 8px 0 black;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.fest-card:hover {
+    transform: translateY(-5px);
+}
+.fest-card .fav-remove {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #f5f5dc;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 0 2px 0 black;
+    color: #dc3545;
+}
+.fest-title {
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin: 5px 0;
+}
+.fest-date {
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+.empty-message {
+    background: rgba(0,0,0,0.7);
+    color: #FFD700;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.footer-nav {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.go-top-btn {
+    background: #FFD700;
+    border: 3px solid #000;
+    padding: 8px 25px;
+    font-weight: 900;
+    border-radius: 30px;
+    box-shadow: 0 4px 0 #000;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.9rem;
+    transition: 0.05s linear;
+}
+.go-top-btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 #000;
+}
+.go-top-btn.hidden {
+    display: none;
+}
+</style>
+</head>
+<body>
+
+<div class="static-header">
+    <div class="logo-main">
+        <span class="text-mallorca">Mallorca</span>
+        <div class="text-go-container">
+            <span class="text-go">Go</span>
+            <svg class="simple-arrow" viewBox="0 0 100 100">
+                <path d="M20,50 L80,50 M60,30 L80,50 L60,70" fill="none" stroke="black" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20,50 L80,50 M60,30 L80,50 L60,70" fill="none" stroke="#FF4500" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+    <div class="page-title">⭐ MIS FAVORITOS</div>
+</div>
+
+<div class="settings-icon" id="settings-icon">⚙️</div>
+<div id="settings-modal" class="settings-modal">
+    <h3>Idioma / Language</h3>
+    <button class="lang-option" data-lang="es">Español</button>
+    <button class="lang-option" data-lang="ca">Català</button>
+    <button class="lang-option" data-lang="en">English</button>
+    <button class="lang-option" data-lang="de">Deutsch</button>
+    <button class="lang-option" data-lang="fr">Français</button>
+    <button class="close-settings">Cerrar</button>
+</div>
+
+<div style="text-align: center;">
+    <a href="index.html" id="btn-back" class="back-btn">← VOLVER</a>
+</div>
+<p id="poetic-desc" class="poetic-desc">Guarda aquí tus rutas y fiestas preferidas. Planifica tu viaje ideal por Mallorca.</p>
+
+<main id="fav-container" class="fav-grid">Cargando tus favoritos...</main>
+
+<div class="footer-nav">
+    <button id="go-top" class="go-top-btn hidden">⬆️ Arriba</button>
+</div>
+
+<script>
+let currentLang = 'es';
+let favorites = [];
+let allRoutes = [];
+let allFiestas = [];
+
+const langStrings = {
+    es: { title: "⭐ MIS FAVORITOS", back: "← VOLVER", intro: "Guarda aquí tus rutas y fiestas preferidas.", empty: "Todavía no tienes favoritos. Explora las rutas y fiestas y marca ❤️.", difficulty: { baja: "Baja", media: "Media", alta: "Alta" } },
+    ca: { title: "⭐ ELS MEUS FAVORITS", back: "← TORNAR", intro: "Guarda aquí les teves rutes i festes preferides.", empty: "Encara no tens favorits. Explora les rutes i festes i marca ❤️.", difficulty: { baja: "Baixa", media: "Mitjana", alta: "Alta" } },
+    en: { title: "⭐ MY FAVORITES", back: "← BACK", intro: "Save your favorite routes and festivals here.", empty: "You don't have favorites yet. Explore routes and festivals and mark ❤️.", difficulty: { baja: "Low", media: "Medium", alta: "High" } },
+    de: { title: "⭐ MEINE FAVORITEN", back: "← ZURÜCK", intro: "Speichere hier deine Lieblingsrouten und -feste.", empty: "Du hast noch keine Favoriten. Entdecke Routen und Feste und markiere ❤️.", difficulty: { baja: "Niedrig", media: "Mittel", alta: "Hoch" } },
+    fr: { title: "⭐ MES FAVORIS", back: "← RETOUR", intro: "Enregistrez ici vos routes et fêtes préférées.", empty: "Vous n'avez pas encore de favoris. Explorez les routes et les fêtes et marquez ❤️.", difficulty: { baja: "Bas", media: "Moyen", alta: "Élevé" } }
+};
+
+function loadFavorites() {
+    const stored = localStorage.getItem('mallorcaFavorites');
+    favorites = stored ? JSON.parse(stored) : [];
+}
+function saveFavorites() {
+    localStorage.setItem('mallorcaFavorites', JSON.stringify(favorites));
+}
+function removeFavorite(type, id, event) {
+    event.stopPropagation();
+    favorites = favorites.filter(f => !(f.type === type && f.id === id));
+    saveFavorites();
+    renderFavoritos();
+}
+function getFestId(fiesta) {
+    return `fest|||${fiesta.pueblo}|||${fiesta.fecha}|||${fiesta.titulo}`;
+}
+async function loadData() {
+    try {
+        const [routesRes, fiestasRes] = await Promise.all([
+            fetch('rutas.json').then(r => r.json()).catch(() => ({ rutas: [] })),
+            fetch('datos.json').then(r => r.json()).catch(() => [])
+        ]);
+        allRoutes = routesRes.rutas || [];
+        allFiestas = fiestasRes;
+        renderFavoritos();
+    } catch(e) {
+        document.getElementById('fav-container').innerHTML = '<div class="empty-message">Error cargando datos.</div>';
+    }
+}
+function renderFavoritos() {
+    const container = document.getElementById('fav-container');
+    if (!favorites.length) {
+        container.innerHTML = `<div class="empty-message">${langStrings[currentLang].empty}</div>`;
+        return;
+    }
+    const favRoutes = favorites.filter(f => f.type === 'route').map(f => allRoutes.find(r => r.id === f.id)).filter(r => r);
+    const favFests = favorites.filter(f => f.type === 'fest').map(f => {
+        const parts = f.id.split('|||');
+        if (parts.length !== 4) return null;
+        const pueblo = parts[1];
+        const fecha = parts[2];
+        const titulo = parts[3];
+        return allFiestas.find(fi => fi.pueblo === pueblo && fi.fecha === fecha && fi.titulo === titulo);
+    }).filter(f => f);
+    let html = '';
+    if (favRoutes.length) {
+        html += `<h2 class="text-2xl font-black text-yellow-400 mt-2 mb-3 bg-black inline-block px-6 py-2 rounded-full">🚶‍♂️ Rutas favoritas</h2>`;
+        html += `<div class="w-full" style="display:flex; flex-direction:column; gap:20px;">`;
+        favRoutes.forEach(r => {
+            const diffText = langStrings[currentLang].difficulty[r.dificultad] || r.dificultad;
+            html += `
+                <div class="route-card" onclick="location.href='detalle-ruta.html?id=${r.id}'">
+                    <div class="fav-remove" onclick="removeFavorite('route', '${r.id}', event)">❌</div>
+                    <div class="image-container"><img src="${r.imagen || 'img/placeholder.jpg'}" onerror="this.src='img/placeholder.jpg'"></div>
+                    <div class="route-content">
+                        <div class="semaforo ${r.dificultad}">${diffText}</div>
+                        <h3 class="route-title">${r.nombre}</h3>
+                        <p class="route-loc">${r.municipio}</p>
+                        <div class="route-stats">
+                            <span>📏 ${r.distanciaKm} KM</span>
+                            <span>⏱️ ${r.duracionHoras} H</span>
+                            <span>⛰️ +${r.desnivelPositivo || 0} M</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+        html += `</div>`;
+    }
+    if (favFests.length) {
+        html += `<h2 class="text-2xl font-black text-yellow-400 mt-6 mb-3 bg-black inline-block px-6 py-2 rounded-full">🎉 Fiestas favoritas</h2>`;
+        html += `<div class="w-full" style="display:flex; flex-direction:column; gap:20px;">`;
+        favFests.forEach(f => {
+            const desc = f.descripcion[currentLang] || f.descripcion.es;
+            html += `
+                <div class="fest-card" onclick="location.href='festes.html'">
+                    <div class="fav-remove" onclick="removeFavorite('fest', '${getFestId(f)}', event)">❌</div>
+                    <div style="display:flex; justify-content:space-between;">
+                        <h3 style="font-size:1.4rem; font-weight:900;">${f.pueblo}</h3>
+                        <span>${"⭐".repeat(f.ranking || 3)}</span>
+                    </div>
+                    <div class="fest-title">${f.titulo}</div>
+                    <p style="color:#444;">📍 ${f.lugar}</p>
+                    <p style="margin-top:8px;">${desc.substring(0, 150)}${desc.length > 150 ? '…' : ''}</p>
+                    <div class="fest-date">${f.fecha}</div>
+                </div>
+            `;
+        });
+        html += `</div>`;
+    }
+    container.innerHTML = html;
+}
+function changeLang(lang) {
+    currentLang = lang;
+    localStorage.setItem('mallorcaLang', lang);
+    document.getElementById('btn-back').innerText = langStrings[lang].back;
+    document.getElementById('poetic-desc').innerText = langStrings[lang].intro;
+    renderFavoritos();
+}
+// Modal ajustes
+const settingsIcon = document.getElementById('settings-icon');
+const settingsModal = document.getElementById('settings-modal');
+const closeSettings = document.querySelector('.close-settings');
+settingsIcon.addEventListener('click', () => {
+    settingsModal.style.display = settingsModal.style.display === 'block' ? 'none' : 'block';
+});
+closeSettings.addEventListener('click', () => { settingsModal.style.display = 'none'; });
+window.addEventListener('click', (e) => { if (e.target === settingsModal) settingsModal.style.display = 'none'; });
+document.querySelectorAll('.lang-option').forEach(btn => {
+    btn.addEventListener('click', () => {
+        changeLang(btn.dataset.lang);
+        settingsModal.style.display = 'none';
+        location.reload();
+    });
+});
+// Botón "Arriba"
+const goTopBtn = document.getElementById('go-top');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        goTopBtn.classList.remove('hidden');
+    } else {
+        goTopBtn.classList.add('hidden');
+    }
+});
+goTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+// Inicialización
+const savedLang = localStorage.getItem('mallorcaLang') || 'es';
+loadFavorites();
+loadData();
+changeLang(savedLang);
+</script>
+
+<!-- REGISTRO DEL SERVICE WORKER -->
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log('Service Worker registrado con éxito:', reg))
+      .catch(err => console.log('Error al registrar el Service Worker:', err));
+  }
+</script>
+
+</body>
+</html>

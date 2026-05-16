@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.json">
+<title>Playas y Rutas - MallorcaGo</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+body{
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('img/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.static-header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.logo-main {
+    display: inline-flex;
+    align-items: baseline;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+.text-mallorca {
+    color: #FFD700;
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 0 0 15px rgba(255,215,0,0.6);
+}
+.text-go-container {
+    display: inline-flex;
+    align-items: center;
+}
+.text-go {
+    color: #FF4500;
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 0 0 20px rgba(255,69,0,0.9);
+    margin-left: 4px;
+}
+.simple-arrow {
+    width: 32px;
+    height: 32px;
+    margin-left: 4px;
+    filter: drop-shadow(0 0 8px rgba(255,69,0,0.8));
+    transform: translateY(2px);
+}
+.page-title {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #FF4500;
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 0 0 15px rgba(255,69,0,0.5);
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.settings-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: #f5f5dc;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    border: 2px solid black;
+    box-shadow: 0 4px 0 black;
+    z-index: 110;
+}
+.settings-icon:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 black;
+}
+.settings-modal {
+    display: none;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    background: #f5f5dc;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    z-index: 200;
+    width: 200px;
+    box-shadow: 0 8px 0 black;
+    text-align: center;
+}
+.settings-modal h3 { font-weight: 900; margin-bottom: 10px; }
+.lang-option {
+    display: block;
+    width: 100%;
+    background: #FFD700;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close-settings {
+    margin-top: 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+.back-btn {
+    background: #FFD700;
+    border: 3px solid #000;
+    padding: 8px 25px;
+    font-weight: 900;
+    border-radius: 30px;
+    box-shadow: 0 4px 0 #000;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin: 10px auto;
+    font-size: 0.9rem;
+}
+.poetic-desc {
+    color: #FFD700;
+    -webkit-text-stroke: 1px black;
+    font-weight: 900;
+    text-shadow: 3px 3px 0 black;
+    text-align: center;
+    max-width: 900px;
+    margin: 15px auto;
+    font-size: 1.2rem;
+}
+.search-container{ width:100%; max-width:500px; margin:0 auto 20px auto; }
+#search-input{ width:100%; padding:10px 15px; border:3px solid black; border-radius:50px; background:#f5f5dc; font-weight:bold; outline:none; text-align:center; }
+.filters-bar{ display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin-bottom:20px; }
+.filter-btn{ background:#f5f5dc; border:2px solid black; padding:6px 16px; border-radius:30px; font-weight:800; font-size:0.8rem; cursor:pointer; box-shadow:0 2px 0 black; }
+.filter-btn.active{ background:#FFD700; }
+.result-count{ background:black; color:#FFD700; padding:4px 12px; border-radius:30px; font-size:0.8rem; font-weight:bold; margin-bottom:15px; display:inline-block; }
+.map-container { width: 100%; max-width: 1200px; margin: 20px auto; border: 4px solid black; border-radius: 20px; overflow: hidden; box-shadow: 0 8px 0 black; display: none; }
+#mapid { height: 400px; width: 100%; background: #ccc; }
+.show-map-btn {
+    background: #f5f5dc;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 6px 16px;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 0 auto 20px auto;
+    display: inline-block;
+}
+/* Centrado de las tarjetas */
+.rutas-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto 0 auto;
+    justify-items: center;
+}
+@media (min-width: 768px){
+    .rutas-grid{ grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1024px){
+    .rutas-grid{ grid-template-columns: repeat(3, 1fr); }
+}
+.route-card{
+    background: #f5f5dc;
+    border: 3px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 0 black;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+.route-card:hover{
+    transform: translateY(-5px);
+}
+/* Iconos centrados verticalmente */
+.fav-btn, .share-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #f5f5dc;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 0 2px 0 black;
+    z-index: 10;
+}
+.fav-btn:active, .share-btn:active { transform: translateY(-50%) translateY(2px); box-shadow: 0 1px 0 black; }
+.fav-btn.active { color: #e63946; }
+.fav-btn { right: 10px; }
+.share-btn { right: 55px; font-size: 18px; }
+.image-container{ height:180px; width:100%; background:#ccc; }
+.image-container img{ width:100%; height:100%; object-fit:cover; }
+.route-content{ padding:15px; flex-grow:1; }
+.route-title{ font-size:1.2rem; font-weight:900; color:#FF4500; text-transform:uppercase; margin-bottom:5px; }
+.route-loc{ font-size:0.75rem; font-weight:800; color:#444; text-transform:uppercase; margin-bottom:8px; }
+.semaforo{ display:inline-block; padding:2px 10px; border-radius:8px; border:2px solid black; font-size:10px; font-weight:900; text-transform:uppercase; margin-bottom:10px; }
+.baja{ background:#28a745; color:white; } .media{ background:#ffc107; color:black; } .alta{ background:#dc3545; color:white; }
+.route-stats{ display:flex; justify-content:space-between; margin-top:10px; background:rgba(0,0,0,0.08); padding:8px; border-radius:10px; font-size:0.7rem; font-weight:900; border:1px solid black; }
+.no-results{ color:#FFD700; background:black; padding:10px; border-radius:20px; text-align:center; font-weight:bold; width:100%; max-width:500px; margin:20px auto; }
+.footer-nav { text-align: center; margin-top: 40px; padding-bottom: 30px; }
+.go-top-btn {
+    background: #FFD700;
+    border: 3px solid #000;
+    padding: 8px 25px;
+    font-weight: 900;
+    border-radius: 30px;
+    box-shadow: 0 4px 0 #000;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.9rem;
+    transition: 0.05s linear;
+}
+.go-top-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 #000; }
+.go-top-btn.hidden { display: none; }
+</style>
+</head>
+<body>
+
+<div class="static-header">
+    <div class="logo-main">
+        <span class="text-mallorca">Mallorca</span>
+        <div class="text-go-container">
+            <span class="text-go">Go</span>
+            <svg class="simple-arrow" viewBox="0 0 100 100">
+                <path d="M20,50 L80,50 M60,30 L80,50 L60,70" fill="none" stroke="black" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20,50 L80,50 M60,30 L80,50 L60,70" fill="none" stroke="#FF4500" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+    <div class="page-title">PLAYAS Y RUTAS</div>
+</div>
+
+<div class="settings-icon" id="settings-icon">⚙️</div>
+<div id="settings-modal" class="settings-modal">
+    <h3>Idioma / Language</h3>
+    <button class="lang-option" data-lang="es">Español</button>
+    <button class="lang-option" data-lang="ca">Català</button>
+    <button class="lang-option" data-lang="en">English</button>
+    <button class="lang-option" data-lang="de">Deutsch</button>
+    <button class="lang-option" data-lang="fr">Français</button>
+    <button class="close-settings">Cerrar</button>
+</div>
+
+<div style="text-align: center;">
+    <a href="index.html" id="btn-atras" class="back-btn">← VOLVER</a>
+</div>
+<p id="poetic-desc" class="poetic-desc">Camina sobre la historia de la piedra seca y sumérgete en aguas cristalinas.</p>
+
+<div class="search-container">
+    <input type="text" id="search-input" placeholder="🔍 Buscar ruta...">
+</div>
+
+<div class="filters-bar">
+    <button class="filter-btn" data-filter="dificultad" data-value="baja">🥾 Baja</button>
+    <button class="filter-btn" data-filter="dificultad" data-value="media">🥾 Media</button>
+    <button class="filter-btn" data-filter="dificultad" data-value="alta">🥾 Alta</button>
+    <button class="filter-btn" data-filter="duracion" data-value="corta">⏱️ Corta (&lt;2h)</button>
+    <button class="filter-btn" data-filter="duracion" data-value="media">⏱️ Media (2-4h)</button>
+    <button class="filter-btn" data-filter="duracion" data-value="larga">⏱️ Larga (&gt;4h)</button>
+    <button class="filter-btn" data-filter="tipo" data-value="circular">🔄 Circular</button>
+    <button class="filter-btn" data-filter="tipo" data-value="lineal">➡️ Lineal</button>
+    <button class="filter-btn" id="clear-filters">❌ Limpiar filtros</button>
+</div>
+
+<div class="w-full flex justify-center">
+    <div id="result-count" class="result-count">Mostrando todas las rutas</div>
+</div>
+
+<div style="text-align: center;">
+    <button id="toggle-map-btn" class="show-map-btn">🗺️ Mostrar mapa</button>
+</div>
+<div id="map-container" class="map-container">
+    <div id="mapid"></div>
+</div>
+
+<div id="rutas-container" class="rutas-grid"></div>
+
+<div class="footer-nav">
+    <button id="go-top" class="go-top-btn hidden">⬆️ Arriba</button>
+</div>
+
+<script>
+let currentLang = localStorage.getItem('mallorcaLang') || 'es';
+let allRoutes = [];
+let favorites = [];
+let activeFilters = { dificultad: null, duracion: null, tipo: null };
+let map;
+let mapVisible = false;
+
+const langUI = {
+    es: { back: "← VOLVER", intro: "Camina sobre la historia...", noResults: "No se encontraron rutas.", resultCount: (show, total) => `Mostrando ${show} de ${total} rutas`, showMap: "🗺️ Mostrar mapa", hideMap: "❌ Ocultar mapa" },
+    ca: { back: "← TORNAR", intro: "Camina sobre la història...", noResults: "No s'han trobat rutes.", resultCount: (show, total) => `Mostrant ${show} de ${total} rutes`, showMap: "🗺️ Mostrar mapa", hideMap: "❌ Ocultar mapa" },
+    en: { back: "← BACK", intro: "Walk over the history...", noResults: "No routes found.", resultCount: (show, total) => `Showing ${show} of ${total} routes`, showMap: "🗺️ Show map", hideMap: "❌ Hide map" },
+    de: { back: "← ZURÜCK", intro: "Wandern Sie über die Geschichte...", noResults: "Keine Routen gefunden.", resultCount: (show, total) => `Zeige ${show} von ${total} Routen`, showMap: "🗺️ Karte anzeigen", hideMap: "❌ Karte ausblenden" },
+    fr: { back: "← RETOUR", intro: "Marchez sur l'histoire...", noResults: "Aucune route trouvée.", resultCount: (show, total) => `Affichage de ${show} sur ${total} routes`, showMap: "🗺️ Afficher la carte", hideMap: "❌ Masquer la carte" }
+};
+const difficultyLang = { es:{baja:"Baja",media:"Media",alta:"Alta"}, ca:{baja:"Baixa",media:"Mitjana",alta:"Alta"}, en:{baja:"Low",media:"Medium",alta:"High"}, de:{baja:"Niedrig",media:"Mittel",alta:"Hoch"}, fr:{baja:"Bas",media:"Moyen",alta:"Élevé"} };
+
+function loadFavorites() {
+    const stored = localStorage.getItem('mallorcaFavorites');
+    favorites = stored ? JSON.parse(stored) : [];
+}
+function saveFavorites() {
+    localStorage.setItem('mallorcaFavorites', JSON.stringify(favorites));
+}
+function isFavorite(type, id) {
+    return favorites.some(f => f.type === type && f.id === id);
+}
+function toggleFavorite(type, id, event) {
+    event.stopPropagation();
+    if (isFavorite(type, id)) {
+        favorites = favorites.filter(f => !(f.type === type && f.id === id));
+    } else {
+        favorites.push({ type, id });
+    }
+    saveFavorites();
+    applyFiltersAndRender();
+}
+async function shareRoute(route, event) {
+    event.stopPropagation();
+    const shareData = {
+        title: route.nombre,
+        text: `${route.municipio} | ${route.distanciaKm} km, ${route.duracionHoras} h`,
+        url: window.location.origin + '/detalle-ruta.html?id=' + route.id
+    };
+    if (navigator.share) {
+        try { await navigator.share(shareData); } catch(err) {}
+    } else {
+        await navigator.clipboard.writeText(shareData.url);
+        alert('Enlace copiado');
+    }
+}
+function initMap(routes) {
+    if (!map) {
+        map = L.map('mapid').setView([39.6953, 3.0176], 9);
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; CartoDB',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }).addTo(map);
+    } else {
+        map.eachLayer(layer => { if (layer instanceof L.Marker) map.removeLayer(layer); });
+    }
+    routes.forEach(route => {
+        if (route.puntoInicio?.coordenadas) {
+            const { lat, lng } = route.puntoInicio.coordenadas;
+            if (lat && lng) {
+                L.marker([lat, lng]).addTo(map).bindPopup(`<b>${route.nombre}</b><br>${route.municipio}<br><a href="detalle-ruta.html?id=${route.id}" target="_blank">Ver ruta</a>`);
+            }
+        }
+    });
+}
+function filterRoutes() {
+    const searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
+    let filtered = [...allRoutes];
+    if (searchTerm) {
+        filtered = filtered.filter(r => {
+            const desc = r.descripcion?.[currentLang] || r.descripcion?.es || '';
+            return r.nombre.toLowerCase().includes(searchTerm) || r.municipio.toLowerCase().includes(searchTerm) || desc.toLowerCase().includes(searchTerm);
+        });
+    }
+    if (activeFilters.dificultad) filtered = filtered.filter(r => r.dificultad === activeFilters.dificultad);
+    if (activeFilters.duracion) filtered = filtered.filter(r => r.duracionCategoria === activeFilters.duracion);
+    if (activeFilters.tipo) filtered = filtered.filter(r => r.tipoRuta === activeFilters.tipo);
+    return filtered;
+}
+function renderRoutes(routes) {
+    const container = document.getElementById('rutas-container');
+    container.innerHTML = '';
+    const total = routes.length;
+    document.getElementById('result-count').innerText = langUI[currentLang].resultCount(total, allRoutes.length);
+    if (total === 0) {
+        container.innerHTML = `<div class="no-results">${langUI[currentLang].noResults}</div>`;
+        if (mapVisible) initMap([]);
+        return;
+    }
+    routes.forEach(ruta => {
+        const favActive = isFavorite('route', ruta.id);
+        const iconFav = favActive ? '❤️' : '🤍';
+        const difficultyText = difficultyLang[currentLang][ruta.dificultad] || ruta.dificultad;
+        const card = `
+            <div class="route-card" onclick="location.href='detalle-ruta.html?id=${ruta.id}'">
+                <div class="fav-btn ${favActive ? 'active' : ''}" onclick="toggleFavorite('route', '${ruta.id}', event)">${iconFav}</div>
+                <div class="share-btn" onclick="shareRoute(${JSON.stringify(ruta).replace(/"/g, '&quot;')}, event)">📤</div>
+                <div class="image-container"><img src="${ruta.imagen || 'img/placeholder.jpg'}" onerror="this.src='img/placeholder.jpg'"></div>
+                <div class="route-content">
+                    <div class="semaforo ${ruta.dificultad}">${difficultyText}</div>
+                    <h3 class="route-title">${ruta.nombre}</h3>
+                    <p class="route-loc">${ruta.municipio}</p>
+                    <div class="route-stats">
+                        <span>📏 ${ruta.distanciaKm} KM</span>
+                        <span>⏱️ ${ruta.duracionHoras} H</span>
+                        <span>⛰️ +${ruta.desnivelPositivo || 0} M</span>
+                    </div>
+                </div>
+            </div>
+        `;
+        container.innerHTML += card;
+    });
+    if (mapVisible) initMap(routes);
+}
+function applyFiltersAndRender() {
+    const filtered = filterRoutes();
+    renderRoutes(filtered);
+}
+function initFilterButtons() {
+    const btns = document.querySelectorAll('.filter-btn[data-filter]');
+    btns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const filterType = btn.dataset.filter;
+            const value = btn.dataset.value;
+            if (activeFilters[filterType] === value) {
+                activeFilters[filterType] = null;
+                btn.classList.remove('active');
+            } else {
+                document.querySelectorAll(`.filter-btn[data-filter="${filterType}"]`).forEach(b => b.classList.remove('active'));
+                activeFilters[filterType] = value;
+                btn.classList.add('active');
+            }
+            applyFiltersAndRender();
+        });
+    });
+    document.getElementById('clear-filters').addEventListener('click', () => {
+        activeFilters = { dificultad: null, duracion: null, tipo: null };
+        document.querySelectorAll('.filter-btn.active').forEach(btn => btn.classList.remove('active'));
+        applyFiltersAndRender();
+    });
+}
+async function cargarRutas() {
+    try {
+        const res = await fetch('rutas.json');
+        const data = await res.json();
+        allRoutes = data.rutas;
+        applyFiltersAndRender();
+    } catch(e) {
+        document.getElementById('rutas-container').innerHTML = "<p class='text-white'>Error al cargar rutas</p>";
+    }
+}
+function updateUI() {
+    document.getElementById('btn-atras').innerText = langUI[currentLang].back;
+    document.getElementById('poetic-desc').innerText = langUI[currentLang].intro;
+    const toggleBtn = document.getElementById('toggle-map-btn');
+    if (toggleBtn) toggleBtn.innerText = mapVisible ? langUI[currentLang].hideMap : langUI[currentLang].showMap;
+    applyFiltersAndRender();
+}
+function changeLang(lang) {
+    currentLang = lang;
+    localStorage.setItem('mallorcaLang', lang);
+    updateUI();
+}
+// Mapa toggle
+const toggleMapBtn = document.getElementById('toggle-map-btn');
+const mapContainer = document.getElementById('map-container');
+toggleMapBtn.addEventListener('click', () => {
+    mapVisible = !mapVisible;
+    mapContainer.style.display = mapVisible ? 'block' : 'none';
+    if (mapVisible) {
+        const filtered = filterRoutes();
+        initMap(filtered);
+    }
+    toggleMapBtn.innerText = mapVisible ? langUI[currentLang].hideMap : langUI[currentLang].showMap;
+});
+// Modal ajustes
+const settingsIcon = document.getElementById('settings-icon');
+const settingsModal = document.getElementById('settings-modal');
+const closeSettings = document.querySelector('.close-settings');
+settingsIcon.addEventListener('click', () => {
+    settingsModal.style.display = settingsModal.style.display === 'block' ? 'none' : 'block';
+});
+closeSettings.addEventListener('click', () => { settingsModal.style.display = 'none'; });
+window.addEventListener('click', (e) => { if (e.target === settingsModal) settingsModal.style.display = 'none'; });
+document.querySelectorAll('.lang-option').forEach(btn => {
+    btn.addEventListener('click', () => {
+        changeLang(btn.dataset.lang);
+        settingsModal.style.display = 'none';
+        location.reload();
+    });
+});
+// Botón "Arriba"
+const goTopBtn = document.getElementById('go-top');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        goTopBtn.classList.remove('hidden');
+    } else {
+        goTopBtn.classList.add('hidden');
+    }
+});
+goTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+// Inicialización
+loadFavorites();
+cargarRutas();
+initFilterButtons();
+document.getElementById('search-input').addEventListener('input', () => applyFiltersAndRender());
+updateUI();
+</script>
+
+<!-- REGISTRO DEL SERVICE WORKER -->
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log('Service Worker registrado con éxito:', reg))
+      .catch(err => console.log('Error al registrar el Service Worker:', err));
+  }
+</script>
+
+</body>
+</html>

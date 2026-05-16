@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.json">
+<title>Detalle Ruta - MallorcaGo</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+body{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('img/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family:'Poppins',sans-serif;
+    margin:0;
+    padding:20px;
+}
+.static-header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.logo-main {
+    display: inline-flex;
+    align-items: baseline;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+.text-mallorca {
+    color: #FFD700;
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 0 0 15px rgba(255,215,0,0.6);
+}
+.text-go-container {
+    display: inline-flex;
+    align-items: center;
+}
+.text-go {
+    color: #FF4500;
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 0 0 20px rgba(255,69,0,0.9);
+    margin-left: 4px;
+}
+.simple-arrow {
+    width: 32px;
+    height: 32px;
+    margin-left: 4px;
+    filter: drop-shadow(0 0 8px rgba(255,69,0,0.8));
+    transform: translateY(2px);
+}
+.page-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #FF4500;
+    -webkit-text-stroke: 1px black;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.settings-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: #f5f5dc;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    border: 2px solid black;
+    box-shadow: 0 4px 0 black;
+    z-index: 110;
+}
+.settings-icon:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 black;
+}
+.settings-modal {
+    display: none;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    background: #f5f5dc;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    z-index: 200;
+    width: 200px;
+    box-shadow: 0 8px 0 black;
+    text-align: center;
+}
+.settings-modal h3 {
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.lang-option {
+    display: block;
+    width: 100%;
+    background: #FFD700;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close-settings {
+    margin-top: 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+.back-btn {
+    background: #FFD700;
+    border: 3px solid #000;
+    padding: 6px 20px;
+    font-weight: 900;
+    border-radius: 30px;
+    box-shadow: 0 4px 0 #000;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin: 10px auto;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.detalle-card {
+    background: #f5f5dc;
+    border: 3px solid black;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 8px 0 black;
+}
+.footer-nav {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.go-top-btn {
+    background: #FFD700;
+    border: 3px solid #000;
+    padding: 8px 25px;
+    font-weight: 900;
+    border-radius: 30px;
+    box-shadow: 0 4px 0 #000;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.9rem;
+    transition: 0.05s linear;
+}
+.go-top-btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 #000;
+}
+.go-top-btn.hidden {
+    display: none;
+}
+</style>
+</head>
+<body>
+
+<div class="static-header">
+    <div class="logo-main">
+        <span class="text-mallorca">Mallorca</span>
+        <div class="text-go-container">
+            <span class="text-go">Go</span>
+            <svg class="simple-arrow" viewBox="0 0 100 100">
+                <path d="M20,50 L80,50 M60,30 L80,50 L60,70" fill="none" stroke="black" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20,50 L80,50 M60,30 L80,50 L60,70" fill="none" stroke="#FF4500" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+    <div class="page-title">DETALLE RUTA</div>
+</div>
+
+<div class="settings-icon" id="settings-icon">⚙️</div>
+<div id="settings-modal" class="settings-modal">
+    <h3>Idioma / Language</h3>
+    <button class="lang-option" data-lang="es">Español</button>
+    <button class="lang-option" data-lang="ca">Català</button>
+    <button class="lang-option" data-lang="en">English</button>
+    <button class="lang-option" data-lang="de">Deutsch</button>
+    <button class="lang-option" data-lang="fr">Français</button>
+    <button class="close-settings">Cerrar</button>
+</div>
+
+<div style="text-align: center;">
+    <a href="playas.html" class="back-btn" id="back-btn">← Volver a rutas</a>
+</div>
+
+<div id="detalle" class="detalle-card">Cargando...</div>
+
+<div class="footer-nav">
+    <button id="go-top" class="go-top-btn hidden">⬆️ Arriba</button>
+</div>
+
+<script>
+let currentLang = localStorage.getItem('mallorcaLang') || 'es';
+let rutaData = null;
+const labels = {
+    es: { difficulty: "Dificultad", tipo: "Tipo", distance: "Distancia", duration: "Duración", elevation: "Desnivel +", points: "🗺️ Puntos de interés", warnings: "⚠️ Advertencias", download: "📥 Descargar GPX", back: "← Volver a rutas" },
+    ca: { difficulty: "Dificultat", tipo: "Tipus", distance: "Distància", duration: "Durada", elevation: "Desnivell +", points: "🗺️ Punts d'interès", warnings: "⚠️ Advertències", download: "📥 Descarregar GPX", back: "← Tornar a rutes" },
+    en: { difficulty: "Difficulty", tipo: "Type", distance: "Distance", duration: "Duration", elevation: "Elevation +", points: "🗺️ Points of interest", warnings: "⚠️ Warnings", download: "📥 Download GPX", back: "← Back to routes" },
+    de: { difficulty: "Schwierigkeit", tipo: "Typ", distance: "Strecke", duration: "Dauer", elevation: "Höhenmeter +", points: "🗺️ Sehenswürdigkeiten", warnings: "⚠️ Warnungen", download: "📥 GPX herunterladen", back: "← Zurück zu Routen" },
+    fr: { difficulty: "Difficulté", tipo: "Type", distance: "Distance", duration: "Durée", elevation: "Dénivelé +", points: "🗺️ Points d'intérêt", warnings: "⚠️ Avertissements", download: "📥 Télécharger GPX", back: "← Retour aux routes" }
+};
+function updateBackButton() {
+    const backBtn = document.getElementById('back-btn');
+    if (backBtn) backBtn.innerText = labels[currentLang].back;
+}
+function renderDetalle() {
+    if (!rutaData) return;
+    const desc = rutaData.descripcion?.[currentLang] || rutaData.descripcion?.es || rutaData.descripcion;
+    const html = `
+        <h1 style="font-size:2rem; font-weight:900; color:#FF4500;">${rutaData.nombre}</h1>
+        <p style="font-weight:bold;">📍 ${rutaData.municipio} (${rutaData.comarca})</p>
+        <p>⭐ ${labels[currentLang].difficulty}: ${rutaData.dificultad.toUpperCase()} | 🚶 ${labels[currentLang].tipo}: ${rutaData.tipoRuta}</p>
+        <p>📏 ${labels[currentLang].distance}: ${rutaData.distanciaKm} km | ⏱️ ${labels[currentLang].duration}: ${rutaData.duracionHoras} h | ⛰️ ${labels[currentLang].elevation}: ${rutaData.desnivelPositivo} m</p>
+        <div style="background:white; padding:12px; border-radius:12px; margin:15px 0;"><p>${desc}</p></div>
+        ${rutaData.imagen ? `<img src="${rutaData.imagen}" style="max-width:100%; border-radius:12px; margin:10px 0;" onerror="this.src='img/placeholder.jpg'">` : ''}
+        <h3>${labels[currentLang].points}</h3>
+        <ul>${(rutaData.puntosInteres || []).map(p => `<li><strong>${p.nombre}</strong>: ${p.descripcion}</li>`).join('')}</ul>
+        <h3>${labels[currentLang].warnings}</h3>
+        <ul>${(rutaData.advertencias || []).map(a => `<li>${a}</li>`).join('')}</ul>
+        ${rutaData.gpxUrl ? `<a href="${rutaData.gpxUrl}" download style="background:#28a745; color:white; padding:8px 15px; border-radius:8px; text-decoration:none; display:inline-block; margin-top:15px;">${labels[currentLang].download}</a>` : ''}
+    `;
+    document.getElementById('detalle').innerHTML = html;
+}
+function changeLang(lang) {
+    currentLang = lang;
+    localStorage.setItem('mallorcaLang', lang);
+    updateBackButton();
+    renderDetalle();
+}
+async function loadRuta() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const rutaId = urlParams.get('id');
+    if (!rutaId) {
+        document.getElementById('detalle').innerHTML = '<p>No se especificó ruta.</p>';
+        return;
+    }
+    try {
+        const res = await fetch('rutas.json');
+        const data = await res.json();
+        rutaData = data.rutas.find(r => r.id === rutaId);
+        if (!rutaData) throw new Error('No encontrada');
+        renderDetalle();
+    } catch(e) {
+        document.getElementById('detalle').innerHTML = '<p>Error cargando datos de la ruta.</p>';
+    }
+}
+// Modal ajustes
+const settingsIcon = document.getElementById('settings-icon');
+const settingsModal = document.getElementById('settings-modal');
+const closeSettings = document.querySelector('.close-settings');
+settingsIcon.addEventListener('click', () => {
+    settingsModal.style.display = settingsModal.style.display === 'block' ? 'none' : 'block';
+});
+closeSettings.addEventListener('click', () => { settingsModal.style.display = 'none'; });
+window.addEventListener('click', (e) => { if (e.target === settingsModal) settingsModal.style.display = 'none'; });
+document.querySelectorAll('.lang-option').forEach(btn => {
+    btn.addEventListener('click', () => {
+        changeLang(btn.dataset.lang);
+        settingsModal.style.display = 'none';
+        location.reload();
+    });
+});
+// Botón "Arriba"
+const goTopBtn = document.getElementById('go-top');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        goTopBtn.classList.remove('hidden');
+    } else {
+        goTopBtn.classList.add('hidden');
+    }
+});
+goTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+loadRuta();
+updateBackButton();
+</script>
+
+<!-- REGISTRO DEL SERVICE WORKER -->
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log('Service Worker registrado con éxito:', reg))
+      .catch(err => console.log('Error al registrar el Service Worker:', err));
+  }
+</script>
+
+</body>
+</html>

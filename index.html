@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<link rel="manifest" href="manifest.json">  <!-- AÑADIDO -->
+<title>MallorcaGo</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('img/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px 16px 40px;
+}
+
+/* Header normal (no fijo) */
+.sticky-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-main {
+    display: inline-flex;
+    align-items: baseline;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+@media (max-width: 640px) {
+    .logo-main {
+        font-size: 2.5rem;
+        letter-spacing: -1px;
+    }
+}
+
+.text-mallorca {
+    color: #FFD700;
+    -webkit-text-stroke: 2.5px black;
+    text-shadow: 0 0 15px rgba(255,215,0,0.6);
+}
+
+@media (max-width: 640px) {
+    .text-mallorca {
+        -webkit-text-stroke: 1.5px black;
+    }
+}
+
+.text-go-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.text-go {
+    color: #FF4500;
+    -webkit-text-stroke: 2.5px black;
+    text-shadow: 0 0 20px rgba(255,69,0,0.9);
+    margin-left: 4px;
+}
+
+@media (max-width: 640px) {
+    .text-go {
+        -webkit-text-stroke: 1.5px black;
+    }
+}
+
+.simple-arrow {
+    width: 48px;
+    height: 48px;
+    margin-left: 6px;
+    filter: drop-shadow(0 0 12px rgba(255,69,0,0.8));
+    transform: translateY(4px);
+}
+
+@media (max-width: 640px) {
+    .simple-arrow {
+        width: 32px;
+        height: 32px;
+        margin-left: 4px;
+        transform: translateY(2px);
+    }
+}
+
+#slogan {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #FF8C00;
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 3px 3px 6px black;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+    #slogan {
+        font-size: 1.2rem;
+        -webkit-text-stroke: 1px black;
+        text-shadow: 2px 2px 4px black;
+        margin-top: 5px;
+    }
+}
+
+/* Botón de ajustes (fijo) */
+.settings-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: #f5f5dc;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    border: 2px solid black;
+    box-shadow: 0 4px 0 black;
+    transition: 0.05s linear;
+    z-index: 110;
+}
+.settings-icon:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 black;
+}
+@media (max-width: 640px) {
+    .settings-icon {
+        top: 12px;
+        right: 12px;
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        box-shadow: 0 3px 0 black;
+    }
+}
+
+/* Modal de ajustes */
+.settings-modal {
+    display: none;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    background: #f5f5dc;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    z-index: 200;
+    width: 200px;
+    box-shadow: 0 8px 0 black;
+    text-align: center;
+}
+@media (max-width: 640px) {
+    .settings-modal {
+        top: 70px;
+        right: 12px;
+        width: 180px;
+        padding: 12px;
+    }
+}
+.settings-modal h3 {
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.lang-option {
+    display: block;
+    width: 100%;
+    background: #FFD700;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.lang-option:active {
+    transform: translateY(2px);
+}
+.close-settings {
+    margin-top: 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+/* Grid responsivo 2 columnas móvil, 3 desktop */
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+    .main-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+}
+
+.card-home {
+    background: #f5f5dc;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 4px 0 #000;
+    padding: 12px 8px;
+    cursor: pointer;
+    transition: all 0.05s linear;
+    text-align: center;
+}
+.card-home:active {
+    transform: translateY(3px);
+    box-shadow: none;
+}
+.placeholder-img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: #ddd;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.placeholder-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-home p {
+    margin-top: 8px;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+@media (min-width: 640px) {
+    .card-home p {
+        font-size: 0.9rem;
+        margin-top: 12px;
+    }
+}
+
+/* Test section */
+.test-section {
+    background: #f5f5dc;
+    border: 3px solid black;
+    border-radius: 30px;
+    max-width: 700px;
+    margin: 30px auto 20px;
+    padding: 20px;
+    box-shadow: 0 8px 0 black;
+    display: none;
+}
+.test-section h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #FF4500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.pregunta {
+    text-align: left;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.pregunta p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.opciones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.opciones button {
+    background: #FFD700;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 5px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 0 black;
+    font-size: 0.9rem;
+}
+.opciones button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}
+.resultado {
+    margin: 20px 0;
+    text-align: center;
+}
+#recomendacion-link {
+    display: inline-block;
+    background: black;
+    color: #FFD700;
+    padding: 8px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.cerrar-test {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+</head>
+<body>
+
+<div class="sticky-header">
+    <div class="logo-container">
+        <div class="logo-main">
+            <span class="text-mallorca">Mallorca</span>
+            <div class="text-go-container">
+                <span class="text-go">Go</span>
+                <svg class="simple-arrow" viewBox="0 0 100 100">
+                    <path d="M20,50 L80,50 M60,30 L80,50 L60,70" fill="none" stroke="black" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M20,50 L80,50 M60,30 L80,50 L60,70" fill="none" stroke="#FF4500" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+        <p id="slogan">muévete con la isla</p>
+    </div>
+</div>
+
+<div class="settings-icon" id="settings-icon">⚙️</div>
+
+<div id="settings-modal" class="settings-modal">
+    <h3>Idioma / Language</h3>
+    <button class="lang-option" data-lang="es">Español</button>
+    <button class="lang-option" data-lang="ca">Català</button>
+    <button class="lang-option" data-lang="en">English</button>
+    <button class="lang-option" data-lang="de">Deutsch</button>
+    <button class="lang-option" data-lang="fr">Français</button>
+    <button class="close-settings">Cerrar</button>
+</div>
+
+<div class="main-grid" id="main-grid">
+    <div class="card-home" onclick="location.href='planes.html'">
+        <div class="placeholder-img"><img src="img/planes.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'%3E%3Crect width=\'100\' height=\'100\' fill=\'%23ddd\'/%3E%3Ctext x=\'50\' y=\'55\' font-size=\'40\' text-anchor=\'middle\' dy=\'.3em\'%3E📅%3C/text%3E%3C/svg%3E'"></div>
+        <p id="t-planes">Planes Semanales</p>
+    </div>
+    <div class="card-home" onclick="location.href='mercadillos.html'">
+        <div class="placeholder-img"><img src="img/mercadillos.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'%3E%3Crect width=\'100\' height=\'100\' fill=\'%23ddd\'/%3E%3Ctext x=\'50\' y=\'55\' font-size=\'40\' text-anchor=\'middle\' dy=\'.3em\'%3E🛒%3C/text%3E%3C/svg%3E'"></div>
+        <p id="t-merca">Mercadillos</p>
+    </div>
+    <div class="card-home" onclick="location.href='playas.html'">
+        <div class="placeholder-img"><img src="img/playas.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'%3E%3Crect width=\'100\' height=\'100\' fill=\'%23ddd\'/%3E%3Ctext x=\'50\' y=\'55\' font-size=\'40\' text-anchor=\'middle\' dy=\'.3em\'%3E🏖️%3C/text%3E%3C/svg%3E'"></div>
+        <p id="t-playas">Playas y Rutas</p>
+    </div>
+    <div class="card-home" onclick="location.href='festes.html'">
+        <div class="placeholder-img"><img src="img/fiestas.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'%3E%3Crect width=\'100\' height=\'100\' fill=\'%23ddd\'/%3E%3Ctext x=\'50\' y=\'55\' font-size=\'40\' text-anchor=\'middle\' dy=\'.3em\'%3E🎉%3C/text%3E%3C/svg%3E'"></div>
+        <p id="t-festes">Fiestas de Mallorca</p>
+    </div>
+    <div class="card-home" onclick="location.href='favoritos.html'">
+        <div class="placeholder-img"><img src="img/favoritos.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'%3E%3Crect width=\'100\' height=\'100\' fill=\'%23ddd\'/%3E%3Ctext x=\'50\' y=\'55\' font-size=\'40\' text-anchor=\'middle\' dy=\'.3em\'%3E❤️%3C/text%3E%3C/svg%3E'"></div>
+        <p id="t-favoritos">Mis Favoritos</p>
+    </div>
+    <div class="card-home" id="test-trigger">
+        <div class="placeholder-img"><img src="img/afinidad.png" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'%3E%3Crect width=\'100\' height=\'100\' fill=\'%23ddd\'/%3E%3Ctext x=\'50\' y=\'55\' font-size=\'40\' text-anchor=\'middle\' dy=\'.3em\'%3E🤔%3C/text%3E%3C/svg%3E'"></div>
+        <p id="t-test">Test de afinidad</p>
+    </div>
+</div>
+
+<div id="test-section" class="test-section">
+    <h2 id="test-title">🤔 Test de afinidad</h2>
+    <div id="preguntas-container"></div>
+    <div id="resultado-container" style="display:none;"></div>
+    <button class="cerrar-test" onclick="cerrarTest()">Cerrar</button>
+</div>
+
+<script>
+const langData = {
+    es: { slogan: "muévete con la isla", planes: "Planes Semanales", merca: "Mercadillos", playas: "Playas y Rutas", festes: "Fiestas de Mallorca", favoritos: "Mis Favoritos", test: "Test de afinidad" },
+    ca: { slogan: "mou-te amb l'illa", planes: "Plans Setmanals", merca: "Mercadets", playas: "Platges i Rutes", festes: "Festes de Mallorca", favoritos: "Els Meus Favorits", test: "Test d'afinitat" },
+    en: { slogan: "move with the island", planes: "Weekly Plans", merca: "Local Markets", playas: "Beaches & Routes", festes: "Island Festivals", favoritos: "My Favorites", test: "Affinity Test" },
+    de: { slogan: "bewege dich mit der Insel", planes: "Wochenpläne", merca: "Lokale Märkte", playas: "Strände & Routen", festes: "Inselfeste", favoritos: "Meine Favoriten", test: "Affinitätstest" },
+    fr: { slogan: "bougez avec l'île", planes: "Plans de la Semaine", merca: "Marchés Locaux", playas: "Plages et Itinéraires", festes: "Fêtes Locales", favoritos: "Mes Favoris", test: "Test d'affinité" }
+};
+
+let currentLang = localStorage.getItem('mallorcaLang') || 'es';
+let respuestas = {};
+let allRoutes = [];
+let allFiestas = [];
+
+function changeLang(l) {
+    currentLang = l;
+    localStorage.setItem('mallorcaLang', l);
+    document.getElementById('slogan').innerText = langData[l].slogan;
+    document.getElementById('t-planes').innerText = langData[l].planes;
+    document.getElementById('t-merca').innerText = langData[l].merca;
+    document.getElementById('t-playas').innerText = langData[l].playas;
+    document.getElementById('t-festes').innerText = langData[l].festes;
+    document.getElementById('t-favoritos').innerText = langData[l].favoritos;
+    document.getElementById('t-test').innerText = langData[l].test;
+    document.getElementById('test-title').innerHTML = langData[l].test + " 🤔";
+}
+
+async function cargarDatosRecomendacion() {
+    try {
+        const [rutasRes, fiestasRes] = await Promise.all([
+            fetch('rutas.json').then(r => r.json()).catch(() => ({ rutas: [] })),
+            fetch('datos.json').then(r => r.json()).catch(() => [])
+        ]);
+        allRoutes = rutasRes.rutas || [];
+        allFiestas = fiestasRes;
+    } catch(e) { console.warn("No se pudieron cargar datos para test", e); }
+}
+
+const preguntas = [
+    {
+        id: "pref",
+        texto: { es: "¿Qué prefieres?", ca: "Què prefereixes?", en: "What do you prefer?", de: "Was bevorzugst du?", fr: "Que préfères-tu ?" },
+        opciones: [
+            { valor: "playa", texto: { es: "🏖️ Playa y mar", ca: "🏖️ Platja i mar", en: "🏖️ Beach and sea", de: "🏖️ Strand und Meer", fr: "🏖️ Plage et mer" } },
+            { valor: "montaña", texto: { es: "⛰️ Montaña y senderismo", ca: "⛰️ Muntanya i senderisme", en: "⛰️ Mountain and hiking", de: "⛰️ Berg und Wandern", fr: "⛰️ Montagne et randonnée" } },
+            { valor: "fiesta", texto: { es: "🎉 Fiestas populares", ca: "🎉 Festes populars", en: "🎉 Popular festivals", de: "🎉 Volksfeste", fr: "🎉 Fêtes populaires" } },
+            { valor: "gastronomia", texto: { es: "🍽️ Gastronomía local", ca: "🍽️ Gastronomia local", en: "🍽️ Local gastronomy", de: "🍽️ Lokale Gastronomie", fr: "🍽️ Gastronomie locale" } }
+        ]
+    }
+];
+
+function mostrarPregunta(indice) {
+    const container = document.getElementById('preguntas-container');
+    const resultadoDiv = document.getElementById('resultado-container');
+    resultadoDiv.style.display = 'none';
+    if (indice >= preguntas.length) {
+        mostrarRecomendacion();
+        return;
+    }
+    const p = preguntas[indice];
+    const textoPreg = p.texto[currentLang] || p.texto.es;
+    let html = `<div class="pregunta"><p>${textoPreg}</p><div class="opciones">`;
+    p.opciones.forEach(op => {
+        const textoOp = op.texto[currentLang] || op.texto.es;
+        html += `<button onclick="responder('${p.id}', '${op.valor}')">${textoOp}</button>`;
+    });
+    html += `</div></div>`;
+    container.innerHTML = html;
+}
+
+function responder(id, valor) {
+    respuestas[id] = valor;
+    mostrarPregunta(preguntas.length);
+}
+
+function mostrarRecomendacion() {
+    const pref = respuestas.pref;
+    let recomendacion = null;
+    let url = '';
+    let texto = '';
+
+    if (pref === 'playa') {
+        const rutasPlayas = allRoutes.filter(r => r.tags && (r.tags.includes('playa') || r.tags.includes('mar') || r.nombre.toLowerCase().includes('cala')));
+        if (rutasPlayas.length) {
+            const random = Math.floor(Math.random() * rutasPlayas.length);
+            recomendacion = rutasPlayas[random];
+            url = `detalle-ruta.html?id=${recomendacion.id}`;
+            texto = `${recomendacion.nombre} - ${recomendacion.municipio}`;
+        }
+    } else if (pref === 'montaña') {
+        const rutasMontaña = allRoutes.filter(r => r.dificultad === 'media' || r.dificultad === 'alta');
+        if (rutasMontaña.length) {
+            const random = Math.floor(Math.random() * rutasMontaña.length);
+            recomendacion = rutasMontaña[random];
+            url = `detalle-ruta.html?id=${recomendacion.id}`;
+            texto = `${recomendacion.nombre} - ${recomendacion.municipio}`;
+        }
+    } else if (pref === 'fiesta') {
+        if (allFiestas.length) {
+            const random = Math.floor(Math.random() * allFiestas.length);
+            recomendacion = allFiestas[random];
+            url = `festes.html`;
+            texto = `${recomendacion.pueblo}: ${recomendacion.titulo} (${recomendacion.fecha})`;
+        }
+    } else if (pref === 'gastronomia') {
+        const gastronomicos = allRoutes.filter(r => r.nombre.toLowerCase().includes('mercado') || (r.tags && r.tags.includes('gastronomia')));
+        if (gastronomicos.length) {
+            const random = Math.floor(Math.random() * gastronomicos.length);
+            recomendacion = gastronomicos[random];
+            url = `detalle-ruta.html?id=${recomendacion.id}`;
+            texto = `${recomendacion.nombre} - ${recomendacion.municipio}`;
+        } else if (allRoutes.length) {
+            const random = Math.floor(Math.random() * allRoutes.length);
+            recomendacion = allRoutes[random];
+            url = `detalle-ruta.html?id=${recomendacion.id}`;
+            texto = `${recomendacion.nombre} - ${recomendacion.municipio}`;
+        }
+    }
+
+    if (!recomendacion && allRoutes.length) {
+        const random = Math.floor(Math.random() * allRoutes.length);
+        recomendacion = allRoutes[random];
+        url = `detalle-ruta.html?id=${recomendacion.id}`;
+        texto = `${recomendacion.nombre} - ${recomendacion.municipio}`;
+    }
+
+    const resultadoHtml = `
+        <div class="resultado">
+            <h3>✨ Te recomendamos ✨</h3>
+            <p><strong>${texto || 'Explora nuestras rutas'}</strong></p>
+            <a href="${url || 'playas.html'}" id="recomendacion-link" target="_blank">Ver más →</a>
+            <p style="font-size:0.8rem; margin-top:15px;">¿No te convence? Vuelve a hacer el test.</p>
+        </div>
+    `;
+    document.getElementById('resultado-container').innerHTML = resultadoHtml;
+    document.getElementById('resultado-container').style.display = 'block';
+    document.getElementById('preguntas-container').innerHTML = '';
+}
+
+function abrirTest() {
+    respuestas = {};
+    const testSection = document.getElementById('test-section');
+    testSection.style.display = 'block';
+    testSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    mostrarPregunta(0);
+}
+
+function cerrarTest() {
+    document.getElementById('test-section').style.display = 'none';
+    document.getElementById('preguntas-container').innerHTML = '';
+    document.getElementById('resultado-container').style.display = 'none';
+}
+
+const settingsIcon = document.getElementById('settings-icon');
+const settingsModal = document.getElementById('settings-modal');
+const closeSettings = document.querySelector('.close-settings');
+
+function toggleSettings() {
+    if (settingsModal.style.display === 'block') {
+        settingsModal.style.display = 'none';
+    } else {
+        settingsModal.style.display = 'block';
+    }
+}
+
+settingsIcon.addEventListener('click', toggleSettings);
+closeSettings.addEventListener('click', () => {
+    settingsModal.style.display = 'none';
+});
+window.addEventListener('click', (e) => {
+    if (e.target === settingsModal) settingsModal.style.display = 'none';
+});
+document.querySelectorAll('.lang-option').forEach(btn => {
+    btn.addEventListener('click', () => {
+        changeLang(btn.dataset.lang);
+        settingsModal.style.display = 'none';
+        location.reload();
+    });
+});
+
+document.getElementById('test-trigger').addEventListener('click', abrirTest);
+changeLang(currentLang);
+cargarDatosRecomendacion();
+</script>
+
+<!-- REGISTRO DEL SERVICE WORKER -->
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log('Service Worker registrado con éxito:', reg))
+      .catch(err => console.log('Error al registrar el Service Worker:', err));
+  }
+</script>
+
+</body>
+</html>

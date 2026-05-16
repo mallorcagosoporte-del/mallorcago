@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <title>Planes Semanales - MallorcaGo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+        body{
+            background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('img/fondo.jpg') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .static-header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-top: 20px;
+        }
+        .logo-main {
+            display: inline-flex;
+            align-items: baseline;
+            font-size: 2.5rem;
+            font-weight: 900;
+            line-height: 1;
+            letter-spacing: -2px;
+        }
+        .text-mallorca {
+            color: #FFD700;
+            -webkit-text-stroke: 1.5px black;
+            text-shadow: 0 0 15px rgba(255,215,0,0.6);
+        }
+        .text-go-container {
+            display: inline-flex;
+            align-items: center;
+            position: relative;
+        }
+        .text-go {
+            color: #FF4500;
+            -webkit-text-stroke: 1.5px black;
+            text-shadow: 0 0 20px rgba(255,69,0,0.9);
+            margin-left: 4px;
+        }
+        .simple-arrow {
+            width: 32px;
+            height: 32px;
+            margin-left: 4px;
+            filter: drop-shadow(0 0 8px rgba(255,69,0,0.8));
+            transform: translateY(2px);
+        }
+        .page-title {
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: #FF4500;
+            -webkit-text-stroke: 1.5px black;
+            text-shadow: 0 0 15px rgba(255,69,0,0.5);
+            text-transform: uppercase;
+            margin: 10px 0;
+        }
+        .settings-icon {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+            background: #f5f5dc;
+            border-radius: 50%;
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            border: 2px solid black;
+            box-shadow: 0 4px 0 black;
+            transition: 0.05s linear;
+            z-index: 110;
+        }
+        .settings-icon:active {
+            transform: translateY(2px);
+            box-shadow: 0 2px 0 black;
+        }
+        .settings-modal {
+            display: none;
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            background: #f5f5dc;
+            border: 3px solid black;
+            border-radius: 20px;
+            padding: 15px;
+            z-index: 200;
+            width: 200px;
+            box-shadow: 0 8px 0 black;
+            text-align: center;
+        }
+        .settings-modal h3 {
+            font-weight: 900;
+            margin-bottom: 10px;
+        }
+        .lang-option {
+            display: block;
+            width: 100%;
+            background: #FFD700;
+            border: 2px solid black;
+            border-radius: 30px;
+            padding: 5px;
+            margin: 5px 0;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close-settings {
+            margin-top: 10px;
+            background: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 4px 12px;
+            cursor: pointer;
+        }
+        .back-btn {
+            background: #FFD700;
+            border: 3px solid #000;
+            padding: 8px 25px;
+            font-weight: 900;
+            border-radius: 30px;
+            box-shadow: 0 4px 0 #000;
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+            margin: 10px auto;
+            font-size: 0.9rem;
+        }
+        .intro-text {
+            color: #FFD700;
+            font-weight: 900;
+            text-shadow: 2px 2px 0 black;
+            text-align: center;
+            margin: 10px auto;
+            font-size: 1rem;
+            max-width: 500px;
+        }
+        .week-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin: 15px 0;
+        }
+        .tab-btn {
+            background: #f5f5dc;
+            border: 2px solid black;
+            border-radius: 40px;
+            padding: 8px 24px;
+            font-weight: 800;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 3px 0 black;
+            transition: 0.05s linear;
+        }
+        .tab-btn.active {
+            background: #FFD700;
+            transform: translateY(2px);
+            box-shadow: 0 1px 0 black;
+        }
+        .filters-bar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px auto;
+            max-width: 700px;
+        }
+        .filter-btn {
+            background: #f5f5dc;
+            border: 2px solid black;
+            border-radius: 40px;
+            padding: 6px 16px;
+            font-weight: 800;
+            font-size: 0.8rem;
+            cursor: pointer;
+            box-shadow: 0 2px 0 black;
+        }
+        .filter-btn.active {
+            background: #FFD700;
+        }
+        .main-content {
+            max-width: 700px;
+            margin: 0 auto;
+            padding-bottom: 40px;
+        }
+        .day-section {
+            width: 100%;
+            max-width: 550px;
+            margin: 0 auto 2rem auto;
+        }
+        .day-title {
+            background: #FFD700;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 12px;
+            border: 3px solid #000;
+            display: inline-block;
+            margin-bottom: 15px;
+            font-weight: 900;
+            -webkit-text-stroke: 1.5px black;
+            box-shadow: 5px 5px 0 #000;
+            font-size: 1.3rem;
+        }
+        .event-card {
+            background: #f5f5dc;
+            border: 2px solid #000;
+            border-radius: 15px;
+            padding: 10px 15px;
+            margin-bottom: 12px;
+            box-shadow: 0 4px 0 #000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+            transition: 0.05s linear;
+            cursor: pointer;
+        }
+        .event-card.destacado {
+            border: 4px solid #FF4500;
+            background: #fffcf0;
+        }
+        .event-info h3 {
+            font-size: 1rem;
+            font-weight: 900;
+            color: #000;
+            margin: 0;
+        }
+        .event-info p {
+            font-size: 0.75rem;
+            color: #444;
+            font-weight: 700;
+            margin: 2px 0 0;
+        }
+        .price-tag {
+            background: #000;
+            color: #FFD700;
+            padding: 2px 8px;
+            border-radius: 5px;
+            font-size: 0.7rem;
+            margin-left: 5px;
+        }
+        .star-icon {
+            color: #FFD700;
+            font-size: 1.2rem;
+            -webkit-text-stroke: 1px black;
+            text-shadow: 1px 1px 0px black;
+        }
+        .no-results {
+            background: black;
+            color: #FFD700;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+            font-weight: bold;
+            width: fit-content;
+            margin: 20px auto;
+        }
+        .footer-nav {
+            text-align: center;
+            margin-top: 40px;
+            padding-bottom: 30px;
+        }
+        .go-top-btn {
+            background: #FFD700;
+            border: 3px solid #000;
+            padding: 8px 25px;
+            font-weight: 900;
+            border-radius: 30px;
+            box-shadow: 0 4px 0 #000;
+            color: black;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 0.9rem;
+            transition: 0.05s linear;
+        }
+        .go-top-btn:active {
+            transform: translateY(4px);
+            box-shadow: 0 1px 0 #000;
+        }
+        .go-top-btn.hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="static-header">
+    <div class="logo-main">
+        <span class="text-mallorca">Mallorca</span>
+        <div class="text-go-container">
+            <span class="text-go">Go</span>
+            <svg class="simple-arrow" viewBox="0 0 100 100">
+                <path d="M20,50 L80,50 M60,30 L80,50 L60,70" fill="none" stroke="black" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20,50 L80,50 M60,30 L80,50 L60,70" fill="none" stroke="#FF4500" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+    <div class="page-title">PLANES SEMANALES</div>
+</div>
+
+<div class="settings-icon" id="settings-icon">⚙️</div>
+<div id="settings-modal" class="settings-modal">
+    <h3>Idioma / Language</h3>
+    <button class="lang-option" data-lang="es">Español</button>
+    <button class="lang-option" data-lang="ca">Català</button>
+    <button class="lang-option" data-lang="en">English</button>
+    <button class="lang-option" data-lang="de">Deutsch</button>
+    <button class="lang-option" data-lang="fr">Français</button>
+    <button class="close-settings">Cerrar</button>
+</div>
+
+<div style="text-align: center;">
+    <a href="index.html" id="btn-back" class="back-btn">← VOLVER</a>
+</div>
+<div id="intro-text" class="intro-text">Elige semana y filtra por categoría</div>
+
+<div class="week-tabs">
+    <button id="tab-current" class="tab-btn active">📅 Semana actual</button>
+    <button id="tab-next" class="tab-btn">➡️ Semana siguiente</button>
+</div>
+
+<div id="filters-bar" class="filters-bar"></div>
+
+<main id="planes-container" class="main-content w-full flex flex-col items-center pb-20 px-4"></main>
+
+<div class="footer-nav">
+    <button id="go-top" class="go-top-btn hidden">⬆️ Arriba</button>
+</div>
+
+<script>
+let currentLang = localStorage.getItem('mallorcaLang') || 'es';
+let allEvents = [];
+let activeCategory = 'todos';
+let currentMonday = null;
+let showingCurrentWeek = true;
+
+const langStrings = {
+    es: { back: "← VOLVER", intro: "Elige semana y filtra por categoría", tabCurrent: "📅 Semana actual", tabNext: "➡️ Semana siguiente", filters: { todos: "📅 Todos", conciertos: "🎵 Conciertos", teatro: "🎭 Teatro", infantil: "🧸 Infantil", deportes: "⚽ Deportes", gastronomia: "🍽️ Gastronomía" }, noEvents: "No hay eventos para esta semana.", dayNames: ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"] },
+    ca: { back: "← TORNAR", intro: "Tria setmana i filtra per categoria", tabCurrent: "📅 Setmana actual", tabNext: "➡️ Setmana següent", filters: { todos: "📅 Tots", conciertos: "🎵 Concerts", teatro: "🎭 Teatre", infantil: "🧸 Infantil", deportes: "⚽ Esports", gastronomia: "🍽️ Gastronomia" }, noEvents: "No hi ha esdeveniments per a aquesta setmana.", dayNames: ["Dilluns", "Dimarts", "Dimecres", "Dijous", "Divendres", "Dissabte", "Diumenge"] },
+    en: { back: "← BACK", intro: "Choose week and filter by category", tabCurrent: "📅 Current week", tabNext: "➡️ Next week", filters: { todos: "📅 All", conciertos: "🎵 Concerts", teatro: "🎭 Theatre", infantil: "🧸 Kids", deportes: "⚽ Sports", gastronomia: "🍽️ Gastronomy" }, noEvents: "No events for this week.", dayNames: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] },
+    de: { back: "← ZURÜCK", intro: "Woche wählen und nach Kategorie filtern", tabCurrent: "📅 Aktuelle Woche", tabNext: "➡️ Nächste Woche", filters: { todos: "📅 Alle", conciertos: "🎵 Konzerte", teatro: "🎭 Theater", infantil: "🧸 Kinder", deportes: "⚽ Sport", gastronomia: "🍽️ Gastronomie" }, noEvents: "Keine Veranstaltungen für diese Woche.", dayNames: ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"] },
+    fr: { back: "← RETOUR", intro: "Choisissez la semaine et filtrez par catégorie", tabCurrent: "📅 Semaine actuelle", tabNext: "➡️ Semaine prochaine", filters: { todos: "📅 Tous", conciertos: "🎵 Concerts", teatro: "🎭 Théâtre", infantil: "🧸 Enfants", deportes: "⚽ Sports", gastronomia: "🍽️ Gastronomie" }, noEvents: "Aucun événement cette semaine.", dayNames: ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"] }
+};
+
+function getThisWeekMonday() {
+    const now = new Date();
+    const day = now.getDay();
+    const daysToMonday = (day === 0 ? 6 : day - 1);
+    const monday = new Date(now);
+    monday.setDate(now.getDate() - daysToMonday);
+    monday.setHours(0,0,0,0);
+    return monday;
+}
+
+function getNextWeekMonday(monday) {
+    const next = new Date(monday);
+    next.setDate(monday.getDate() + 7);
+    return next;
+}
+
+function getWeekDates(monday) {
+    let dates = [monday];
+    for (let i=1; i<7; i++) {
+        let d = new Date(monday);
+        d.setDate(monday.getDate() + i);
+        dates.push(d);
+    }
+    return dates;
+}
+
+function renderEvents() {
+    if (!currentMonday) return;
+    const container = document.getElementById('planes-container');
+    const weekDates = getWeekDates(currentMonday);
+    const weekStart = weekDates[0];
+    const weekEnd = weekDates[6];
+    let filtered = allEvents.filter(ev => {
+        const evDate = new Date(ev.fecha);
+        return evDate >= weekStart && evDate <= weekEnd;
+    });
+    if (activeCategory !== 'todos') filtered = filtered.filter(ev => ev.categoria === activeCategory);
+    if (filtered.length === 0) {
+        container.innerHTML = `<div class="no-results">${langStrings[currentLang].noEvents}</div>`;
+        return;
+    }
+    const eventsByDay = [[],[],[],[],[],[],[]];
+    filtered.forEach(ev => {
+        const evDate = new Date(ev.fecha);
+        let dayIndex = evDate.getDay();
+        dayIndex = (dayIndex === 0 ? 6 : dayIndex - 1);
+        eventsByDay[dayIndex].push(ev);
+    });
+    let html = '';
+    for (let i=0; i<7; i++) {
+        if (eventsByDay[i].length === 0) continue;
+        const dayDate = weekDates[i];
+        const dayName = langStrings[currentLang].dayNames[i];
+        html += `<div class="day-section"><div class="day-title">${dayName} ${dayDate.getDate()}/${dayDate.getMonth()+1}</div>`;
+        eventsByDay[i].forEach(ev => {
+            const stars = '★'.repeat(ev.ranking) + '☆'.repeat(5 - ev.ranking);
+            const destacadoClass = ev.destacado ? 'destacado' : '';
+            html += `
+                <a href="${ev.url}" target="_blank" class="event-card ${destacadoClass}">
+                    <div class="event-info">
+                        <h3>${ev.titulo}</h3>
+                        <p>${ev.lugar} • ${ev.hora} <span class="price-tag">${ev.precio}</span></p>
+                    </div>
+                    <div class="flex gap-1">${stars.split('').map(s => `<span class="star-icon">${s}</span>`).join('')}</div>
+                </a>
+            `;
+        });
+        html += `</div>`;
+    }
+    container.innerHTML = html;
+}
+
+function loadEvents() {
+    fetch('eventos.json')
+        .then(res => res.json())
+        .then(data => {
+            allEvents = data.eventos;
+            renderEvents();
+        })
+        .catch(err => {
+            console.error(err);
+            document.getElementById('planes-container').innerHTML = '<div class="no-results">Error cargando eventos.</div>';
+        });
+}
+
+function setCurrentWeek(showCurrent) {
+    showingCurrentWeek = showCurrent;
+    const thisWeekMonday = getThisWeekMonday();
+    currentMonday = showCurrent ? thisWeekMonday : getNextWeekMonday(thisWeekMonday);
+    renderEvents();
+    document.getElementById('tab-current').classList.toggle('active', showCurrent);
+    document.getElementById('tab-next').classList.toggle('active', !showCurrent);
+}
+
+function initFilters() {
+    const container = document.getElementById('filters-bar');
+    const cats = ['todos', 'conciertos', 'teatro', 'infantil', 'deportes', 'gastronomia'];
+    container.innerHTML = '';
+    cats.forEach(cat => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn';
+        btn.dataset.cat = cat;
+        btn.innerText = langStrings[currentLang].filters[cat];
+        btn.onclick = () => {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeCategory = cat;
+            renderEvents();
+        };
+        container.appendChild(btn);
+    });
+    document.querySelector('.filter-btn').classList.add('active');
+}
+
+function updateUITexts() {
+    document.getElementById('btn-back').innerText = langStrings[currentLang].back;
+    document.getElementById('intro-text').innerText = langStrings[currentLang].intro;
+    document.getElementById('tab-current').innerText = langStrings[currentLang].tabCurrent;
+    document.getElementById('tab-next').innerText = langStrings[currentLang].tabNext;
+    initFilters();
+    renderEvents();
+}
+
+function changeLang(lang) {
+    currentLang = lang;
+    localStorage.setItem('mallorcaLang', lang);
+    updateUITexts();
+}
+
+// Modal ajustes
+const settingsIcon = document.getElementById('settings-icon');
+const settingsModal = document.getElementById('settings-modal');
+const closeSettings = document.querySelector('.close-settings');
+
+settingsIcon.addEventListener('click', () => {
+    settingsModal.style.display = settingsModal.style.display === 'block' ? 'none' : 'block';
+});
+closeSettings.addEventListener('click', () => { settingsModal.style.display = 'none'; });
+window.addEventListener('click', (e) => { if (e.target === settingsModal) settingsModal.style.display = 'none'; });
+document.querySelectorAll('.lang-option').forEach(btn => {
+    btn.addEventListener('click', () => {
+        changeLang(btn.dataset.lang);
+        settingsModal.style.display = 'none';
+        location.reload();
+    });
+});
+
+// Botón "Arriba"
+const goTopBtn = document.getElementById('go-top');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        goTopBtn.classList.remove('hidden');
+    } else {
+        goTopBtn.classList.add('hidden');
+    }
+});
+goTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// Inicialización
+currentMonday = getThisWeekMonday();
+loadEvents();
+initFilters();
+document.getElementById('tab-current').addEventListener('click', () => setCurrentWeek(true));
+document.getElementById('tab-next').addEventListener('click', () => setCurrentWeek(false));
+updateUITexts();
+</script>
+
+<!-- REGISTRO DEL SERVICE WORKER -->
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log('Service Worker registrado con éxito:', reg))
+      .catch(err => console.log('Error al registrar el Service Worker:', err));
+  }
+</script>
+
+</body>
+</html>

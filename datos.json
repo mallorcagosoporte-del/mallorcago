@@ -1,0 +1,3642 @@
+[
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-01-19",
+    "titulo": "Revetla de Sant Sebastià",
+    "lugar": "Plaça de Cort y calles del centro",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 5,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Víspera de Sant Sebastià con hogueras gigantes, conciertos gratuitos, correfoc, xeremiers y fuegos artificiales desde el Castillo de Bellver. Es la fiesta más multitudinaria de Palma.",
+      "ca": "Vesprà de Sant Sebastià amb foguerons gegants, concerts gratuïts, correfoc, xeremiers i focs artificials des del Castell de Bellver. És la festa més multitudinària de Palma.",
+      "en": "Eve of Sant Sebastià with giant bonfires, free concerts, fire run, bagpipers and fireworks from Bellver Castle. It's Palma's most crowded festival.",
+      "de": "Vorabend von Sant Sebastià mit riesigen Lagerfeuern, kostenlosen Konzerten, Feuerlauf, Dudelsackspielern und Feuerwerk vom Castell de Bellver. Es ist das meistbesuchte Fest Palmas.",
+      "fr": "Veille de Sant Sebastià avec de grands feux de joie, concerts gratuits, course de feu, joueurs de cornemuse et feux d'artifice depuis le château de Bellver. C'est la fête la plus fréquentée de Palma."
+    },
+    "pdf": "https://www.palma.cat/santsebastia"
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-01-20",
+    "titulo": "Sant Sebastià (Dia del Patró)",
+    "lugar": "Catedral y Plaça de Cort",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 5,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Día del patrón de Palma: misa solemne en la Catedral, procesión, bailes tradicionales, gigantes y cabezudos, y concierto de bandas militares.",
+      "ca": "Dia del patró de Palma: missa solemne a la Catedral, processó, balls tradicionals, gegants i capgrossos, i concert de bandes militars.",
+      "en": "Patron saint day of Palma: solemn mass at the Cathedral, procession, traditional dances, giants and big-heads, and military band concert.",
+      "de": "Patronustag von Palma: feierliche Messe in der Kathedrale, Prozession, traditionelle Tänze, Riesen und Großköpfe, und Militärkapellenkonzert.",
+      "fr": "Jour du saint patron de Palma : messe solennelle à la Cathédrale, procession, danses traditionnelles, géants et grosses têtes, et concert de fanfares militaires."
+    },
+    "pdf": "https://www.palma.cat/santsebastia"
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-02-15 (domingo de Carnaval)",
+    "titulo": "Sa Rua (Carnaval)",
+    "lugar": "Passeig del Born y Plaça de la Reina",
+    "hora": "17:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Gran desfile de Carnaval con carrozas, comparsas, disfraces, batucadas y animación. El sábado anterior es 'Sa Rueta' para niños.",
+      "ca": "Gran desfilada de Carnaval amb carrosses, comparses, disfresses, batucades i animació. El dissabte anterior és 'Sa Rueta' per a nins.",
+      "en": "Big Carnival parade with floats, troupes, costumes, drum bands and entertainment. The previous Saturday is 'Sa Rueta' for children.",
+      "de": "Großer Karnevalsumzug mit Festwagen, Gruppen, Kostümen, Trommelgruppen und Unterhaltung. Am vorherigen Samstag ist 'Sa Rueta' für Kinder.",
+      "fr": "Grand défilé de Carnaval avec chars, troupes, déguisements, fanfares de percussions et animations. Le samedi précédent est 'Sa Rueta' pour les enfants."
+    },
+    "pdf": "https://www.palma.cat/carnaval"
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-03-29 (Domingo de Ramos)",
+    "titulo": "Procesión de Ramos",
+    "lugar": "Desde la Seu a diferentes parroquias",
+    "hora": "10:30",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Inicio de la Semana Santa palmesana. Bendición de palmas y ramos de olivo, procesión desde la Catedral hasta la Plaça de Cort.",
+      "ca": "Inici de la Setmana Santa palmesana. Benedicció de palmons i rams d'olivera, processó des de la Seu fins a la Plaça de Cort.",
+      "en": "Start of Palma's Holy Week. Blessing of palms and olive branches, procession from the Cathedral to Plaça de Cort.",
+      "de": "Beginn der Karwoche in Palma. Segnung von Palmen und Olivenzweigen, Prozession von der Kathedrale zur Plaça de Cort.",
+      "fr": "Début de la Semaine Sainte à Palma. Bénédiction des palmes et branches d'olivier, procession de la Cathédrale à la Plaça de Cort."
+    },
+    "pdf": "https://www.palma.cat/setmanasanta"
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-05-17 (tercer domingo de mayo)",
+    "titulo": "Fira del Ram",
+    "lugar": "Recinto Ferial de Palma (Gènova)",
+    "hora": "11:00",
+    "precio": "Entrada gratuita, atracciones de pago",
+    "categoria": "infantil",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Tradicional feria de atracciones mecánicas, puestos de tiro, casetas de dulces y conciertos. Abre desde febrero hasta abril/mayo, pero la inauguración oficial es en mayo.",
+      "ca": "Fira tradicional d'atraccions mecàniques, parades de tir, casetes de dolços i concerts. Obre des de febrer fins abril/maig, però la inauguració oficial és al maig.",
+      "en": "Traditional fair with amusement rides, shooting galleries, sweet stalls and concerts. Opens from February to April/May, but official opening in May.",
+      "de": "Traditioneller Jahrmarkt mit Fahrgeschäften, Schießbuden, Süßigkeitenständen und Konzerten. Geöffnet von Februar bis April/Mai, offizielle Eröffnung im Mai.",
+      "fr": "Foire traditionnelle avec manèges, stands de tir, confiseries et concerts. Ouverte de février à avril/mai, l'ouverture officielle a lieu en mai."
+    },
+    "pdf": "https://www.palma.cat/firadelram"
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-06-23",
+    "titulo": "Nit del Foc (Sant Joan)",
+    "lugar": "Plaça de Cort y Plaça Major",
+    "hora": "22:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Víspera de Sant Joan: hogueras, correfoc, dimonis, bailes y verbena popular. Se queman los 'judas' (muñecos).",
+      "ca": "Vesprà de Sant Joan: foguerons, correfoc, dimonis, balls i revetlla popular. Es cremen els 'judes' (ninots).",
+      "en": "St. John's Eve: bonfires, fire run, devils, dancing and popular street party. 'Judas' effigies are burned.",
+      "de": "Johannisnacht: Lagerfeuer, Feuerlauf, Teufel, Tänze und Volksfest. 'Judas'-Puppen werden verbrannt.",
+      "fr": "Veille de la Saint-Jean : feux de joie, course de feu, diables, danses et fête populaire. On brûle les effigies de 'Judas'."
+    },
+    "pdf": "https://www.palma.cat/santjoan"
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-09-17",
+    "titulo": "Nit de l'Art",
+    "lugar": "Galerías y museos de Palma (Centre històric)",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Apertura nocturna de más de 70 galerías de arte, museos y espacios culturales. Inauguraciones, performances y arte contemporáneo.",
+      "ca": "Obertura nocturna de més de 70 galeries d'art, museus i espais culturals. Inauguracions, performances i art contemporani.",
+      "en": "Night opening of over 70 art galleries, museums and cultural spaces. Openings, performances and contemporary art.",
+      "de": "Nächtliche Öffnung von über 70 Kunstgalerien, Museen und Kulturräumen. Eröffnungen, Performances und zeitgenössische Kunst.",
+      "fr": "Ouverture nocturne de plus de 70 galeries d'art, musées et espaces culturels. Vernissages, performances et art contemporain."
+    },
+    "pdf": "https://www.nitdelart.com"
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-12-26",
+    "titulo": "Festa de l'Estendard",
+    "lugar": "Plaça de Cort",
+    "hora": "12:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Conmemoración de la conquista de Mallorca por Jaume I. Desfile cívico-militar, izado del estandarte y baile tradicional.",
+      "ca": "Commemoració de la conquesta de Mallorca per Jaume I. Desfilada cívico-militar, hissada de l'estendard i ball tradicional.",
+      "en": "Commemoration of the conquest of Mallorca by James I. Civic-military parade, raising of the banner and traditional dance.",
+      "de": "Gedenken an die Eroberung Mallorcas durch Jaume I. Zivil-militärische Parade, Hissung des Banners und traditioneller Tanz.",
+      "fr": "Commémoration de la conquête de Majorque par Jacques Ier. Défilé civico-militaire, hissage de l'étendard et danse traditionnelle."
+    },
+    "pdf": "https://www.palma.cat/festaestendard"
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-11-27",
+    "titulo": "Fira de Nadal i Reis",
+    "lugar": "Passeig del Born i Plaça de la Reina",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Mercado navideño con casetas de artesanía, productos típicos, belenes, atracciones infantiles, pista de hielo y actuaciones musicales.",
+      "ca": "Mercat de Nadal amb casetes d'artesania, productes típics, betlems, atraccions infantils, pista de gel i actuacions musicals.",
+      "en": "Christmas market with craft stalls, typical products, nativity scenes, children's rides, ice rink and musical performances.",
+      "de": "Weihnachtsmarkt mit Kunsthandwerkständen, typischen Produkten, Krippen, Kinderfahrgeschäften, Eisbahn und Musikdarbietungen.",
+      "fr": "Marché de Noël avec stands d'artisanat, produits typiques, crèches, manèges pour enfants, patinoire et spectacles musicaux."
+    },
+    "pdf": "https://www.palma.cat/nadal"
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-01-05",
+    "titulo": "Cabalgata de Reyes",
+    "lugar": "Desde el Parc de la Mar hasta Plaça de Cort",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "infantil",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "La gran cabalgata de los Reyes Magos con carrozas, miles de pajes, música y reparto de caramelos. Llegada a la Plaça de Cort.",
+      "ca": "La gran cavalcada dels Reis Mags amb carrosses, milers de patges, música i repartiment de caramels. Arribada a la Plaça de Cort.",
+      "en": "The great Three Kings' parade with floats, thousands of pages, music and candy throwing. Arrival at Plaça de Cort.",
+      "de": "Die große Dreikönigsparade mit Festwagen, tausenden Pagen, Musik und Süßigkeitenwurf. Ankunft auf der Plaça de Cort.",
+      "fr": "La grande cavalcade des Rois Mages avec chars, milliers de pages, musique et lancer de bonbons. Arrivée à la Plaça de Cort."
+    },
+    "pdf": "https://www.palma.cat/reis"
+  },
+  {
+    "pueblo": "Alaró",
+    "fecha": "2026-06-23",
+    "titulo": "Sant Joan (Fogueró)",
+    "lugar": "Plaza de la Vila",
+    "hora": "21:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Hoguera tradicional, coca de patata, herbes y baile popular. Correfoc infantil.",
+      "ca": "Fogueró tradicional, coca de patata, herbes i ball popular. Correfoc infantil.",
+      "en": "Traditional bonfire, coca de patata cake, herbes liqueur and popular dance. Children's fire run.",
+      "de": "Traditionelles Lagerfeuer, Coca de Patata-Kuchen, Herbes-Likör und Volkstanz. Kinderfeuerlauf.",
+      "fr": "Feu de joie traditionnel, gâteau coca de patata, liqueur herbes et danse populaire. Course de feu pour enfants."
+    },
+    "pdf": "https://www.ajalaró.net"
+  },
+  {
+    "pueblo": "Alaró",
+    "fecha": "2026-06-29",
+    "titulo": "Sant Pere",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Misa, procesión, concierto de bandas y cena popular de frit mallorquí.",
+      "ca": "Missa, processó, concert de bandes i sopar popular de frit mallorquí.",
+      "en": "Mass, procession, band concert and community dinner of frit mallorquí.",
+      "de": "Messe, Prozession, Blaskonzert und gemeinsames Abendessen mit frit mallorquí.",
+      "fr": "Messe, procession, concert de fanfare et dîner communautaire de frit mallorquí."
+    },
+    "pdf": "https://www.ajalaró.net"
+  },
+  {
+    "pueblo": "Alaró",
+    "fecha": "2026-08-16",
+    "titulo": "Sant Roc",
+    "lugar": "Plaza de la Vila",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Fiesta en honor a Sant Roc con procesión, verbena, torneo de bot (juego de bolas) y cena de paella.",
+      "ca": "Festa en honor a Sant Roc amb processó, revetlla, torneig de bot i sopar de paella.",
+      "en": "Festivity in honor of Sant Roc with procession, street party, bot ball tournament and paella dinner.",
+      "de": "Fest zu Ehren des heiligen Rochus mit Prozession, Volksfest, Bot-Ballturnier und Paella-Abendessen.",
+      "fr": "Fête en l'honneur de Saint Roch avec procession, fête populaire, tournoi de bot (boules) et dîner paella."
+    },
+    "pdf": "https://www.ajalaró.net"
+  },
+  {
+    "pueblo": "Alaró",
+    "fecha": "2026-10-03 (primer fin de semana de octubre)",
+    "titulo": "Fira d'Alaró",
+    "lugar": "Calle Major y recinto ferial",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Feria multisectorial con productos locales, artesanía, degustaciones de vino y sobrasada, exhibiciones de bailes tradicionales y conciertos.",
+      "ca": "Fira multisectorial amb productes locals, artesania, degustacions de vi i sobrassada, exhibicions de balls tradicionals i concerts.",
+      "en": "Multi-sector fair with local products, crafts, wine and sobrasada tastings, traditional dance exhibitions and concerts.",
+      "de": "Multisektorale Messe mit lokalen Produkten, Kunsthandwerk, Wein- und Sobrassada-Verkostungen, traditionellen Tanzvorführungen und Konzerten.",
+      "fr": "Foire multisectorielle avec produits locaux, artisanat, dégustations de vin et sobrassada, spectacles de danses traditionnelles et concerts."
+    },
+    "pdf": "https://www.ajalaró.net"
+  },
+  {
+    "pueblo": "Alcúdia",
+    "fecha": "2026-06-28",
+    "titulo": "Sant Pere (Festa marinera)",
+    "lugar": "Port d'Alcúdia",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Procesión marítima, regata de barcas tradicionales, misa, baile de bot y verbena en el puerto.",
+      "ca": "Processó marítima, regata de barques tradicionals, missa, ball de bot i revetlla al port.",
+      "en": "Maritime procession, traditional boat regatta, mass, bot dance and street party at the port.",
+      "de": "Maritime Prozession, traditionelle Bootsregatta, Messe, Bot-Tanz und Volksfest im Hafen.",
+      "fr": "Procession maritime, régate de barques traditionnelles, messe, danse bot et fête populaire au port."
+    },
+    "pdf": "https://alcudia.net"
+  },
+  {
+    "pueblo": "Alcúdia",
+    "fecha": "2026-07-02",
+    "titulo": "Mare de Déu de la Victòria (Triennal)",
+    "lugar": "Santuario de la Victòria (Alcúdia)",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Romería al santuario con misa y canto de la 'Sibila'. Solo se celebra cada tres años (2026 es año triennal).",
+      "ca": "Romiatge al santuari amb missa i cant de la 'Sibil·la'. Només se celebra cada tres anys (2026 és any triennal).",
+      "en": "Pilgrimage to the sanctuary with mass and chanting of the 'Sibila'. Only celebrated every three years (2026 is a triennial year).",
+      "de": "Wallfahrt zum Heiligtum mit Messe und Gesang der 'Sibila'. Wird nur alle drei Jahre gefeiert (2026 ist Triennale).",
+      "fr": "Pèlerinage au sanctuaire avec messe et chant de la 'Sibila'. Célébré seulement tous les trois ans (2026 est une année triennale)."
+    },
+    "pdf": "https://alcudia.net"
+  },
+  {
+    "pueblo": "Alcúdia",
+    "fecha": "2026-07-25",
+    "titulo": "Sant Jaume i Mare de Déu d'Agost",
+    "lugar": "Casco antiguo y Port d'Alcúdia",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 5,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Fiestas grandes con Moros i Cristians en el puerto, carrozas, gigantes, correfoc, conciertos, fuegos artificiales y verbenas.",
+      "ca": "Festes grans amb Moros i Cristians al port, carrosses, gegants, correfoc, concerts, focs artificials i revetlles.",
+      "en": "Major festivities with Moors and Christians at the port, floats, giants, fire run, concerts, fireworks and street parties.",
+      "de": "Große Feste mit Mauren und Christen im Hafen, Festwagen, Riesen, Feuerlauf, Konzerten, Feuerwerk und Volksfesten.",
+      "fr": "Grandes fêtes avec Maures et Chrétiens au port, chars, géants, course de feu, concerts, feux d'artifice et fêtes populaires."
+    },
+    "pdf": "https://alcudia.net"
+  },
+  {
+    "pueblo": "Alcúdia",
+    "fecha": "2026-10-03 (primer fin de semana de octubre)",
+    "titulo": "Fira d'Alcúdia",
+    "lugar": "Calle Major y Recinte Firal",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Feria agrícola, ganadera y comercial. Muestras de maquinaria, productos ecológicos, artesanía y degustación de vinos de la DO Pla i Llevant.",
+      "ca": "Fira agrícola, ramadera i comercial. Mostres de maquinària, productes ecològics, artesania i degustació de vins de la DO Pla i Llevant.",
+      "en": "Agricultural, livestock and commercial fair. Machinery display, organic products, crafts and wine tasting from DO Pla i Llevant.",
+      "de": "Landwirtschafts-, Vieh- und Handelsmesse. Maschinenausstellung, Bioprodukte, Kunsthandwerk und Weinprobe der DO Pla i Llevant.",
+      "fr": "Foire agricole, d'élevage et commerciale. Exposition de machines, produits biologiques, artisanat et dégustation de vins de la DO Pla i Llevant."
+    },
+    "pdf": "https://alcudia.net"
+  },
+  {
+    "pueblo": "Algaida",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Constitució",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales, reparto de panets bendecidos, dimonis y música de xeremiers.",
+      "ca": "Fogueró, benedicció d'animals, repartiment de panets beneïts, dimonis i música de xeremiers.",
+      "en": "Bonfire, blessing of animals, distribution of blessed bread rolls, devils and bagpipe music.",
+      "de": "Lagerfeuer, Segnung der Tiere, Verteilung gesegneter Brötchen, Teufel und Dudelsackmusik.",
+      "fr": "Feu de joie, bénédiction des animaux, distribution de petits pains bénis, diables et musique de cornemuses."
+    },
+    "pdf": "https://www.ajalgaida.net"
+  },
+  {
+    "pueblo": "Algaida",
+    "fecha": "2026-07-25",
+    "titulo": "Fiestas de Sant Jaume",
+    "lugar": "Plaza de la Constitució",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Misa, procesión, ball de bot, correfoc, cena de sobrasada y verbena.",
+      "ca": "Missa, processó, ball de bot, correfoc, sopar de sobrassada i revetlla.",
+      "en": "Mass, procession, bot dance, fire run, sobrasada dinner and street party.",
+      "de": "Messe, Prozession, Bot-Tanz, Feuerlauf, Sobrassada-Abendessen und Volksfest.",
+      "fr": "Messe, procession, danse bot, course de feu, dîner de sobrassada et fête populaire."
+    },
+    "pdf": "https://www.ajalgaida.net"
+  },
+  {
+    "pueblo": "Andratx",
+    "fecha": "2026-06-29",
+    "titulo": "Sant Pere (Port d'Andratx)",
+    "lugar": "Port d'Andratx",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Fiesta marinera: procesión marítima, regata de barcas, bailes de bot, conciertos y fuegos artificiales.",
+      "ca": "Festa marinera: processó marítima, regata de barques, balls de bot, concerts i focs artificials.",
+      "en": "Seafaring festival: maritime procession, boat regatta, bot dances, concerts and fireworks.",
+      "de": "Seefahrtsfest: maritime Prozession, Bootsregatta, Bot-Tänze, Konzerte und Feuerwerk.",
+      "fr": "Fête maritime : procession maritime, régate de barques, danses bot, concerts et feux d'artifice."
+    },
+    "pdf": "https://andratx.es"
+  },
+  {
+    "pueblo": "Andratx",
+    "fecha": "2026-07-16",
+    "titulo": "Verge del Carme (Camp de Mar)",
+    "lugar": "Playa de Camp de Mar",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Procesión de barcas decoradas, misa en la playa, verbena y concierto.",
+      "ca": "Processió de barques decorades, missa a la platja, revetlla i concert.",
+      "en": "Procession of decorated boats, mass on the beach, street party and concert.",
+      "de": "Prozession geschmückter Boote, Messe am Strand, Volksfest und Konzert.",
+      "fr": "Procession de bateaux décorés, messe sur la plage, fête populaire et concert."
+    },
+    "pdf": "https://andratx.es"
+  },
+  {
+    "pueblo": "Andratx",
+    "fecha": "2026-07-25",
+    "titulo": "Sant Jaume",
+    "lugar": "Plaza de España (Andratx)",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Fiesta patronal con procesión, caballos, ball de bot, correfoc y grandes verbenas.",
+      "ca": "Festa patronal amb processó, cavalls, ball de bot, correfoc i grans revetlles.",
+      "en": "Patron saint festival with procession, horses, bot dance, fire run and big street parties.",
+      "de": "Patronatsfest mit Prozession, Pferden, Bot-Tanz, Feuerlauf und großen Volksfesten.",
+      "fr": "Fête patronale avec procession, chevaux, danse bot, course de feu et grandes fêtes populaires."
+    },
+    "pdf": "https://andratx.es"
+  },
+  {
+    "pueblo": "Andratx",
+    "fecha": "2026-04-04 (primer fin de semana de abril)",
+    "titulo": "Fira d'Andratx",
+    "lugar": "Calle Major y Recinte Firal",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Feria de primavera con productos locales, artesanía, muestras de ganado, degustaciones de vino y sobrasada, y conciertos.",
+      "ca": "Fira de primavera amb productes locals, artesania, mostres de bestiar, degustacions de vi i sobrassada, i concerts.",
+      "en": "Spring fair with local products, crafts, livestock show, wine and sobrasada tastings, and concerts.",
+      "de": "Frühlingsmesse mit lokalen Produkten, Kunsthandwerk, Viehschau, Wein- und Sobrassada-Verkostungen und Konzerten.",
+      "fr": "Foire de printemps avec produits locaux, artisanat, exposition de bétail, dégustations de vin et sobrassada, et concerts."
+    },
+    "pdf": "https://andratx.es"
+  },
+  {
+    "pueblo": "Ariany",
+    "fecha": "2026-08-24",
+    "titulo": "Sant Bartomeu",
+    "lugar": "Plaza del Ayuntamiento",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Verbena, orquesta, misa, procesión, actividades deportivas y juegos infantiles.",
+      "ca": "Revetlla, orquestra, missa, processó, activitats esportives i jocs infantils.",
+      "en": "Street party, orchestra, mass, procession, sports activities and children's games.",
+      "de": "Volksfest, Orchester, Messe, Prozession, Sportaktivitäten und Kinderspiele.",
+      "fr": "Fête populaire, orchestre, messe, procession, activités sportives et jeux pour enfants."
+    },
+    "pdf": "https://www.ajariany.net"
+  },
+  {
+    "pueblo": "Artà",
+    "fecha": "2026-01-16",
+    "titulo": "Sant Antoni (Fogueró)",
+    "lugar": "Plaça de la Constitució",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales, dimonis, xeremiers y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals, dimonis, xeremiers i repartiment de panades.",
+      "en": "Bonfire, blessing of animals, devils, bagpipers and distribution of panades pies.",
+      "de": "Lagerfeuer, Segnung der Tiere, Teufel, Dudelsackspieler und Verteilung von Panades-Pasteten.",
+      "fr": "Feu de joie, bénédiction des animaux, diables, cornemuseux et distribution de tourtes panades."
+    },
+    "pdf": "https://arta.cat"
+  },
+  {
+    "pueblo": "Artà",
+    "fecha": "2026-02-12 (Dijous Gras)",
+    "titulo": "Dijous Gros (Carnaval)",
+    "lugar": "Passeig de la Mare de Déu",
+    "hora": "17:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Desfile de carrozas, disfraces, cena de sobrasada y baile popular.",
+      "ca": "Desfilada de carrosses, disfresses, sopar de sobrassada i ball popular.",
+      "en": "Parade of floats, costumes, sobrasada dinner and popular dance.",
+      "de": "Umzug von Festwagen, Kostümen, Sobrassada-Abendessen und Volkstanz.",
+      "fr": "Défilé de chars, déguisements, dîner de sobrassada et danse populaire."
+    },
+    "pdf": "https://arta.cat"
+  },
+  {
+    "pueblo": "Artà",
+    "fecha": "2026-08-06",
+    "titulo": "Sant Salvador",
+    "lugar": "Santuario de Sant Salvador",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Romería al santuario, misa, procesión y comida campestre.",
+      "ca": "Romiatge al santuari, missa, processó i menjar campestre.",
+      "en": "Pilgrimage to the sanctuary, mass, procession and countryside meal.",
+      "de": "Wallfahrt zum Heiligtum, Messe, Prozession und Picknick.",
+      "fr": "Pèlerinage au sanctuaire, messe, procession et repas champêtre."
+    },
+    "pdf": "https://arta.cat"
+  },
+  {
+    "pueblo": "Artà",
+    "fecha": "2026-09-19 (tercer fin de semana de septiembre)",
+    "titulo": "Fira d'Artà",
+    "lugar": "Calle Major i recinte ferial",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Feria agrícola, artesanía, productos de la tierra, demostraciones de oficios antiguos y conciertos.",
+      "ca": "Fira agrícola, artesania, productes de la terra, demostracions d'oficis antics i concerts.",
+      "en": "Agricultural fair, crafts, local products, demonstrations of ancient trades and concerts.",
+      "de": "Landwirtschaftsmesse, Kunsthandwerk, lokale Produkte, Vorführungen alter Handwerke und Konzerte.",
+      "fr": "Foire agricole, artisanat, produits du terroir, démonstrations de métiers anciens et concerts."
+    },
+    "pdf": "https://arta.cat"
+  },
+  {
+    "pueblo": "Banyalbufar",
+    "fecha": "2026-07-25",
+    "titulo": "Sant Jaume",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Misa, procesión por las calles del pueblo, verbena y cena popular de arròs brut.",
+      "ca": "Missa, processó pels carrers del poble, revetlla i sopar popular d'arròs brut.",
+      "en": "Mass, procession through the streets, street party and community dinner of arròs brut.",
+      "de": "Messe, Prozession durch die Straßen, Volksfest und gemeinsames Abendessen mit arròs brut.",
+      "fr": "Messe, procession dans les rues, fête populaire et dîner communautaire d'arròs brut."
+    },
+    "pdf": "https://banyalbufar.net"
+  },
+  {
+    "pueblo": "Banyalbufar",
+    "fecha": "2026-09-08",
+    "titulo": "Nativitat de la Verge Maria",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "12:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Misa mayor, procesión, bailes tradicionales y degustación de vino de la tierra.",
+      "ca": "Missa major, processó, balls tradicionals i degustació de vi de la terra.",
+      "en": "High mass, procession, traditional dances and local wine tasting.",
+      "de": "Hochamt, Prozession, traditionelle Tänze und Weinprobe des Landes.",
+      "fr": "Grande messe, procession, danses traditionnelles et dégustation de vin du pays."
+    },
+    "pdf": "https://banyalbufar.net"
+  },
+  {
+    "pueblo": "Binissalem",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Constitución",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Hoguera, dimonis, correfoc, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, dimonis, correfoc, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, devils, fire run, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Teufel, Feuerlauf, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, diables, course de feu, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://binissalem.cat"
+  },
+  {
+    "pueblo": "Binissalem",
+    "fecha": "2026-07-25",
+    "titulo": "Sant Jaume",
+    "lugar": "Plaza de la Constitución",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Fiestas patronales con ball de cossiers, correfoc, conciertos y feria del vino.",
+      "ca": "Festes patronals amb ball de cossiers, correfoc, concerts i fira del vi.",
+      "en": "Patron saint festivities with cossiers dance, fire run, concerts and wine fair.",
+      "de": "Patronatsfest mit Cossiers-Tanz, Feuerlauf, Konzerten und Weinfest.",
+      "fr": "Fêtes patronales avec danse cossiers, course de feu, concerts et foire aux vins."
+    },
+    "pdf": "https://binissalem.cat"
+  },
+  {
+    "pueblo": "Binissalem",
+    "fecha": "2026-05-30 (último fin de semana de mayo)",
+    "titulo": "Fira de la Pedra i l'Artesania",
+    "lugar": "Calle Major",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Exposición de piedra de Binissalem (material de construcción tradicional), artesanía en piedra, cerámica y madera.",
+      "ca": "Exposició de pedra de Binissalem (material de construcció tradicional), artesania en pedra, ceràmica i fusta.",
+      "en": "Exhibition of Binissalem stone (traditional building material), stonecraft, ceramics and woodcraft.",
+      "de": "Ausstellung von Binissalem-Stein (traditionelles Baumaterial), Steinmetzkunst, Keramik und Holzkunst.",
+      "fr": "Exposition de pierre de Binissalem (matériau de construction traditionnel), artisanat de la pierre, céramique et bois."
+    },
+    "pdf": "https://binissalem.cat"
+  },
+  {
+    "pueblo": "Binissalem",
+    "fecha": "2026-09-26 (última semana de septiembre)",
+    "titulo": "Festa des Vermar (Vendimia)",
+    "lugar": "Plaça del Vi i cellers",
+    "hora": "11:00",
+    "precio": "Gratis (algunas degustaciones de pago)",
+    "categoria": "gastronomia",
+    "ranking": 5,
+    "destacado": true,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Fiesta de la vendimia con pisada de uva, degustación de vino de la DO Binissalem, conciertos, desfile de carrozas y feria gastronómica.",
+      "ca": "Festa del veremat amb trepitjada de raïm, degustació de vi de la DO Binissalem, concerts, desfilada de carrosses i fira gastronòmica.",
+      "en": "Harvest festival with grape stomping, wine tasting from DO Binissalem, concerts, float parade and gastronomic fair.",
+      "de": "Weinlesefest mit Traubenstampfen, Weinprobe der DO Binissalem, Konzerten, Festwagenparade und kulinarischer Messe.",
+      "fr": "Fête des vendanges avec foulage aux pieds, dégustation de vin de la DO Binissalem, concerts, défilé de chars et foire gastronomique."
+    },
+    "pdf": "https://binissalem.cat"
+  },
+  {
+    "pueblo": "Búger",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza Major",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y reparto de panets.",
+      "ca": "Fogueró, benedicció d'animals i repartiment de panets.",
+      "en": "Bonfire, blessing of animals and distribution of panets.",
+      "de": "Lagerfeuer, Segnung der Tiere und Verteilung von Panets.",
+      "fr": "Feu de joie, bénédiction des animaux et distribution de panets."
+    },
+    "pdf": "https://www.ajbuger.net"
+  },
+  {
+    "pueblo": "Búger",
+    "fecha": "2026-06-29",
+    "titulo": "Sant Pere",
+    "lugar": "Plaza Major",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Misa, procesión, cena de sobrasada y baile.",
+      "ca": "Missa, processó, sopar de sobrassada i ball.",
+      "en": "Mass, procession, sobrasada dinner and dance.",
+      "de": "Messe, Prozession, Sobrassada-Abendessen und Tanz.",
+      "fr": "Messe, procession, dîner de sobrassada et bal."
+    },
+    "pdf": "https://www.ajbuger.net"
+  },
+  {
+    "pueblo": "Búger",
+    "fecha": "2026-06-30",
+    "titulo": "Sant Marçal",
+    "lugar": "Ermita de Sant Marçal",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Romería a la ermita, misa y comida campestre.",
+      "ca": "Romiatge a l'ermita, missa i menjar campestre.",
+      "en": "Pilgrimage to the hermitage, mass and countryside meal.",
+      "de": "Wallfahrt zur Einsiedelei, Messe und Picknick.",
+      "fr": "Pèlerinage à l'ermitage, messe et repas champêtre."
+    },
+    "pdf": "https://www.ajbuger.net"
+  },
+  {
+    "pueblo": "Búger",
+    "fecha": "2026-05-02 (primer sábado de mayo)",
+    "titulo": "Fira des Jai",
+    "lugar": "Carrer Major",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Pequeña feria de artesanía, productos locales y juegos tradicionales.",
+      "ca": "Petita fira d'artesania, productes locals i jocs tradicionals.",
+      "en": "Small fair of crafts, local products and traditional games.",
+      "de": "Kleine Messe für Kunsthandwerk, lokale Produkte und traditionelle Spiele.",
+      "fr": "Petite foire d'artisanat, produits locaux et jeux traditionnels."
+    },
+    "pdf": "https://www.ajbuger.net"
+  },
+  {
+    "pueblo": "Bunyola",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "19:30",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales, dimonis y coca de patata.",
+      "ca": "Fogueró, benedicció d'animals, dimonis i coca de patata.",
+      "en": "Bonfire, blessing of animals, devils and coca de patata cake.",
+      "de": "Lagerfeuer, Segnung der Tiere, Teufel und Coca de Patata-Kuchen.",
+      "fr": "Feu de joie, bénédiction des animaux, diables et gâteau coca de patata."
+    },
+    "pdf": "https://bunyola.cat"
+  },
+  {
+    "pueblo": "Bunyola",
+    "fecha": "2026-06-23",
+    "titulo": "Sant Joan (Fogueró)",
+    "lugar": "Plaza de la Iglesia y carrera de cintas",
+    "hora": "21:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Hoguera de Sant Joan, carrera de cintas a caballo, bailes populares y coca de patata. Tradicional salt de la foguera.",
+      "ca": "Fogueró de Sant Joan, cursa de cintes a cavall, balls populars i coca de patata. Tradicional salt de la foguera.",
+      "en": "St. John's bonfire, ribbon horse race, traditional dances and coca de patata cake. Traditional bonfire jump.",
+      "de": "Johannisfeuer, Pferderennen mit Bändern, traditionelle Tänze und Coca de Patata-Kuchen. Traditioneller Sprung über das Feuer.",
+      "fr": "Feu de la Saint-Jean, course de chevaux aux rubans, danses traditionnelles et gâteau coca de patata. Saut traditionnel par-dessus le feu."
+    },
+    "pdf": "https://bunyola.cat"
+  },
+  {
+    "pueblo": "Bunyola",
+    "fecha": "2026-09-21",
+    "titulo": "Sant Mateu",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Misa, procesión, verbena y cena de botifarró.",
+      "ca": "Missa, processó, revetlla i sopar de botifarró.",
+      "en": "Mass, procession, street party and botifarró sausage dinner.",
+      "de": "Messe, Prozession, Volksfest und Botifarró-Wurst-Abendessen.",
+      "fr": "Messe, procession, fête populaire et dîner de saucisse botifarró."
+    },
+    "pdf": "https://bunyola.cat"
+  },
+  {
+    "pueblo": "Bunyola",
+    "fecha": "2026-11-14 (segundo fin de semana de noviembre)",
+    "titulo": "Fira de Bunyola",
+    "lugar": "Calle Major",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Feria de otoño con productos de la tierra, artesanía, miel y embutidos.",
+      "ca": "Fira de tardor amb productes de la terra, artesania, mel i embotits.",
+      "en": "Autumn fair with local products, crafts, honey and sausages.",
+      "de": "Herbstmesse mit lokalen Produkten, Kunsthandwerk, Honig und Wurstwaren.",
+      "fr": "Foire d'automne avec produits du terroir, artisanat, miel et charcuterie."
+    },
+    "pdf": "https://bunyola.cat"
+  },
+  {
+    "pueblo": "Calvià",
+    "fecha": "2026-01-19",
+    "titulo": "Sant Sebastià (Calvià vila)",
+    "lugar": "Plaza de Calvià",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Hoguera, correfoc y verbena popular.",
+      "ca": "Fogueró, correfoc i revetlla popular.",
+      "en": "Bonfire, fire run and popular street party.",
+      "de": "Lagerfeuer, Feuerlauf und Volksfest.",
+      "fr": "Feu de joie, course de feu et fête populaire."
+    },
+    "pdf": "https://calvia.com"
+  },
+  {
+    "pueblo": "Calvià",
+    "fecha": "2026-06-23",
+    "titulo": "Sant Joan (Calvià vila)",
+    "lugar": "Plaza de Calvià",
+    "hora": "22:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Hoguera de Sant Joan y verbena.",
+      "ca": "Fogueró de Sant Joan i revetlla.",
+      "en": "St. John's bonfire and street party.",
+      "de": "Johannisfeuer und Volksfest.",
+      "fr": "Feu de la Saint-Jean et fête populaire."
+    },
+    "pdf": "https://calvia.com"
+  },
+  {
+    "pueblo": "Calvià",
+    "fecha": "2026-09-12 (segundo fin de semana de septiembre)",
+    "titulo": "Festes del Rei en Jaume (Santa Ponça)",
+    "lugar": "Santa Ponça (playa y casco antiguo)",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Recreación histórica del desembarco de Jaume I en 1229. Batalla naval simulada, mercado medieval, desfiles y conciertos.",
+      "ca": "Recreació històrica del desembarcament de Jaume I el 1229. Batalla naval simulada, mercat medieval, desfilades i concerts.",
+      "en": "Historical reenactment of the landing of James I in 1229. Simulated naval battle, medieval market, parades and concerts.",
+      "de": "Historische Nachstellung der Landung von Jaume I. im Jahr 1229. Simulierte Seeschlacht, mittelalterlicher Markt, Umzüge und Konzerte.",
+      "fr": "Reconstitution historique du débarquement de Jacques Ier en 1229. Bataille navale simulée, marché médiéval, défilés et concerts."
+    },
+    "pdf": "https://calvia.com"
+  },
+  {
+    "pueblo": "Calvià",
+    "fecha": "2026-07-16",
+    "titulo": "Verge del Carme (Santa Ponça)",
+    "lugar": "Puerto de Santa Ponça",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Procesión de barcas decoradas, misa en el puerto y verbena.",
+      "ca": "Processió de barques decorades, missa al port i revetlla.",
+      "en": "Procession of decorated boats, mass at the port and street party.",
+      "de": "Prozession geschmückter Boote, Messe im Hafen und Volksfest.",
+      "fr": "Procession de bateaux décorés, messe au port et fête populaire."
+    },
+    "pdf": "https://calvia.com"
+  },
+  {
+    "pueblo": "Calvià",
+    "fecha": "2026-10-03 (primer fin de semana de octubre)",
+    "titulo": "Oktoberfest de Santa Ponça",
+    "lugar": "Santa Ponça (Recinto ferial)",
+    "hora": "12:00",
+    "precio": "Entrada gratuita, consumiciones de pago",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Fiesta de la cerveza alemana con carpas, música bávara, comida típica y cerveza tirada.",
+      "ca": "Festa de la cervesa alemanya amb carpes, música bavaresa, menjar típic i cervesa tirada.",
+      "en": "German beer festival with tents, Bavarian music, typical food and draught beer.",
+      "de": "Deutsches Bierfest mit Zelten, bayerischer Musik, typischem Essen und Fassbier.",
+      "fr": "Fête de la bière allemande avec tentes, musique bavaroise, nourriture typique et bière pression."
+    },
+    "pdf": "https://calvia.com"
+  },
+  {
+    "pueblo": "Calvià",
+    "fecha": "2026-02-15 (domingo de Carnaval)",
+    "titulo": "Sa Rua (Carnaval de Calvià)",
+    "lugar": "Avenida de Palma (Calvià vila)",
+    "hora": "16:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Desfile de Carnaval con comparsas y disfraces.",
+      "ca": "Desfilada de Carnaval amb comparses i disfresses.",
+      "en": "Carnival parade with troupes and costumes.",
+      "de": "Karnevalsumzug mit Gruppen und Kostümen.",
+      "fr": "Défilé de Carnaval avec troupes et déguisements."
+    },
+    "pdf": "https://calvia.com"
+  },
+  {
+    "pueblo": "Campanet",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Font",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales, dimonis y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals, dimonis i repartiment de panades.",
+      "en": "Bonfire, blessing of animals, devils and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere, Teufel und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux, diables et distribution de panades."
+    },
+    "pdf": "https://campanet.net"
+  },
+  {
+    "pueblo": "Campanet",
+    "fecha": "2026-04-12 (segunda fiesta de Pascua)",
+    "titulo": "Pancaritats a Sant Miquel",
+    "lugar": "Ermita de Sant Miquel",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Romería a la ermita de Sant Miquel, bendición de panes y comida campestre.",
+      "ca": "Romiatge a l'ermita de Sant Miquel, benedicció de pans i menjar campestre.",
+      "en": "Pilgrimage to the hermitage of Sant Miquel, blessing of breads and countryside meal.",
+      "de": "Wallfahrt zur Einsiedelei Sant Miquel, Segnung der Brote und Picknick.",
+      "fr": "Pèlerinage à l'ermitage de Sant Miquel, bénédiction des pains et repas champêtre."
+    },
+    "pdf": "https://campanet.net"
+  },
+  {
+    "pueblo": "Campanet",
+    "fecha": "2026-05-10 (segundo domingo de mayo)",
+    "titulo": "Fira de Maig",
+    "lugar": "Carrer Major",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Feria de primavera con productos locales, artesanía y demostraciones de oficios.",
+      "ca": "Fira de primavera amb productes locals, artesania i demostracions d'oficis.",
+      "en": "Spring fair with local products, crafts and trade demonstrations.",
+      "de": "Frühlingsmesse mit lokalen Produkten, Kunsthandwerk und Handwerksvorführungen.",
+      "fr": "Foire de printemps avec produits locaux, artisanat et démonstrations de métiers."
+    },
+    "pdf": "https://campanet.net"
+  },
+  {
+    "pueblo": "Campanet",
+    "fecha": "2026-09-29",
+    "titulo": "Sant Miquel",
+    "lugar": "Plaza de la Font",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Misa, procesión, concierto, cena de frit mallorquí y baile.",
+      "ca": "Missa, processó, concert, sopar de frit mallorquí i ball.",
+      "en": "Mass, procession, concert, frit mallorquí dinner and dance.",
+      "de": "Messe, Prozession, Konzert, Frit mallorquí-Abendessen und Tanz.",
+      "fr": "Messe, procession, concert, dîner de frit mallorquí et bal."
+    },
+    "pdf": "https://campanet.net"
+  },
+  {
+    "pueblo": "Campos",
+    "fecha": "2026-01-09",
+    "titulo": "Sant Julià",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Misa, procesión y pequeña verbena. Patrón de Campos.",
+      "ca": "Missa, processó i petita revetlla. Patró de Campos.",
+      "en": "Mass, procession and small street party. Patron saint of Campos.",
+      "de": "Messe, Prozession und kleines Volksfest. Patron von Campos.",
+      "fr": "Messe, procession et petite fête populaire. Saint patron de Campos."
+    },
+    "pdf": "https://campos.cat"
+  },
+  {
+    "pueblo": "Campos",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y reparto de panets.",
+      "ca": "Fogueró, benedicció d'animals i repartiment de panets.",
+      "en": "Bonfire, blessing of animals and distribution of panets.",
+      "de": "Lagerfeuer, Segnung der Tiere und Verteilung von Panets.",
+      "fr": "Feu de joie, bénédiction des animaux et distribution de panets."
+    },
+    "pdf": "https://campos.cat"
+  },
+  {
+    "pueblo": "Campos",
+    "fecha": "2026-04-25",
+    "titulo": "Fira de Primavera (Fira d'Abril)",
+    "lugar": "Recinto ferial de Campos",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Feria de primavera con casetas, artesanía, productos locales (ensaimadas, queso, sobrasada) y actuaciones musicales.",
+      "ca": "Fira de primavera amb casetes, artesania, productes locals (ensaimades, formatge, sobrassada) i actuacions musicals.",
+      "en": "Spring fair with stalls, crafts, local products (ensaimadas, cheese, sobrasada) and musical performances.",
+      "de": "Frühlingsmesse mit Ständen, Kunsthandwerk, lokalen Produkten (Ensaimadas, Käse, Sobrassada) und Musikaufführungen.",
+      "fr": "Foire de printemps avec stands, artisanat, produits locaux (ensaimadas, fromage, sobrassada) et spectacles musicaux."
+    },
+    "pdf": "https://campos.cat"
+  },
+  {
+    "pueblo": "Campos",
+    "fecha": "2026-10-10 (segundo fin de semana de octubre)",
+    "titulo": "Sa Fira de Campos",
+    "lugar": "Calle Major y recinto ferial",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Feria agrícola, ganadera y comercial con muestras de maquinaria, productos ecológicos, artesanía, y degustaciones de vino y queso.",
+      "ca": "Fira agrícola, ramadera i comercial amb mostres de maquinària, productes ecològics, artesania, i degustacions de vi i formatge.",
+      "en": "Agricultural, livestock and commercial fair with machinery displays, organic products, crafts, and wine and cheese tastings.",
+      "de": "Landwirtschafts-, Vieh- und Handelsmesse mit Maschinenausstellungen, Bioprodukten, Kunsthandwerk sowie Wein- und Käseverkostungen.",
+      "fr": "Foire agricole, d'élevage et commerciale avec expositions de machines, produits biologiques, artisanat, et dégustations de vin et fromage."
+    },
+    "pdf": "https://campos.cat"
+  },
+  {
+    "pueblo": "Capdepera",
+    "fecha": "2026-01-16",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Constitució",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Hoguera, dimonis, correfoc, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, dimonis, correfoc, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, devils, fire run, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Teufel, Feuerlauf, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, diables, course de feu, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://capdepera.cat"
+  },
+  {
+    "pueblo": "Capdepera",
+    "fecha": "2026-07-16",
+    "titulo": "Verge del Carme (Cala Rajada)",
+    "lugar": "Puerto de Cala Rajada",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Procesión marítima, barcas decoradas, misa en el puerto, verbena y fuegos artificiales.",
+      "ca": "Processó marítima, barques decorades, missa al port, revetlla i focs artificials.",
+      "en": "Maritime procession, decorated boats, mass at the port, street party and fireworks.",
+      "de": "Maritime Prozession, geschmückte Boote, Messe im Hafen, Volksfest und Feuerwerk.",
+      "fr": "Procession maritime, bateaux décorés, messe au port, fête populaire et feux d'artifice."
+    },
+    "pdf": "https://capdepera.cat"
+  },
+  {
+    "pueblo": "Capdepera",
+    "fecha": "2026-08-24",
+    "titulo": "Sant Bartomeu",
+    "lugar": "Castillo de Capdepera y puerto",
+    "hora": "21:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Fiesta medieval en el castillo, Moros i Cristians, desfile de gigantes y cabezudos, conciertos y verbena.",
+      "ca": "Festa medieval al castell, Moros i Cristians, desfilada de gegants i capgrossos, concerts i revetlla.",
+      "en": "Medieval festival at the castle, Moors and Christians, parade of giants and big-heads, concerts and street party.",
+      "de": "Mittelalterfest auf der Burg, Mauren und Christen, Umzug von Riesen und Großköpfen, Konzerte und Volksfest.",
+      "fr": "Fête médiévale au château, Maures et Chrétiens, défilé de géants et grosses têtes, concerts et fête populaire."
+    },
+    "pdf": "https://capdepera.cat"
+  },
+  {
+    "pueblo": "Capdepera",
+    "fecha": "2026-05-16 (tercer fin de semana de mayo)",
+    "titulo": "Mercado Medieval",
+    "lugar": "Calles del casco antiguo",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Mercado medieval con artesanía, cetrería, espectáculos de calle, música antigua y puestos de comida.",
+      "ca": "Mercat medieval amb artesania, falconeria, espectacles de carrer, música antiga i parades de menjar.",
+      "en": "Medieval market with crafts, falconry, street shows, ancient music and food stalls.",
+      "de": "Mittelaltermarkt mit Kunsthandwerk, Falknerei, Straßenshows, alter Musik und Essensständen.",
+      "fr": "Marché médiéval avec artisanat, fauconnerie, spectacles de rue, musique ancienne et stands de nourriture."
+    },
+    "pdf": "https://capdepera.cat"
+  },
+  {
+    "pueblo": "Consell",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://consell.cat"
+  },
+  {
+    "pueblo": "Consell",
+    "fecha": "2026-08-24",
+    "titulo": "Sant Bartomeu",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Novena, misa, procesión, verbena, torneo de fútbol, cena popular y baile de disfraces.",
+      "ca": "Novena, missa, processó, revetlla, torneig de futbol, sopar popular i ball de disfresses.",
+      "en": "Novena, mass, procession, street party, football tournament, community dinner and costume dance.",
+      "de": "Novene, Messe, Prozession, Volksfest, Fußballturnier, gemeinsames Abendessen und Kostümtanz.",
+      "fr": "Neuvaine, messe, procession, fête populaire, tournoi de football, dîner communautaire et bal costumé."
+    },
+    "pdf": "https://consell.cat"
+  },
+  {
+    "pueblo": "Consell",
+    "fecha": "2026-10-17 (tercer fin de semana de octubre)",
+    "titulo": "Fira del Vi",
+    "lugar": "Plaça de la Vila",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Feria del vino de la DO Binissalem con degustaciones, maridajes, conciertos y mercado de productos locales.",
+      "ca": "Fira del vi de la DO Binissalem amb degustacions, maridatges, concerts i mercat de productes locals.",
+      "en": "Wine fair from DO Binissalem with tastings, pairings, concerts and local products market.",
+      "de": "Weinmesse der DO Binissalem mit Verkostungen, Begleitungen, Konzerten und Markt für lokale Produkte.",
+      "fr": "Foire du vin de la DO Binissalem avec dégustations, accords mets-vins, concerts et marché de produits locaux."
+    },
+    "pdf": "https://consell.cat"
+  },
+  {
+    "pueblo": "Costitx",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Vila",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Hoguera pequeña, bendición de animales y coca de patata.",
+      "ca": "Fogueró petit, benedicció d'animals i coca de patata.",
+      "en": "Small bonfire, blessing of animals and coca de patata cake.",
+      "de": "Kleines Lagerfeuer, Segnung der Tiere und Coca de Patata-Kuchen.",
+      "fr": "Petit feu de joie, bénédiction des animaux et gâteau coca de patata."
+    },
+    "pdf": "https://costitx.cat"
+  },
+  {
+    "pueblo": "Costitx",
+    "fecha": "2026-08-15",
+    "titulo": "Mare de Déu d'Agost",
+    "lugar": "Plaza de la Vila",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Misa cantada, procesión, orquesta, correfoc infantil, cena de sobrasada y bailes populares.",
+      "ca": "Missa cantada, processó, orquestra, correfoc infantil, sopar de sobrassada i balls populars.",
+      "en": "Sung mass, procession, orchestra, children's fire run, sobrasada dinner and traditional dances.",
+      "de": "Gesungene Messe, Prozession, Orchester, Kinderfeuerlauf, Sobrassada-Abendessen und traditionelle Tänze.",
+      "fr": "Messe chantée, procession, orchestre, course de feu pour enfants, dîner de sobrassada et danses traditionnelles."
+    },
+    "pdf": "https://costitx.cat"
+  },
+  {
+    "pueblo": "Deià",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y reparto de panets.",
+      "ca": "Fogueró, benedicció d'animals i repartiment de panets.",
+      "en": "Bonfire, blessing of animals and distribution of panets.",
+      "de": "Lagerfeuer, Segnung der Tiere und Verteilung von Panets.",
+      "fr": "Feu de joie, bénédiction des animaux et distribution de panets."
+    },
+    "pdf": "https://deia.cat"
+  },
+  {
+    "pueblo": "Deià",
+    "fecha": "2026-06-24",
+    "titulo": "Sant Joan Baptista",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Misa, procesión, hoguera, coca de patata y concierto.",
+      "ca": "Missa, processó, fogueró, coca de patata i concert.",
+      "en": "Mass, procession, bonfire, coca de patata cake and concert.",
+      "de": "Messe, Prozession, Lagerfeuer, Coca de Patata-Kuchen und Konzert.",
+      "fr": "Messe, procession, feu de joie, gâteau coca de patata et concert."
+    },
+    "pdf": "https://deia.cat"
+  },
+  {
+    "pueblo": "Deià",
+    "fecha": "2026-07-16",
+    "titulo": "Fira del Vi (Festa de la Premsa)",
+    "lugar": "Calle principal",
+    "hora": "12:00",
+    "precio": "Gratis (degustaciones de pago)",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Fiesta del vino y la prensa tradicional con pisada de uva, degustaciones, conciertos de jazz y mercado artesanal.",
+      "ca": "Festa del vi i la premsa tradicional amb trepitjada de raïm, degustacions, concerts de jazz i mercat artesanal.",
+      "en": "Wine and traditional press festival with grape stomping, tastings, jazz concerts and craft market.",
+      "de": "Wein- und traditionelles Pressenfest mit Traubenstampfen, Verkostungen, Jazzkonzerten und Kunsthandwerkermarkt.",
+      "fr": "Fête du vin et du pressoir traditionnel avec foulage aux pieds, dégustations, concerts de jazz et marché artisanal."
+    },
+    "pdf": "https://deia.cat"
+  },
+  {
+    "pueblo": "Escorca",
+    "fecha": "2026-06-29",
+    "titulo": "Sant Pere (Santuario de Lluc)",
+    "lugar": "Santuario de Lluc",
+    "hora": "11:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Misa en el santuario, procesión y canto de la Sibil·la.",
+      "ca": "Missa al santuari, processó i cant de la Sibil·la.",
+      "en": "Mass at the sanctuary, procession and chant of the Sibil·la.",
+      "de": "Messe im Heiligtum, Prozession und Gesang der Sibil·la.",
+      "fr": "Messe au sanctuaire, procession et chant de la Sibil·la."
+    },
+    "pdf": "https://escorca.cat"
+  },
+  {
+    "pueblo": "Escorca",
+    "fecha": "2026-08-10",
+    "titulo": "Sant Llorenç",
+    "lugar": "Santuario de Lluc",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Misa y romería.",
+      "ca": "Missa i romiatge.",
+      "en": "Mass and pilgrimage.",
+      "de": "Messe und Wallfahrt.",
+      "fr": "Messe et pèlerinage."
+    },
+    "pdf": "https://escorca.cat"
+  },
+  {
+    "pueblo": "Escorca",
+    "fecha": "2026-12-05 (primer fin de semana de diciembre)",
+    "titulo": "Fira de Nadal de Lluc",
+    "lugar": "Plaça dels Pelegrins (Lluc)",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Mercado navideño con productos artesanos, belenes, música tradicional y puestos de comida.",
+      "ca": "Mercat de Nadal amb productes artesans, betlems, música tradicional i parades de menjar.",
+      "en": "Christmas market with craft products, nativity scenes, traditional music and food stalls.",
+      "de": "Weihnachtsmarkt mit Kunsthandwerk, Krippen, traditioneller Musik und Essensständen.",
+      "fr": "Marché de Noël avec produits artisanaux, crèches, musique traditionnelle et stands de nourriture."
+    },
+    "pdf": "https://escorca.cat"
+  },
+  {
+    "pueblo": "Esporles",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza del Ayuntamiento",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://esporles.cat"
+  },
+  {
+    "pueblo": "Esporles",
+    "fecha": "2026-02-15 (domingo de Carnaval)",
+    "titulo": "Carnaval (Rua)",
+    "lugar": "Calle Mayor y plaza",
+    "hora": "16:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Gran desfile de comparsas, disfraces y carrozas. Concurso de disfraces, música y xocolatada.",
+      "ca": "Gran desfilada de comparses, disfresses i carrosses. Concurs de disfresses, música i xocolatada.",
+      "en": "Big parade of troupes, costumes and floats. Costume contest, music and hot chocolate.",
+      "de": "Großer Umzug von Gruppen, Kostümen und Festwagen. Kostümwettbewerb, Musik und heiße Schokolade.",
+      "fr": "Grand défilé de troupes, déguisements et chars. Concours de déguisements, musique et chocolat chaud."
+    },
+    "pdf": "https://esporles.cat"
+  },
+  {
+    "pueblo": "Esporles",
+    "fecha": "2026-06-29",
+    "titulo": "Sant Pere",
+    "lugar": "Plaza del Ayuntamiento",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Misa, procesión, verbena y cena popular.",
+      "ca": "Missa, processó, revetlla i sopar popular.",
+      "en": "Mass, procession, street party and community dinner.",
+      "de": "Messe, Prozession, Volksfest und gemeinsames Abendessen.",
+      "fr": "Messe, procession, fête populaire et dîner communautaire."
+    },
+    "pdf": "https://esporles.cat"
+  },
+  {
+    "pueblo": "Esporles",
+    "fecha": "2026-10-04 (primer domingo de octubre)",
+    "titulo": "Fira Dolça",
+    "lugar": "Calle Mayor",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Feria de dulces y repostería tradicional. Concursos de ensaimadas, cocas de patata, robiols y otros dulces mallorquines.",
+      "ca": "Fira de dolços i rebosteria tradicional. Concursos d'ensaimades, coques de patata, robiols i altres dolços mallorquins.",
+      "en": "Fair of sweets and traditional pastries. Contests of ensaimadas, coca de patata, robiols and other Mallorcan sweets.",
+      "de": "Messe für Süßigkeiten und traditionelles Gebäck. Wettbewerbe für Ensaimadas, Coca de Patata, Robiols und andere mallorquinische Süßwaren.",
+      "fr": "Foire des sucreries et pâtisseries traditionnelles. Concours d'ensaimadas, coca de patata, robiols et autres douceurs majorquines."
+    },
+    "pdf": "https://esporles.cat"
+  },
+  {
+    "pueblo": "Estellencs",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Hoguera pequeña y bendición de animales.",
+      "ca": "Fogueró petit i benedicció d'animals.",
+      "en": "Small bonfire and blessing of animals.",
+      "de": "Kleines Lagerfeuer und Segnung der Tiere.",
+      "fr": "Petit feu de joie et bénédiction des animaux."
+    },
+    "pdf": "https://estellencs.cat"
+  },
+  {
+    "pueblo": "Estellencs",
+    "fecha": "2026-05-09 (segundo fin de semana de mayo)",
+    "titulo": "Fira del Vi i del Formatge",
+    "lugar": "Calle Mayor",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Feria del vino y el queso de la Sierra de Tramuntana. Degustaciones y venta de productos locales.",
+      "ca": "Fira del vi i el formatge de la Serra de Tramuntana. Degustacions i venda de productes locals.",
+      "en": "Wine and cheese fair of the Tramuntana mountains. Tastings and sale of local products.",
+      "de": "Wein- und Käsemesse der Serra de Tramuntana. Verkostungen und Verkauf lokaler Produkte.",
+      "fr": "Foire du vin et du fromage de la Serra de Tramuntana. Dégustations et vente de produits locaux."
+    },
+    "pdf": "https://estellencs.cat"
+  },
+  {
+    "pueblo": "Estellencs",
+    "fecha": "2026-08-16",
+    "titulo": "Sant Roc",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Misa, procesión, verbena, partidas de truc y cena popular con paella.",
+      "ca": "Missa, processó, revetlla, partides de truc i sopar popular amb paella.",
+      "en": "Mass, procession, street party, truc card games and community dinner with paella.",
+      "de": "Messe, Prozession, Volksfest, Truc-Kartenspiele und gemeinsames Abendessen mit Paella.",
+      "fr": "Messe, procession, fête populaire, jeux de cartes truc et dîner communautaire avec paella."
+    },
+    "pdf": "https://estellencs.cat"
+  },
+  {
+    "pueblo": "Felanitx",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de sa Font",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales, dimonis y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals, dimonis i repartiment de panades.",
+      "en": "Bonfire, blessing of animals, devils and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere, Teufel und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux, diables et distribution de panades."
+    },
+    "pdf": "https://felanitx.cat"
+  },
+  {
+    "pueblo": "Felanitx",
+    "fecha": "2026-03-19",
+    "titulo": "Sant Josep",
+    "lugar": "Plaza de sa Font",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Fiesta patronal con feria de artesanía, ball de bot, exhibición de caballos y degustación de vino de la DO Pla i Llevant.",
+      "ca": "Festa patronal amb fira d'artesania, ball de bot, exhibició de cavalls i degustació de vi de la DO Pla i Llevant.",
+      "en": "Patron saint festival with craft fair, bot dance, horse exhibition and wine tasting from DO Pla i Llevant.",
+      "de": "Patronatsfest mit Kunsthandwerkermarkt, Bot-Tanz, Pferdeausstellung und Weinprobe der DO Pla i Llevant.",
+      "fr": "Fête patronale avec foire artisanale, danse bot, exposition de chevaux et dégustation de vin de la DO Pla i Llevant."
+    },
+    "pdf": "https://felanitx.cat"
+  },
+  {
+    "pueblo": "Felanitx",
+    "fecha": "2026-07-20",
+    "titulo": "Santa Margalida",
+    "lugar": "Plaza de sa Font",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Misa, procesión, verbena y concierto de bandas.",
+      "ca": "Missa, processó, revetlla i concert de bandes.",
+      "en": "Mass, procession, street party and band concert.",
+      "de": "Messe, Prozession, Volksfest und Blaskonzert.",
+      "fr": "Messe, procession, fête populaire et concert de fanfare."
+    },
+    "pdf": "https://felanitx.cat"
+  },
+  {
+    "pueblo": "Felanitx",
+    "fecha": "2026-08-28",
+    "titulo": "Sant Agustí",
+    "lugar": "Plaza de sa Font",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Verbena, correfoc y torrada popular.",
+      "ca": "Revetlla, correfoc i torrada popular.",
+      "en": "Street party, fire run and popular barbecue.",
+      "de": "Volksfest, Feuerlauf und Grillfest.",
+      "fr": "Fête populaire, course de feu et barbecue."
+    },
+    "pdf": "https://felanitx.cat"
+  },
+  {
+    "pueblo": "Felanitx",
+    "fecha": "2026-10-10 (segundo fin de semana de octubre)",
+    "titulo": "Fira de Felanitx",
+    "lugar": "Recinto ferial y calles",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Feria agrícola, ganadera y comercial con degustaciones de vino y productos típicos, conciertos y bailes.",
+      "ca": "Fira agrícola, ramadera i comercial amb degustacions de vi i productes típics, concerts i balls.",
+      "en": "Agricultural, livestock and commercial fair with wine tastings and typical products, concerts and dances.",
+      "de": "Landwirtschafts-, Vieh- und Handelsmesse mit Weinproben und typischen Produkten, Konzerten und Tänzen.",
+      "fr": "Foire agricole, d'élevage et commerciale avec dégustations de vin et produits typiques, concerts et danses."
+    },
+    "pdf": "https://felanitx.cat"
+  },
+  {
+    "pueblo": "Felanitx",
+    "fecha": "2026-10-25 (domingo posterior al 18 de octubre)",
+    "titulo": "Fira del Pebre Bord",
+    "lugar": "Calle Major",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Feria dedicada al pimiento rojo autóctono 'pebre bord'. Degustaciones de sobrasada con pimiento, mercado y conciertos.",
+      "ca": "Fira dedicada al pebre bord (pebrot vermell autòcton). Degustacions de sobrassada amb pebrot, mercat i concerts.",
+      "en": "Fair dedicated to the native red pepper 'pebre bord'. Tastings of sobrasada with pepper, market and concerts.",
+      "de": "Messe gewidmet der einheimischen roten Paprika 'pebre bord'. Verkostungen von Sobrassada mit Paprika, Markt und Konzerte.",
+      "fr": "Foire dédiée au poivron rouge autochtone 'pebre bord'. Dégustations de sobrassada au poivron, marché et concerts."
+    },
+    "pdf": "https://felanitx.cat"
+  },
+  {
+    "pueblo": "Fornalutx",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de España",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y coca de patata.",
+      "ca": "Fogueró, benedicció d'animals i coca de patata.",
+      "en": "Bonfire, blessing of animals and coca de patata cake.",
+      "de": "Lagerfeuer, Segnung der Tiere und Coca de Patata-Kuchen.",
+      "fr": "Feu de joie, bénédiction des animaux et gâteau coca de patata."
+    },
+    "pdf": "https://fornalutx.cat"
+  },
+  {
+    "pueblo": "Fornalutx",
+    "fecha": "2026-06-23",
+    "titulo": "Sant Joan",
+    "lugar": "Plaza de España",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Hoguera, cena popular, cremat (bebida típica), música y tradicional salt de la foguera.",
+      "ca": "Fogueró, sopar popular, cremat, música i tradicional salt de la foguera.",
+      "en": "Bonfire, community dinner, cremat drink, music and traditional bonfire jump.",
+      "de": "Lagerfeuer, gemeinsames Abendessen, Cremat-Getränk, Musik und traditioneller Sprung über das Feuer.",
+      "fr": "Feu de joie, dîner communautaire, boisson cremat, musique et saut traditionnel par-dessus le feu."
+    },
+    "pdf": "https://fornalutx.cat"
+  },
+  {
+    "pueblo": "Fornalutx",
+    "fecha": "2026-09-08",
+    "titulo": "Nativitat de la Verge Maria",
+    "lugar": "Plaza de España",
+    "hora": "12:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Misa mayor, procesión, correbou tradicional (simulado) y verbena.",
+      "ca": "Missa major, processó, correbou tradicional (simulat) i revetlla.",
+      "en": "High mass, procession, traditional simulated correbou and street party.",
+      "de": "Hochamt, Prozession, traditioneller simulierter Correbou und Volksfest.",
+      "fr": "Grande messe, procession, correbou traditionnel simulé et fête populaire."
+    },
+    "pdf": "https://fornalutx.cat"
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Constitució",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Hoguera, dimonis, correfoc, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, dimonis, correfoc, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, devils, fire run, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Teufel, Feuerlauf, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, diables, course de feu, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://inca.cat"
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-07-30",
+    "titulo": "Sant Abdon i Sant Senén",
+    "lugar": "Plaza de la Constitució",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Fiesta patronal con ball de cossiers, baile tradicional, procesión, gigantes, conciertos y verbenas.",
+      "ca": "Festa patronal amb ball de cossiers, ball tradicional, processó, gegants, concerts i revetlles.",
+      "en": "Patron saint festival with cossiers dance, traditional dance, procession, giants, concerts and street parties.",
+      "de": "Patronatsfest mit Cossiers-Tanz, traditionellem Tanz, Prozession, Riesen, Konzerten und Volksfesten.",
+      "fr": "Fête patronale avec danse cossiers, danse traditionnelle, procession, géants, concerts et fêtes populaires."
+    },
+    "pdf": "https://inca.cat"
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-11-19 (tercer jueves de noviembre)",
+    "titulo": "Dijous Bo",
+    "lugar": "Recinte Firal y calles de Inca",
+    "hora": "08:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 5,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "La feria más grande de Mallorca. Exhibición de ganado, maquinaria agrícola, productos locales, artesanía, conciertos, degustaciones de ensaimadas y sobrasada.",
+      "ca": "La fira més gran de Mallorca. Exhibició de bestiar, maquinària agrícola, productes locals, artesania, concerts, degustacions d'ensaimades i sobrassada.",
+      "en": "The largest fair in Mallorca. Livestock exhibition, agricultural machinery, local products, crafts, concerts, ensaimada and sobrasada tastings.",
+      "de": "Die größte Messe Mallorcas. Viehschau, Landmaschinen, lokale Produkte, Kunsthandwerk, Konzerte, Ensaimada- und Sobrassada-Verkostungen.",
+      "fr": "La plus grande foire de Majorque. Exposition de bétail, machines agricoles, produits locaux, artisanat, concerts, dégustations d'ensaimadas et de sobrassada."
+    },
+    "pdf": "https://inca.cat/dijousbo"
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-11-01 al 2026-11-19",
+    "titulo": "Fires del Dijous Bo",
+    "lugar": "Diferentes espacios de Inca",
+    "hora": "Varias",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Tres semanas de actividades previas al Dijous Bo: exposiciones, concursos, conciertos, ferias temáticas (vino, queso, artesanía, etc.).",
+      "ca": "Tres setmanes d'activitats prèvies al Dijous Bo: exposicions, concursos, concerts, fires temàtiques (vi, formatge, artesania, etc.).",
+      "en": "Three weeks of activities prior to Dijous Bo: exhibitions, contests, concerts, thematic fairs (wine, cheese, crafts, etc.).",
+      "de": "Drei Wochen Aktivitäten vor dem Dijous Bo: Ausstellungen, Wettbewerbe, Konzerte, thematische Messen (Wein, Käse, Kunsthandwerk, etc.).",
+      "fr": "Trois semaines d'activités précédant le Dijous Bo: expositions, concours, concerts, foires thématiques (vin, fromage, artisanat, etc.)."
+    },
+    "pdf": "https://inca.cat/dijousbo"
+  },
+  {
+    "pueblo": "Lloret de Vistalegre",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza del Pueblo",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Hoguera pequeña y bendición de animales.",
+      "ca": "Fogueró petit i benedicció d'animals.",
+      "en": "Small bonfire and blessing of animals.",
+      "de": "Kleines Lagerfeuer und Segnung der Tiere.",
+      "fr": "Petit feu de joie et bénédiction des animaux."
+    },
+    "pdf": "https://lloretdevistalegre.cat"
+  },
+  {
+    "pueblo": "Lloret de Vistalegre",
+    "fecha": "2026-08-24",
+    "titulo": "Sant Bartomeu",
+    "lugar": "Plaza del Pueblo",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Misa, procesión, verbena con orquesta, juegos populares, torneo de petanca y cena de paella.",
+      "ca": "Missa, processó, revetlla amb orquestra, jocs populars, torneig de petanca i sopar de paella.",
+      "en": "Mass, procession, street party with orchestra, popular games, petanque tournament and paella dinner.",
+      "de": "Messe, Prozession, Volksfest mit Orchester, Volksspiele, Petanque-Turnier und Paella-Abendessen.",
+      "fr": "Messe, procession, fête populaire avec orchestre, jeux traditionnels, tournoi de pétanque et dîner paella."
+    },
+    "pdf": "https://lloretdevistalegre.cat"
+  },
+  {
+    "pueblo": "Lloseta",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://lloseta.cat"
+  },
+  {
+    "pueblo": "Lloseta",
+    "fecha": "2026-04-08 (primer miércoles después de Pascua)",
+    "titulo": "Romeria del Cocó",
+    "lugar": "Santuario del Cocó",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Romería al santuario del Cocó con pancaritat (bendición de panes), comida campestre y baile tradicional.",
+      "ca": "Romiatge al santuari del Cocó amb pancaritat (benedicció de pans), menjar campestre i ball tradicional.",
+      "en": "Pilgrimage to the Cocó sanctuary with pancaritat (blessing of breads), countryside meal and traditional dance.",
+      "de": "Wallfahrt zum Cocó-Heiligtum mit Pancaritat (Brotsegnung), Picknick und traditionellem Tanz.",
+      "fr": "Pèlerinage au sanctuaire de Cocó avec pancaritat (bénédiction des pains), repas champêtre et danse traditionnelle."
+    },
+    "pdf": "https://lloseta.cat"
+  },
+  {
+    "pueblo": "Lloseta",
+    "fecha": "2026-06-06 (primer fin de semana de junio)",
+    "titulo": "Fira de sa Sabata",
+    "lugar": "Calle Major",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Feria del calzado y la piel, con muestra de fabricación artesanal de zapatos, exposiciones y venta.",
+      "ca": "Fira del calçat i la pell, amb mostra de fabricació artesanal de sabates, exposicions i venda.",
+      "en": "Footwear and leather fair, with display of handmade shoe manufacturing, exhibitions and sales.",
+      "de": "Schuh- und Ledermesse mit Vorführung der handwerklichen Schuhherstellung, Ausstellungen und Verkauf.",
+      "fr": "Foire de la chaussure et du cuir, avec démonstration de fabrication artisanale de chaussures, expositions et vente."
+    },
+    "pdf": "https://lloseta.cat"
+  },
+  {
+    "pueblo": "Lloseta",
+    "fecha": "2026-07-25",
+    "titulo": "Sant Jaume",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Misa, procesión, conciertos de bandas, cavalcada (desfile de caballos) y bailes de salón.",
+      "ca": "Missa, processó, concerts de bandes, cavalcada i balls de saló.",
+      "en": "Mass, procession, band concerts, horse parade and ballroom dancing.",
+      "de": "Messe, Prozession, Blaskonzerte, Pferdeparade und Gesellschaftstanz.",
+      "fr": "Messe, procession, concerts de fanfares, parade de chevaux et danses de salon."
+    },
+    "pdf": "https://lloseta.cat"
+  },
+  {
+    "pueblo": "Lloseta",
+    "fecha": "2026-09-08",
+    "titulo": "Mare de Déu de Lloseta",
+    "lugar": "Santuario de la Mare de Déu de Lloseta",
+    "hora": "11:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Romería, misa, procesión y comida campestre.",
+      "ca": "Romiatge, missa, processó i menjar campestre.",
+      "en": "Pilgrimage, mass, procession and countryside meal.",
+      "de": "Wallfahrt, Messe, Prozession und Picknick.",
+      "fr": "Pèlerinage, messe, procession et repas champêtre."
+    },
+    "pdf": "https://lloseta.cat"
+  },
+  {
+    "pueblo": "Llubí",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de sa Creu",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Hoguera y bendición de animales.",
+      "ca": "Fogueró i benedicció d'animals.",
+      "en": "Bonfire and blessing of animals.",
+      "de": "Lagerfeuer und Segnung der Tiere.",
+      "fr": "Feu de joie et bénédiction des animaux."
+    },
+    "pdf": "https://llubi.cat"
+  },
+  {
+    "pueblo": "Llubí",
+    "fecha": "2026-08-28",
+    "titulo": "Sant Agustí",
+    "lugar": "Plaza de sa Creu",
+    "hora": "22:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Verbena, correfoc, torrada popular, actividades deportivas y misa.",
+      "ca": "Revetlla, correfoc, torrada popular, activitats esportives i missa.",
+      "en": "Street party, fire run, popular barbecue, sports activities and mass.",
+      "de": "Volksfest, Feuerlauf, Grillfest, Sportaktivitäten und Messe.",
+      "fr": "Fête populaire, course de feu, barbecue communautaire, activités sportives et messe."
+    },
+    "pdf": "https://llubi.cat"
+  },
+  {
+    "pueblo": "Llucmajor",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de España",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://llucmajor.cat"
+  },
+  {
+    "pueblo": "Llucmajor",
+    "fecha": "2026-07-10 (segundo fin de semana de julio)",
+    "titulo": "Sant Cristòfol (s'Arenal)",
+    "lugar": "Playa de s'Arenal",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Procesión marítima, misa en la playa, bendición de vehículos y verbena.",
+      "ca": "Processó marítima, missa a la platja, benedicció de vehicles i revetlla.",
+      "en": "Maritime procession, mass on the beach, blessing of vehicles and street party.",
+      "de": "Maritime Prozession, Messe am Strand, Segnung der Fahrzeuge und Volksfest.",
+      "fr": "Procession maritime, messe sur la plage, bénédiction des véhicules et fête populaire."
+    },
+    "pdf": "https://llucmajor.cat"
+  },
+  {
+    "pueblo": "Llucmajor",
+    "fecha": "2026-06-13",
+    "titulo": "Fira de s'Estiueig",
+    "lugar": "Parc de ses Pedreres",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Feria nocturna de verano con puestos de artesanía, food trucks, conciertos de rock y música electrónica, y zona infantil.",
+      "ca": "Fira nocturna d'estiu amb parades d'artesania, food trucks, concerts de rock i música electrònica, i zona infantil.",
+      "en": "Summer night fair with craft stalls, food trucks, rock and electronic music concerts, and children's area.",
+      "de": "Nächtlicher Sommerfest mit Kunsthandwerksständen, Food Trucks, Rock- und Elektronikkonzerten sowie Kinderbereich.",
+      "fr": "Foire nocturne d'été avec stands d'artisanat, camions-restaurants, concerts de rock et musique électronique, et espace enfants."
+    },
+    "pdf": "https://llucmajor.cat"
+  },
+  {
+    "pueblo": "Llucmajor",
+    "fecha": "2026-09-29",
+    "titulo": "Sant Miquel",
+    "lugar": "Plaza de España",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Fiesta patronal con procesión, ball de bot, correfoc, conciertos y verbenas.",
+      "ca": "Festa patronal amb processó, ball de bot, correfoc, concerts i revetlles.",
+      "en": "Patron saint festival with procession, bot dance, fire run, concerts and street parties.",
+      "de": "Patronatsfest mit Prozession, Bot-Tanz, Feuerlauf, Konzerten und Volksfesten.",
+      "fr": "Fête patronale avec procession, danse bot, course de feu, concerts et fêtes populaires."
+    },
+    "pdf": "https://llucmajor.cat"
+  },
+  {
+    "pueblo": "Llucmajor",
+    "fecha": "2026-10-17 (tercer fin de semana de octubre)",
+    "titulo": "Ses Fires (Fira de Tardor)",
+    "lugar": "Recinto ferial y calles",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Feria agrícola, ganadera y comercial con productos de la tierra, artesanía, degustaciones de vino y queso, conciertos.",
+      "ca": "Fira agrícola, ramadera i comercial amb productes de la terra, artesania, degustacions de vi i formatge, concerts.",
+      "en": "Agricultural, livestock and commercial fair with local products, crafts, wine and cheese tastings, concerts.",
+      "de": "Landwirtschafts-, Vieh- und Handelsmesse mit lokalen Produkten, Kunsthandwerk, Wein- und Käseverkostungen, Konzerten.",
+      "fr": "Foire agricole, d'élevage et commerciale avec produits locaux, artisanat, dégustations de vin et fromage, concerts."
+    },
+    "pdf": "https://llucmajor.cat"
+  },
+  {
+    "pueblo": "Manacor",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Rambla de Manacor",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Hoguera, dimonis, correfoc, bendición de animales y reparto de panades. Es tradición el 'ball de cossiers'.",
+      "ca": "Fogueró, dimonis, correfoc, benedicció d'animals i repartiment de panades. És tradició el 'ball de cossiers'.",
+      "en": "Bonfire, devils, fire run, blessing of animals and distribution of panades. The 'cossiers dance' is traditional.",
+      "de": "Lagerfeuer, Teufel, Feuerlauf, Segnung der Tiere und Verteilung von Panades. Traditionell ist der 'Cossiers-Tanz'.",
+      "fr": "Feu de joie, diables, course de feu, bénédiction des animaux et distribution de panades. La 'danse cossiers' est traditionnelle."
+    },
+    "pdf": "https://manacor.cat"
+  },
+  {
+    "pueblo": "Manacor",
+    "fecha": "2026-07-25",
+    "titulo": "Sant Jaume",
+    "lugar": "Rambla de Manacor",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 5,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Fiestas grandes con Moros i Cristians, ball de bot, conciertos de bandas, verbenas, fuegos artificiales y la tradicional Nit de foc.",
+      "ca": "Festes grans amb Moros i Cristians, ball de bot, concerts de bandes, revetlles, focs artificials i la tradicional Nit de foc.",
+      "en": "Major festivities with Moors and Christians, bot dance, band concerts, street parties, fireworks and the traditional Night of Fire.",
+      "de": "Große Feste mit Mauren und Christen, Bot-Tanz, Blaskonzerten, Volksfesten, Feuerwerk und der traditionellen Nacht des Feuers.",
+      "fr": "Grandes fêtes avec Maures et Chrétiens, danse bot, concerts de fanfares, fêtes populaires, feux d'artifice et la traditionnelle Nuit de feu."
+    },
+    "pdf": "https://manacor.cat"
+  },
+  {
+    "pueblo": "Manacor",
+    "fecha": "2026-05-31 (último domingo de mayo)",
+    "titulo": "Fira de Primavera",
+    "lugar": "Recinto ferial de Manacor",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Feria de primavera con expo de perlas (artesanía típica de Manacor), artesanía, productos locales y conciertos.",
+      "ca": "Fira de primavera amb expo de perles (artesania típica de Manacor), artesania, productes locals i concerts.",
+      "en": "Spring fair with pearl exhibition (typical Manacor craft), crafts, local products and concerts.",
+      "de": "Frühlingsmesse mit Perlenausstellung (typisches Kunsthandwerk aus Manacor), Kunsthandwerk, lokalen Produkten und Konzerten.",
+      "fr": "Foire de printemps avec exposition de perles (artisanat typique de Manacor), artisanat, produits locaux et concerts."
+    },
+    "pdf": "https://manacor.cat"
+  },
+  {
+    "pueblo": "Manacor (Porto Cristo)",
+    "fecha": "2026-07-16",
+    "titulo": "Verge del Carme (Festes del Carme)",
+    "lugar": "Puerto de Porto Cristo",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Fiesta marinera con procesión de barcas decoradas, misa en el puerto, regata de barcas tradicionales, verbena y fuegos artificiales.",
+      "ca": "Festa marinera amb processó de barques decorades, missa al port, regata de barques tradicionals, revetlla i focs artificials.",
+      "en": "Seafaring festival with procession of decorated boats, mass at the port, traditional boat regatta, street party and fireworks.",
+      "de": "Seefahrtsfest mit Prozession geschmückter Boote, Messe im Hafen, traditioneller Bootsregatta, Volksfest und Feuerwerk.",
+      "fr": "Fête maritime avec procession de bateaux décorés, messe au port, régate de barques traditionnelles, fête populaire et feux d'artifice."
+    },
+    "pdf": "https://manacor.cat"
+  },
+  {
+    "pueblo": "Mancor de la Vall",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza Major",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Hoguera pequeña y bendición de animales.",
+      "ca": "Fogueró petit i benedicció d'animals.",
+      "en": "Small bonfire and blessing of animals.",
+      "de": "Kleines Lagerfeuer und Segnung der Tiere.",
+      "fr": "Petit feu de joie et bénédiction des animaux."
+    },
+    "pdf": "https://mancordelavall.cat"
+  },
+  {
+    "pueblo": "Mancor de la Vall",
+    "fecha": "2026-06-24",
+    "titulo": "Sant Joan",
+    "lugar": "Plaza Major",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Misa, hoguera, verbena y cena popular.",
+      "ca": "Missa, fogueró, revetlla i sopar popular.",
+      "en": "Mass, bonfire, street party and community dinner.",
+      "de": "Messe, Lagerfeuer, Volksfest und gemeinsames Abendessen.",
+      "fr": "Messe, feu de joie, fête populaire et dîner communautaire."
+    },
+    "pdf": "https://mancordelavall.cat"
+  },
+  {
+    "pueblo": "Mancor de la Vall",
+    "fecha": "2026-08-15",
+    "titulo": "Mare de Déu d'Agost",
+    "lugar": "Plaza Major",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Misa, procesión, verbena, cena de fideuà, juegos infantiles y baile.",
+      "ca": "Missa, processó, revetlla, sopar de fideuà, jocs infantils i ball.",
+      "en": "Mass, procession, street party, fideuà noodle dinner, children's games and dance.",
+      "de": "Messe, Prozession, Volksfest, Fideuà-Nudelabendessen, Kinderspiele und Tanz.",
+      "fr": "Messe, procession, fête populaire, dîner de fideuà (nouilles), jeux pour enfants et bal."
+    },
+    "pdf": "https://mancordelavall.cat"
+  },
+  {
+    "pueblo": "Maria de la Salut",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y reparto de panets.",
+      "ca": "Fogueró, benedicció d'animals i repartiment de panets.",
+      "en": "Bonfire, blessing of animals and distribution of panets.",
+      "de": "Lagerfeuer, Segnung der Tiere und Verteilung von Panets.",
+      "fr": "Feu de joie, bénédiction des animaux et distribution de panets."
+    },
+    "pdf": "https://mariadelasalut.cat"
+  },
+  {
+    "pueblo": "Maria de la Salut",
+    "fecha": "2026-09-08",
+    "titulo": "Mare de Déu de la Victòria",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Misa, procesión, verbena, concurso de paellas, partidas de truc y música tradicional.",
+      "ca": "Missa, processó, revetlla, concurs de paelles, partides de truc i música tradicional.",
+      "en": "Mass, procession, street party, paella contest, truc card games and traditional music.",
+      "de": "Messe, Prozession, Volksfest, Paella-Wettbewerb, Truc-Kartenspiele und traditionelle Musik.",
+      "fr": "Messe, procession, fête populaire, concours de paella, jeux de cartes truc et musique traditionnelle."
+    },
+    "pdf": "https://mariadelasalut.cat"
+  },
+  {
+    "pueblo": "Marratxí",
+    "fecha": "2026-03-01 (primer fin de semana de marzo)",
+    "titulo": "Fira del Fang",
+    "lugar": "Sa Cabaneta",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Feria de la cerámica y el barro. Exposición de alfareros, talleres de modelado, demostraciones de torno y venta de piezas.",
+      "ca": "Fira de la ceràmica i el fang. Exposició de terrissaires, tallers de modelatge, demostracions de torn i venda de peces.",
+      "en": "Ceramics and clay fair. Exhibition of potters, modeling workshops, wheel demonstrations and sale of pieces.",
+      "de": "Keramik- und Tonmesse. Ausstellung von Töpfern, Modellierworkshops, Drehscheibenvorführungen und Verkauf von Stücken.",
+      "fr": "Foire de la céramique et de l'argile. Exposition de potiers, ateliers de modelage, démonstrations de tour et vente de pièces."
+    },
+    "pdf": "https://marratxi.cat/firafang"
+  },
+  {
+    "pueblo": "Marratxí",
+    "fecha": "2026-07-16",
+    "titulo": "Verge del Carme (Pont d'Inca)",
+    "lugar": "Plaça del Carme, Pont d'Inca",
+    "hora": "21:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Procesión marítima simulada, verbena, conciertos, correfoc y misa en honor a la Virgen del Carmen.",
+      "ca": "Processó marítima simulada, revetlla, concerts, correfoc i missa en honor a la Verge del Carme.",
+      "en": "Simulated maritime procession, street party, concerts, fire run and mass in honor of Our Lady of Mount Carmel.",
+      "de": "Simulierte maritime Prozession, Volksfest, Konzerte, Feuerlauf und Messe zu Ehren Unserer Lieben Frau vom Berge Karmel.",
+      "fr": "Procession maritime simulée, fête populaire, concerts, course de feu et messe en l'honneur de Notre-Dame du Mont-Carmel."
+    },
+    "pdf": "https://marratxi.cat"
+  },
+  {
+    "pueblo": "Montuïri",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Vila",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales, dimonis y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals, dimonis i repartiment de panades.",
+      "en": "Bonfire, blessing of animals, devils and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere, Teufel und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux, diables et distribution de panades."
+    },
+    "pdf": "https://montuiri.cat"
+  },
+  {
+    "pueblo": "Montuïri",
+    "fecha": "2026-07-25",
+    "titulo": "Sant Jaume",
+    "lugar": "Plaza de la Vila",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Misa, procesión, ball de bot, conciertos, torneo de fútbol 7 y cena de porcella.",
+      "ca": "Missa, processó, ball de bot, concerts, torneig de futbol 7 i sopar de porcella.",
+      "en": "Mass, procession, bot dance, concerts, 7-a-side football tournament and suckling pig dinner.",
+      "de": "Messe, Prozession, Bot-Tanz, Konzerte, 7-gegen-7-Fußballturnier und Spanferkel-Abendessen.",
+      "fr": "Messe, procession, danse bot, concerts, tournoi de football à 7 et dîner de cochon de lait."
+    },
+    "pdf": "https://montuiri.cat"
+  },
+  {
+    "pueblo": "Muro",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Vila",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Hoguera, dimonis, correfoc, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, dimonis, correfoc, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, devils, fire run, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Teufel, Feuerlauf, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, diables, course de feu, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://muro.cat"
+  },
+  {
+    "pueblo": "Muro",
+    "fecha": "2026-05-15 (tercer fin de semana de mayo)",
+    "titulo": "Fira de Maig",
+    "lugar": "Recinto ferial de Muro",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Feria agrícola y ganadera con muestra de maquinaria, productos ecológicos, artesanía, degustaciones de coca de patata y baile tradicional.",
+      "ca": "Fira agrícola i ramadera amb mostra de maquinària, productes ecològics, artesania, degustacions de coca de patata i ball tradicional.",
+      "en": "Agricultural and livestock fair with machinery display, organic products, crafts, coca de patata tastings and traditional dance.",
+      "de": "Landwirtschafts- und Viehmesse mit Maschinenausstellung, Bioprodukten, Kunsthandwerk, Coca de Patata-Verkostungen und traditionellem Tanz.",
+      "fr": "Foire agricole et d'élevage avec exposition de machines, produits biologiques, artisanat, dégustations de coca de patata et danse traditionnelle."
+    },
+    "pdf": "https://muro.cat"
+  },
+  {
+    "pueblo": "Muro",
+    "fecha": "2026-06-24",
+    "titulo": "Sant Joan",
+    "lugar": "Plaza de la Vila",
+    "hora": "22:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Hoguera, cena de herbes y coca de patata, verbena.",
+      "ca": "Fogueró, sopar d'herbes i coca de patata, revetlla.",
+      "en": "Bonfire, herbes liqueur and coca de patata dinner, street party.",
+      "de": "Lagerfeuer, Herbes-Likör und Coca de Patata-Abendessen, Volksfest.",
+      "fr": "Feu de joie, dîner à la liqueur herbes et au gâteau coca de patata, fête populaire."
+    },
+    "pdf": "https://muro.cat"
+  },
+  {
+    "pueblo": "Muro",
+    "fecha": "2026-10-10 (segundo fin de semana de octubre)",
+    "titulo": "Fira de Tardor",
+    "lugar": "Calle Major",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Feria de otoño con productos de la tierra, setas, miel, embutidos y artesanía.",
+      "ca": "Fira de tardor amb productes de la terra, bolets, mel, embotits i artesania.",
+      "en": "Autumn fair with local products, mushrooms, honey, sausages and crafts.",
+      "de": "Herbstmesse mit lokalen Produkten, Pilzen, Honig, Wurstwaren und Kunsthandwerk.",
+      "fr": "Foire d'automne avec produits du terroir, champignons, miel, charcuterie et artisanat."
+    },
+    "pdf": "https://muro.cat"
+  },
+  {
+    "pueblo": "Petra",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de sa Font",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales, dimonis y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals, dimonis i repartiment de panades.",
+      "en": "Bonfire, blessing of animals, devils and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere, Teufel und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux, diables et distribution de panades."
+    },
+    "pdf": "https://petra.cat"
+  },
+  {
+    "pueblo": "Petra",
+    "fecha": "2026-07-21",
+    "titulo": "Santa Pràxedis",
+    "lugar": "Plaza de sa Font",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Misa, procesión, verbena y concierto de bandas.",
+      "ca": "Missa, processó, revetlla i concert de bandes.",
+      "en": "Mass, procession, street party and band concert.",
+      "de": "Messe, Prozession, Volksfest und Blaskonzert.",
+      "fr": "Messe, procession, fête populaire et concert de fanfare."
+    },
+    "pdf": "https://petra.cat"
+  },
+  {
+    "pueblo": "Pollença",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza Major",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Hoguera, dimonis, correfoc, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, dimonis, correfoc, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, devils, fire run, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Teufel, Feuerlauf, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, diables, course de feu, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://pollenca.cat"
+  },
+  {
+    "pueblo": "Pollença",
+    "fecha": "2026-06-29",
+    "titulo": "Sant Pere",
+    "lugar": "Port de Pollença",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Procesión marítima, regata de barcas, misa y verbena.",
+      "ca": "Processó marítima, regata de barques, missa i revetlla.",
+      "en": "Maritime procession, boat regatta, mass and street party.",
+      "de": "Maritime Prozession, Bootsregatta, Messe und Volksfest.",
+      "fr": "Procession maritime, régate de barques, messe et fête populaire."
+    },
+    "pdf": "https://pollenca.cat"
+  },
+  {
+    "pueblo": "Pollença",
+    "fecha": "2026-08-02",
+    "titulo": "Mare de Déu dels Àngels (La Patrona)",
+    "lugar": "Port de Pollença y Plaza Major",
+    "hora": "12:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 5,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Fiesta grande con Moros i Cristians en el puerto, ball de bot, conciertos, correfoc y el tradicional descenso del ángel.",
+      "ca": "Festa gran amb Moros i Cristians al port, ball de bot, concerts, correfoc i el tradicional descens de l'àngel.",
+      "en": "Big festival with Moors and Christians at the port, bot dance, concerts, fire run and the traditional descent of the angel.",
+      "de": "Großes Fest mit Mauren und Christen im Hafen, Bot-Tanz, Konzerten, Feuerlauf und dem traditionellen Engelsabstieg.",
+      "fr": "Grande fête avec Maures et Chrétiens au port, danse bot, concerts, course de feu et la traditionnelle descente de l'ange."
+    },
+    "pdf": "https://pollenca.cat/festes"
+  },
+  {
+    "pueblo": "Pollença",
+    "fecha": "2026-11-07 (primer fin de semana de noviembre)",
+    "titulo": "Fira de Pollença",
+    "lugar": "Calle Major y recinto ferial",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Feria agrícola, ganadera y comercial. Muestras de productos locales, artesanía, degustaciones de vino y sobrasada, conciertos.",
+      "ca": "Fira agrícola, ramadera i comercial. Mostres de productes locals, artesania, degustacions de vi i sobrassada, concerts.",
+      "en": "Agricultural, livestock and commercial fair. Local products, crafts, wine and sobrasada tastings, concerts.",
+      "de": "Landwirtschafts-, Vieh- und Handelsmesse. Lokale Produkte, Kunsthandwerk, Wein- und Sobrassada-Verkostungen, Konzerte.",
+      "fr": "Foire agricole, d'élevage et commerciale. Produits locaux, artisanat, dégustations de vin et sobrassada, concerts."
+    },
+    "pdf": "https://pollenca.cat/fira"
+  },
+  {
+    "pueblo": "Porreres",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Vila",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales, dimonis y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals, dimonis i repartiment de panades.",
+      "en": "Bonfire, blessing of animals, devils and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere, Teufel und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux, diables et distribution de panades."
+    },
+    "pdf": "https://porreres.cat"
+  },
+  {
+    "pueblo": "Porreres",
+    "fecha": "2026-06-24",
+    "titulo": "Sant Joan",
+    "lugar": "Plaza de la Vila",
+    "hora": "21:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Hoguera, coca de patata, herbes y baile popular.",
+      "ca": "Fogueró, coca de patata, herbes i ball popular.",
+      "en": "Bonfire, coca de patata cake, herbes liqueur and popular dance.",
+      "de": "Lagerfeuer, Coca de Patata-Kuchen, Herbes-Likör und Volkstanz.",
+      "fr": "Feu de joie, gâteau coca de patata, liqueur herbes et danse populaire."
+    },
+    "pdf": "https://porreres.cat"
+  },
+  {
+    "pueblo": "Porreres",
+    "fecha": "2026-06-20 (tercer fin de semana de junio)",
+    "titulo": "Fira de l'Albercoc",
+    "lugar": "Calle Major",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Feria del albaricoque. Degustación de albaricoques frescos, mermeladas, licores y repostería. Conciertos y bailes.",
+      "ca": "Fira de l'albercoc. Degustació d'albercocs frescos, melmelades, licors i rebosteria. Concerts i balls.",
+      "en": "Apricot fair. Tasting of fresh apricots, jams, liqueurs and pastries. Concerts and dances.",
+      "de": "Aprikosenmesse. Verkostung von frischen Aprikosen, Marmeladen, Likören und Gebäck. Konzerte und Tänze.",
+      "fr": "Foire de l'abricot. Dégustation d'abricots frais, confitures, liqueurs et pâtisseries. Concerts et danses."
+    },
+    "pdf": "https://porreres.cat"
+  },
+  {
+    "pueblo": "Porreres",
+    "fecha": "2026-08-16",
+    "titulo": "Sant Roc",
+    "lugar": "Plaza de la Vila",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Verbena, correfoc, cena de fideuà y torneo de fútbol.",
+      "ca": "Revetlla, correfoc, sopar de fideuà i torneig de futbol.",
+      "en": "Street party, fire run, fideuà dinner and football tournament.",
+      "de": "Volksfest, Feuerlauf, Fideuà-Abendessen und Fußballturnier.",
+      "fr": "Fête populaire, course de feu, dîner de fideuà et tournoi de football."
+    },
+    "pdf": "https://porreres.cat"
+  },
+  {
+    "pueblo": "Porreres",
+    "fecha": "2026-11-01 (Todos los Santos)",
+    "titulo": "Fira de Tardor",
+    "lugar": "Calle Major",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Feria de otoño con productos típicos: frutos secos, setas, miel, embutidos y artesanía.",
+      "ca": "Fira de tardor amb productes típics: fruits secs, bolets, mel, embotits i artesania.",
+      "en": "Autumn fair with typical products: nuts, mushrooms, honey, sausages and crafts.",
+      "de": "Herbstmesse mit typischen Produkten: Nüsse, Pilze, Honig, Wurstwaren und Kunsthandwerk.",
+      "fr": "Foire d'automne avec produits typiques : fruits secs, champignons, miel, charcuterie et artisanat."
+    },
+    "pdf": "https://porreres.cat"
+  },
+  {
+    "pueblo": "Puigpunyent",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Hoguera pequeña y bendición de animales.",
+      "ca": "Fogueró petit i benedicció d'animals.",
+      "en": "Small bonfire and blessing of animals.",
+      "de": "Kleines Lagerfeuer und Segnung der Tiere.",
+      "fr": "Petit feu de joie et bénédiction des animaux."
+    },
+    "pdf": "https://puigpunyent.cat"
+  },
+  {
+    "pueblo": "Puigpunyent",
+    "fecha": "2026-05-30 (último fin de semana de mayo)",
+    "titulo": "Fira Ecològica, Pagesa i Artesana",
+    "lugar": "Calle Major",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Feria ecológica, campesina y artesana. Productos de la tierra sin químicos, artesanía local, demostraciones de oficios tradicionales.",
+      "ca": "Fira ecològica, pagesa i artesana. Productes de la terra sense químics, artesania local, demostracions d'oficis tradicionals.",
+      "en": "Organic, peasant and craft fair. Chemical-free local products, local crafts, traditional trade demonstrations.",
+      "de": "Ökologische, bäuerliche und handwerkliche Messe. Chemiefreie lokale Produkte, lokales Kunsthandwerk, Vorführungen traditioneller Handwerke.",
+      "fr": "Foire écologique, paysanne et artisanale. Produits locaux sans produits chimiques, artisanat local, démonstrations de métiers traditionnels."
+    },
+    "pdf": "https://puigpunyent.cat"
+  },
+  {
+    "pueblo": "Puigpunyent",
+    "fecha": "2026-08-16",
+    "titulo": "Sant Roc",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Misa, procesión, cena popular con botifarró y música de bandas.",
+      "ca": "Missa, processó, sopar popular amb botifarró i música de bandes.",
+      "en": "Mass, procession, community dinner with botifarró sausage and band music.",
+      "de": "Messe, Prozession, gemeinsames Abendessen mit Botifarró-Wurst und Blasmusik.",
+      "fr": "Messe, procession, dîner communautaire avec saucisse botifarró et musique de fanfares."
+    },
+    "pdf": "https://puigpunyent.cat"
+  },
+  {
+    "pueblo": "Sa Pobla",
+    "fecha": "2026-01-16",
+    "titulo": "Sant Antoni (Revetla)",
+    "lugar": "Plaza Major y Carrer Major",
+    "hora": "21:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 5,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Hoguera gigante, correfoc con dimonis, cavallets, bendición de animales y reparto de panades. Es la fiesta más emblemática de Sa Pobla.",
+      "ca": "Fogueró gegant, correfoc amb dimonis, cavallets, benedicció d'animals i repartiment de panades. És la festa més emblemàtica de Sa Pobla.",
+      "en": "Giant bonfire, fire run with devils, cavallets, blessing of animals and distribution of panades. It's Sa Pobla's most emblematic festival.",
+      "de": "Riesiges Lagerfeuer, Feuerlauf mit Teufeln, Cavallets, Segnung der Tiere und Verteilung von Panades. Das bekannteste Fest von Sa Pobla.",
+      "fr": "Grand feu de joie, course de feu avec diables, cavallets, bénédiction des animaux et distribution de panades. La fête la plus emblématique de Sa Pobla."
+    },
+    "pdf": "https://sapobla.cat"
+  },
+  {
+    "pueblo": "Sa Pobla",
+    "fecha": "2026-02-15 (domingo de Carnaval)",
+    "titulo": "Sa Rua de Carnaval",
+    "lugar": "Avinguda de les Germanies",
+    "hora": "16:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Desfile de Carnaval con carrozas, comparsas y disfraces.",
+      "ca": "Desfilada de Carnaval amb carrosses, comparses i disfresses.",
+      "en": "Carnival parade with floats, troupes and costumes.",
+      "de": "Karnevalsumzug mit Festwagen, Gruppen und Kostümen.",
+      "fr": "Défilé de Carnaval avec chars, troupes et déguisements."
+    },
+    "pdf": "https://sapobla.cat"
+  },
+  {
+    "pueblo": "Sa Pobla",
+    "fecha": "2026-06-13 (segundo fin de semana de junio)",
+    "titulo": "Fira Nocturna de la Patata",
+    "lugar": "Recinto ferial",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Feria nocturna dedicada a la patata. Degustaciones de platos con patata, conciertos, puestos de artesanía y atracciones.",
+      "ca": "Fira nocturna dedicada a la patata. Degustacions de plats amb patata, concerts, parades d'artesania i atraccions.",
+      "en": "Night fair dedicated to the potato. Tastings of potato dishes, concerts, craft stalls and rides.",
+      "de": "Nächtliche Messe, die der Kartoffel gewidmet ist. Verkostungen von Kartoffelgerichten, Konzerte, Kunsthandwerk und Fahrgeschäfte.",
+      "fr": "Foire nocturne dédiée à la pomme de terre. Dégustations de plats à base de pomme de terre, concerts, stands d'artisanat et manèges."
+    },
+    "pdf": "https://sapobla.cat"
+  },
+  {
+    "pueblo": "Sa Pobla",
+    "fecha": "2026-07-20",
+    "titulo": "Santa Margalida",
+    "lugar": "Plaza Major",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Misa, procesión, verbena y concierto.",
+      "ca": "Missa, processó, revetlla i concert.",
+      "en": "Mass, procession, street party and concert.",
+      "de": "Messe, Prozession, Volksfest und Konzert.",
+      "fr": "Messe, procession, fête populaire et concert."
+    },
+    "pdf": "https://sapobla.cat"
+  },
+  {
+    "pueblo": "Sa Pobla",
+    "fecha": "2026-11-14 (segundo fin de semana de noviembre)",
+    "titulo": "Fira de l'Arròs Pobler",
+    "lugar": "Calle Major",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Feria del arroz. Degustación de arroces típicos (arròs brut, paella, arroz caldoso), concurso de cocina, conciertos.",
+      "ca": "Fira de l'arròs. Degustació d'arròs típics (arròs brut, paella, arròs caldós), concurs de cuina, concerts.",
+      "en": "Rice fair. Tasting of typical rices (arròs brut, paella, brothy rice), cooking contest, concerts.",
+      "de": "Reismesse. Verkostung von typischen Reisen (Arròs brut, Paella, Brühenreis), Kochwettbewerb, Konzerte.",
+      "fr": "Foire du riz. Dégustation de riz typiques (arròs brut, paella, riz en bouillon), concours de cuisine, concerts."
+    },
+    "pdf": "https://sapobla.cat"
+  },
+  {
+    "pueblo": "Sant Joan",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://santjoan.cat"
+  },
+  {
+    "pueblo": "Sant Joan",
+    "fecha": "2026-06-23",
+    "titulo": "Sant Joan (Fogueró)",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "22:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Hoguera de Sant Joan, cena de coca de patata y herbes, conciertos y baile hasta el amanecer.",
+      "ca": "Fogueró de Sant Joan, sopar de coca de patata i herbes, concerts i ball fins a l'alba.",
+      "en": "St. John's bonfire, dinner of coca de patata cake and herbes liqueur, concerts and dancing until dawn.",
+      "de": "Johannisfeuer, Abendessen mit Coca de Patata-Kuchen und Herbes-Likör, Konzerte und Tanzen bis zum Morgengrauen.",
+      "fr": "Feu de la Saint-Jean, dîner de gâteau coca de patata et liqueur herbes, concerts et danse jusqu'à l'aube."
+    },
+    "pdf": "https://santjoan.cat"
+  },
+  {
+    "pueblo": "Sant Llorenç des Cardassar",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Constitució",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://santllorenc.cat"
+  },
+  {
+    "pueblo": "Sant Llorenç des Cardassar",
+    "fecha": "2026-05-08",
+    "titulo": "Fira de Maig de Son Carrió",
+    "lugar": "Son Carrió (núcleo)",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Feria de mayo en Son Carrió con productos locales, artesanía y bailes tradicionales.",
+      "ca": "Fira de maig a Son Carrió amb productes locals, artesania i balls tradicionals.",
+      "en": "May fair in Son Carrió with local products, crafts and traditional dances.",
+      "de": "Maifeier in Son Carrió mit lokalen Produkten, Kunsthandwerk und traditionellen Tänzen.",
+      "fr": "Foire de mai à Son Carrió avec produits locaux, artisanat et danses traditionnelles."
+    },
+    "pdf": "https://santllorenc.cat"
+  },
+  {
+    "pueblo": "Sant Llorenç des Cardassar",
+    "fecha": "2026-08-10",
+    "titulo": "Sant Llorenç",
+    "lugar": "Plaza de la Constitució",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Misa, procesión, ball de bot, conciertos, torneo de bous a la mar (simulado) y verbenas populares.",
+      "ca": "Missa, processó, ball de bot, concerts, torneig de bous a la mar (simulat) i revetlles populars.",
+      "en": "Mass, procession, bot dance, concerts, simulated bulls to the sea and popular street parties.",
+      "de": "Messe, Prozession, Bot-Tanz, Konzerte, simuliertes Stiere ins Meer und Volksfeste.",
+      "fr": "Messe, procession, danse bot, concerts, simulation de taureaux à la mer et fêtes populaires."
+    },
+    "pdf": "https://santllorenc.cat"
+  },
+  {
+    "pueblo": "Santa Eugènia",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Vila",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Hoguera y bendición de animales.",
+      "ca": "Fogueró i benedicció d'animals.",
+      "en": "Bonfire and blessing of animals.",
+      "de": "Lagerfeuer und Segnung der Tiere.",
+      "fr": "Feu de joie et bénédiction des animaux."
+    },
+    "pdf": "https://santaeugenia.cat"
+  },
+  {
+    "pueblo": "Santa Eugènia",
+    "fecha": "2026-09-08",
+    "titulo": "Mare de Déu de la Victòria",
+    "lugar": "Plaza de la Vila",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Misa, procesión, verbena, concurso de siurells, partidas de bot y cena de paella.",
+      "ca": "Missa, processó, revetlla, concurs de siurells, partides de bot i sopar de paella.",
+      "en": "Mass, procession, street party, siurells contest, bot ball games and paella dinner.",
+      "de": "Messe, Prozession, Volksfest, Siurells-Wettbewerb, Bot-Ballspiele und Paella-Abendessen.",
+      "fr": "Messe, procession, fête populaire, concours de siurells, jeux de boules bot et dîner paella."
+    },
+    "pdf": "https://santaeugenia.cat"
+  },
+  {
+    "pueblo": "Santa Margalida",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaça de la Vila",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Hoguera, dimonis, correfoc, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, dimonis, correfoc, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, devils, fire run, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Teufel, Feuerlauf, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, diables, course de feu, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://santamargalida.cat"
+  },
+  {
+    "pueblo": "Santa Margalida",
+    "fecha": "2026-07-20",
+    "titulo": "Santa Margalida",
+    "lugar": "Plaça de la Vila",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Fiesta patronal con verbenas, correfoc, conciertos de xeremiers, ball de bot, cavalcada y torneo de bitlles.",
+      "ca": "Festa patronal amb revetlles, correfoc, concerts de xeremiers, ball de bot, cavalcada i torneig de bitlles.",
+      "en": "Patron saint festival with street parties, fire run, bagpipe concerts, bot dance, horse parade and bitlles bowling tournament.",
+      "de": "Patronatsfest mit Volksfesten, Feuerlauf, Dudelsackkonzerten, Bot-Tanz, Pferdeparade und Bitlles-Bowlingturnier.",
+      "fr": "Fête patronale avec fêtes populaires, course de feu, concerts de cornemuses, danse bot, parade de chevaux et tournoi de quilles bitlles."
+    },
+    "pdf": "https://santamargalida.cat"
+  },
+  {
+    "pueblo": "Santa Margalida (Can Picafort)",
+    "fecha": "2026-07-16",
+    "titulo": "Verge del Carme (Can Picafort)",
+    "lugar": "Puerto de Can Picafort",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Procesión de barcas decoradas, misa en el puerto, regata, verbena y fuegos artificiales.",
+      "ca": "Processió de barques decorades, missa al port, regata, revetlla i focs artificials.",
+      "en": "Procession of decorated boats, mass at the port, regatta, street party and fireworks.",
+      "de": "Prozession geschmückter Boote, Messe im Hafen, Regatta, Volksfest und Feuerwerk.",
+      "fr": "Procession de bateaux décorés, messe au port, régate, fête populaire et feux d'artifice."
+    },
+    "pdf": "https://santamargalida.cat"
+  },
+  {
+    "pueblo": "Santa Maria del Camí",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Vila",
+    "hora": "20:30",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales, reparto de panades, correfoc y baile tradicional.",
+      "ca": "Fogueró, benedicció d'animals, repartiment de panades, correfoc i ball tradicional.",
+      "en": "Bonfire, blessing of animals, distribution of panades, fire run and traditional dance.",
+      "de": "Lagerfeuer, Segnung der Tiere, Verteilung von Panades, Feuerlauf und traditioneller Tanz.",
+      "fr": "Feu de joie, bénédiction des animaux, distribution de panades, course de feu et danse traditionnelle."
+    },
+    "pdf": "https://santamariadelcami.cat"
+  },
+  {
+    "pueblo": "Santa Maria del Camí",
+    "fecha": "2026-04-26 (último domingo de abril)",
+    "titulo": "Fira de Santa Maria",
+    "lugar": "Calle Major y recinto ferial",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Feria agrícola, ganadera y comercial. Muestras de productos locales, artesanía, degustaciones de vino y sobrasada, conciertos.",
+      "ca": "Fira agrícola, ramadera i comercial. Mostres de productes locals, artesania, degustacions de vi i sobrassada, concerts.",
+      "en": "Agricultural, livestock and commercial fair. Local products, crafts, wine and sobrasada tastings, concerts.",
+      "de": "Landwirtschafts-, Vieh- und Handelsmesse. Lokale Produkte, Kunsthandwerk, Wein- und Sobrassada-Verkostungen, Konzerte.",
+      "fr": "Foire agricole, d'élevage et commerciale. Produits locaux, artisanat, dégustations de vin et sobrassada, concerts."
+    },
+    "pdf": "https://santamariadelcami.cat/fira"
+  },
+  {
+    "pueblo": "Santa Maria del Camí",
+    "fecha": "2026-07-20",
+    "titulo": "Santa Margalida",
+    "lugar": "Plaza de la Vila",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Misa, procesión, verbena y concierto.",
+      "ca": "Missa, processó, revetlla i concert.",
+      "en": "Mass, procession, street party and concert.",
+      "de": "Messe, Prozession, Volksfest und Konzert.",
+      "fr": "Messe, procession, fête populaire et concert."
+    },
+    "pdf": "https://santamariadelcami.cat"
+  },
+  {
+    "pueblo": "Santanyí",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Constitución",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales, dimonis y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals, dimonis i repartiment de panades.",
+      "en": "Bonfire, blessing of animals, devils and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere, Teufel und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux, diables et distribution de panades."
+    },
+    "pdf": "https://santanyi.cat"
+  },
+  {
+    "pueblo": "Santanyí",
+    "fecha": "2026-07-16",
+    "titulo": "Verge del Carme (Cala Figuera i Cala d'Or)",
+    "lugar": "Puerto de Cala d'Or",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Procesión de barcas decoradas, misa en el puerto y verbena.",
+      "ca": "Processió de barques decorades, missa al port i revetlla.",
+      "en": "Procession of decorated boats, mass at the port and street party.",
+      "de": "Prozession geschmückter Boote, Messe im Hafen und Volksfest.",
+      "fr": "Procession de bateaux décorés, messe au port et fête populaire."
+    },
+    "pdf": "https://santanyi.cat"
+  },
+  {
+    "pueblo": "Santanyí",
+    "fecha": "2026-07-25",
+    "titulo": "Sant Jaume",
+    "lugar": "Plaza de la Constitución",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Fiesta patronal con procesión, ball de bot, correfoc, conciertos y verbenas.",
+      "ca": "Festa patronal amb processó, ball de bot, correfoc, concerts i revetlles.",
+      "en": "Patron saint festival with procession, bot dance, fire run, concerts and street parties.",
+      "de": "Patronatsfest mit Prozession, Bot-Tanz, Feuerlauf, Konzerten und Volksfesten.",
+      "fr": "Fête patronale avec procession, danse bot, course de feu, concerts et fêtes populaires."
+    },
+    "pdf": "https://santanyi.cat"
+  },
+  {
+    "pueblo": "Santanyí",
+    "fecha": "2026-10-17 (tercer sábado de octubre)",
+    "titulo": "Fira de Santanyí",
+    "lugar": "Recinte firal i carrers del centre",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 5,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Feria tradicional con mercado de artesanía, productos de la tierra, animales de granja, maquinaria agrícola, conciertos y degustaciones de vino.",
+      "ca": "Fira tradicional amb mercat d'artesania, productes de la terra, animals de granja, maquinària agrícola, concerts i degustacions de vi.",
+      "en": "Traditional fair with craft market, local products, farm animals, agricultural machinery, concerts and wine tastings.",
+      "de": "Traditionelle Messe mit Kunsthandwerkermarkt, lokalen Produkten, Nutztieren, Landmaschinen, Konzerten und Weinproben.",
+      "fr": "Foire traditionnelle avec marché artisanal, produits du terroir, animaux de ferme, machines agricoles, concerts et dégustations de vin."
+    },
+    "pdf": "https://santanyi.cat/fira"
+  },
+  {
+    "pueblo": "Selva",
+    "fecha": "2026-01-16",
+    "titulo": "Sant Antoni (Foguerons)",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Hoguera, correfoc, bendición de animales, reparto de coca de patata y herbes.",
+      "ca": "Fogueró, correfoc, benedicció d'animals, repartiment de coca de patata i herbes.",
+      "en": "Bonfire, fire run, blessing of animals, distribution of coca de patata cake and herbes liqueur.",
+      "de": "Lagerfeuer, Feuerlauf, Segnung der Tiere, Verteilung von Coca de Patata-Kuchen und Herbes-Likör.",
+      "fr": "Feu de joie, course de feu, bénédiction des animaux, distribution de gâteau coca de patata et liqueur herbes."
+    },
+    "pdf": "https://selva.cat"
+  },
+  {
+    "pueblo": "Selva",
+    "fecha": "2026-07-25",
+    "titulo": "Sant Llorenç (Fiestas de verano)",
+    "lugar": "Plaza de la Iglesia",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Misa, procesión, verbena, conciertos y cena popular.",
+      "ca": "Missa, processó, revetlla, concerts i sopar popular.",
+      "en": "Mass, procession, street party, concerts and community dinner.",
+      "de": "Messe, Prozession, Volksfest, Konzerte und gemeinsames Abendessen.",
+      "fr": "Messe, procession, fête populaire, concerts et dîner communautaire."
+    },
+    "pdf": "https://selva.cat"
+  },
+  {
+    "pueblo": "Selva (Caimari)",
+    "fecha": "2026-11-21 (tercer fin de semana de noviembre)",
+    "titulo": "Fira de s'Oliva (Caimari)",
+    "lugar": "Calle Major de Caimari",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Feria de la oliva. Degustación de aceite de oliva virgen extra, aceitunas, productos ecológicos, conciertos y mercado artesanal.",
+      "ca": "Fira de l'oliva. Degustació d'oli d'oliva verge extra, olives, productes ecològics, concerts i mercat artesanal.",
+      "en": "Olive fair. Tasting of extra virgin olive oil, olives, organic products, concerts and craft market.",
+      "de": "Olivenmesse. Verkostung von nativem Olivenöl extra, Oliven, Bioprodukten, Konzerten und Kunsthandwerkermarkt.",
+      "fr": "Foire de l'olive. Dégustation d'huile d'olive extra vierge, olives, produits biologiques, concerts et marché artisanal."
+    },
+    "pdf": "https://selva.cat/firaoliva"
+  },
+  {
+    "pueblo": "Sencelles",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Vila",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://sencelles.cat"
+  },
+  {
+    "pueblo": "Sencelles",
+    "fecha": "2026-08-15",
+    "titulo": "Mare de Déu d'Agost",
+    "lugar": "Plaza de la Vila",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Misa, procesión, verbena, conciertos, torneo de fútbol y cena de arròs brut.",
+      "ca": "Missa, processó, revetlla, concerts, torneig de futbol i sopar d'arròs brut.",
+      "en": "Mass, procession, street party, concerts, football tournament and arròs brut dinner.",
+      "de": "Messe, Prozession, Volksfest, Konzerte, Fußballturnier und Arròs brut-Abendessen.",
+      "fr": "Messe, procession, fête populaire, concerts, tournoi de football et dîner d'arròs brut."
+    },
+    "pdf": "https://sencelles.cat"
+  },
+  {
+    "pueblo": "Ses Salines",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Constitución",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Hoguera pequeña y bendición de animales.",
+      "ca": "Fogueró petit i benedicció d'animals.",
+      "en": "Small bonfire and blessing of animals.",
+      "de": "Kleines Lagerfeuer und Segnung der Tiere.",
+      "fr": "Petit feu de joie et bénédiction des animaux."
+    },
+    "pdf": "https://sessalines.cat"
+  },
+  {
+    "pueblo": "Ses Salines",
+    "fecha": "2026-05-01",
+    "titulo": "Fira Espectacle",
+    "lugar": "Recinto ferial",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Feria de artesanía, productos locales y espectáculos de animación.",
+      "ca": "Fira d'artesania, productes locals i espectacles d'animació.",
+      "en": "Crafts, local products and entertainment shows fair.",
+      "de": "Messe für Kunsthandwerk, lokale Produkte und Unterhaltungsshows.",
+      "fr": "Foire d'artisanat, produits locaux et spectacles d'animation."
+    },
+    "pdf": "https://sessalines.cat"
+  },
+  {
+    "pueblo": "Ses Salines",
+    "fecha": "2026-08-29 (último fin de semana de agosto)",
+    "titulo": "Sant Bartomeu (Colònia de Sant Jordi)",
+    "lugar": "Colònia de Sant Jordi (puerto)",
+    "hora": "21:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Misa cantada, procesión marítima, verbenas, fuegos artificiales y conciertos.",
+      "ca": "Missa cantada, processó marítima, revetlles, focs artificials i concerts.",
+      "en": "Sung mass, maritime procession, street parties, fireworks and concerts.",
+      "de": "Gesungene Messe, maritime Prozession, Volksfeste, Feuerwerk und Konzerte.",
+      "fr": "Messe chantée, procession maritime, fêtes populaires, feux d'artifice et concerts."
+    },
+    "pdf": "https://sessalines.cat"
+  },
+  {
+    "pueblo": "Sineu",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Vila",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales, dimonis, correfoc y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals, dimonis, correfoc i repartiment de panades.",
+      "en": "Bonfire, blessing of animals, devils, fire run and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere, Teufel, Feuerlauf und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux, diables, course de feu et distribution de panades."
+    },
+    "pdf": "https://sineu.cat"
+  },
+  {
+    "pueblo": "Sineu",
+    "fecha": "2026-05-03 (primer domingo de mayo)",
+    "titulo": "Fira de Maig",
+    "lugar": "Recinte Firal y calles",
+    "hora": "08:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 5,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Una de las ferias más antiguas de Mallorca. Mercado de animales, productos agrícolas, artesanía, ball de bot, conciertos y degustaciones de coca de trampó.",
+      "ca": "Una de les fires més antigues de Mallorca. Mercat d'animals, productes agrícoles, artesania, ball de bot, concerts i degustacions de coca de trampó.",
+      "en": "One of the oldest fairs in Mallorca. Animal market, agricultural products, crafts, bot dance, concerts and coca de trampó tastings.",
+      "de": "Eine der ältesten Messen Mallorcas. Tiermarkt, landwirtschaftliche Produkte, Kunsthandwerk, Bot-Tanz, Konzerte und Coca de Trampó-Verkostungen.",
+      "fr": "L'une des plus anciennes foires de Majorque. Marché aux animaux, produits agricoles, artisanat, danse bot, concerts et dégustations de coca de trampó."
+    },
+    "pdf": "https://sineu.cat/fira"
+  },
+  {
+    "pueblo": "Sineu",
+    "fecha": "2026-08-15",
+    "titulo": "Mare de Déu d'Agost",
+    "lugar": "Plaza de la Vila",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Misa, procesión, verbena, conciertos y cena popular.",
+      "ca": "Missa, processó, revetlla, concerts i sopar popular.",
+      "en": "Mass, procession, street party, concerts and community dinner.",
+      "de": "Messe, Prozession, Volksfest, Konzerte und gemeinsames Abendessen.",
+      "fr": "Messe, procession, fête populaire, concerts et dîner communautaire."
+    },
+    "pdf": "https://sineu.cat"
+  },
+  {
+    "pueblo": "Sóller",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Constitució",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales, dimonis, xeremiers y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals, dimonis, xeremiers i repartiment de panades.",
+      "en": "Bonfire, blessing of animals, devils, bagpipers and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere, Teufel, Dudelsackspieler und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux, diables, cornemuseux et distribution de panades."
+    },
+    "pdf": "https://soller.cat"
+  },
+  {
+    "pueblo": "Sóller",
+    "fecha": "2026-05-11 (lunes siguiente al segundo domingo de mayo)",
+    "titulo": "Es Firó (Fira i Firó)",
+    "lugar": "Plaza de la Constitució y calles",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 5,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Recreación histórica de la batalla entre moros y cristianos. Desfiles, caballos, disparos de arcabucería, música y feria. Es la fiesta más importante de Sóller.",
+      "ca": "Recreació històrica de la batalla entre moros i cristians. Desfilades, cavalls, trets d'arcabusseria, música i fira. És la festa més important de Sóller.",
+      "en": "Historical reenactment of the battle between Moors and Christians. Parades, horses, harquebus shots, music and fair. It's Sóller's most important festival.",
+      "de": "Historische Nachstellung der Schlacht zwischen Mauren und Christen. Paraden, Pferde, Arkebusenschüsse, Musik und Messe. Das wichtigste Fest von Sóller.",
+      "fr": "Reconstitution historique de la bataille entre Maures et Chrétiens. Défilés, chevaux, coups d'arquebuse, musique et foire. La fête la plus importante de Sóller."
+    },
+    "pdf": "https://soller.cat/firo"
+  },
+  {
+    "pueblo": "Sóller",
+    "fecha": "2026-04-18 (tercer fin de semana de abril)",
+    "titulo": "Fira de la Taronja",
+    "lugar": "Plaza de la Constitució",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Feria de la naranja. Degustación de zumos, mermeladas y productos derivados de la naranja. Conciertos y actividades infantiles.",
+      "ca": "Fira de la taronja. Degustació de sucs, melmelades i productes derivats de la taronja. Concerts i activitats infantils.",
+      "en": "Orange fair. Tasting of juices, jams and orange-based products. Concerts and children's activities.",
+      "de": "Orangenmesse. Verkostung von Säften, Marmeladen und Orangenprodukten. Konzerte und Kinderaktivitäten.",
+      "fr": "Foire de l'orange. Dégustation de jus, confitures et produits à base d'orange. Concerts et activités pour enfants."
+    },
+    "pdf": "https://soller.cat/taronja"
+  },
+  {
+    "pueblo": "Sóller",
+    "fecha": "2026-08-24",
+    "titulo": "Sant Bartomeu",
+    "lugar": "Plaza de la Constitució",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Fiestas patronales con verbenas, conciertos, correfoc, ball de bot y fuegos artificiales.",
+      "ca": "Festes patronals amb revetlles, concerts, correfoc, ball de bot i focs artificials.",
+      "en": "Patron saint festivities with street parties, concerts, fire run, bot dance and fireworks.",
+      "de": "Patronatsfest mit Volksfesten, Konzerten, Feuerlauf, Bot-Tanz und Feuerwerk.",
+      "fr": "Fêtes patronales avec fêtes populaires, concerts, course de feu, danse bot et feux d'artifice."
+    },
+    "pdf": "https://soller.cat"
+  },
+  {
+    "pueblo": "Son Servera",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaça de Sant Miquel",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://son-servera.cat"
+  },
+  {
+    "pueblo": "Son Servera",
+    "fecha": "2026-09-29",
+    "titulo": "Sant Miquel",
+    "lugar": "Plaça de Sant Miquel",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Misa, procesión, ball de bot, conciertos, correfoc, carrera popular y degustación de sobrasada de porcella.",
+      "ca": "Missa, processó, ball de bot, concerts, correfoc, cursa popular i degustació de sobrassada de porcella.",
+      "en": "Mass, procession, bot dance, concerts, fire run, popular race and porcella sobrasada tasting.",
+      "de": "Messe, Prozession, Bot-Tanz, Konzerte, Feuerlauf, Volkslauf und Porcella-Sobrassada-Verkostung.",
+      "fr": "Messe, procession, danse bot, concerts, course de feu, course populaire et dégustation de sobrassada de porcella."
+    },
+    "pdf": "https://son-servera.cat"
+  },
+  {
+    "pueblo": "Valldemossa",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de la Cartuja",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y coca de patata.",
+      "ca": "Fogueró, benedicció d'animals i coca de patata.",
+      "en": "Bonfire, blessing of animals and coca de patata cake.",
+      "de": "Lagerfeuer, Segnung der Tiere und Coca de Patata-Kuchen.",
+      "fr": "Feu de joie, bénédiction des animaux et gâteau coca de patata."
+    },
+    "pdf": "https://valldemossa.cat"
+  },
+  {
+    "pueblo": "Valldemossa",
+    "fecha": "2026-04-23",
+    "titulo": "Sant Jordi (Fira del Llibre)",
+    "lugar": "Calle de la Cartuja y plaza",
+    "hora": "11:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Feria del libro y la rosa, firmas de autores, conciertos de música clásica en la Cartuja, y desfile de cavallets.",
+      "ca": "Fira del llibre i la rosa, signatura d'autors, concerts de música clàssica a la Cartoixa, i desfilada de cavallets.",
+      "en": "Book and rose fair, author signings, classical music concerts at the Charterhouse, and cavallets parade.",
+      "de": "Buch- und Rosenmesse, Autogrammstunden, klassische Musikkonzerte in der Kartause und Cavallets-Parade.",
+      "fr": "Foire du livre et de la rose, séances de dédicaces, concerts de musique classique à la Chartreuse et défilé de cavallets."
+    },
+    "pdf": "https://valldemossa.cat"
+  },
+  {
+    "pueblo": "Valldemossa",
+    "fecha": "2026-07-28",
+    "titulo": "Festes de la Beata",
+    "lugar": "Plaza de la Cartuja",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Fiestas en honor a Sor Catalina Thomàs (Beata). Misa, procesión, conciertos y verbena.",
+      "ca": "Festes en honor a Sor Catalina Thomàs (Beata). Missa, processó, concerts i revetlla.",
+      "en": "Festivities in honor of Sister Catalina Thomàs (Beata). Mass, procession, concerts and street party.",
+      "de": "Feste zu Ehren von Schwester Catalina Thomàs (Beata). Messe, Prozession, Konzerte und Volksfest.",
+      "fr": "Fêtes en l'honneur de Sœur Catalina Thomàs (Beata). Messe, procession, concerts et fête populaire."
+    },
+    "pdf": "https://valldemossa.cat"
+  },
+  {
+    "pueblo": "Valldemossa",
+    "fecha": "2026-08-24",
+    "titulo": "Sant Bartomeu",
+    "lugar": "Plaza de la Cartuja",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Misa, procesión, verbena y cena popular.",
+      "ca": "Missa, processó, revetlla i sopar popular.",
+      "en": "Mass, procession, street party and community dinner.",
+      "de": "Messe, Prozession, Volksfest und gemeinsames Abendessen.",
+      "fr": "Messe, procession, fête populaire et dîner communautaire."
+    },
+    "pdf": "https://valldemossa.cat"
+  },
+  {
+    "pueblo": "Vilafranca de Bonany",
+    "fecha": "2026-01-17",
+    "titulo": "Sant Antoni",
+    "lugar": "Plaza de España",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Hoguera, bendición de animales y reparto de panades.",
+      "ca": "Fogueró, benedicció d'animals i repartiment de panades.",
+      "en": "Bonfire, blessing of animals and distribution of panades.",
+      "de": "Lagerfeuer, Segnung der Tiere und Verteilung von Panades.",
+      "fr": "Feu de joie, bénédiction des animaux et distribution de panades."
+    },
+    "pdf": "https://vilafrancadebonany.cat"
+  },
+  {
+    "pueblo": "Vilafranca de Bonany",
+    "fecha": "2026-08-24",
+    "titulo": "Sant Bartomeu",
+    "lugar": "Plaza de España",
+    "hora": "21:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Verbenas, conciertos de xeremiers, correfoc, ball de bot, torneo de bitlles, y cena de frit mallorquí.",
+      "ca": "Revetlles, concerts de xeremiers, correfoc, ball de bot, torneig de bitlles, i sopar de frit mallorquí.",
+      "en": "Street parties, bagpipe concerts, fire run, bot dance, bitlles bowling tournament, and frit mallorquí dinner.",
+      "de": "Volksfeste, Dudelsackkonzerte, Feuerlauf, Bot-Tanz, Bitlles-Bowlingturnier und Frit mallorquí-Abendessen.",
+      "fr": "Fêtes populaires, concerts de cornemuses, course de feu, danse bot, tournoi de quilles bitlles et dîner de frit mallorquí."
+    },
+    "pdf": "https://vilafrancadebonany.cat"
+  }
+]

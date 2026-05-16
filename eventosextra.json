@@ -1,0 +1,1162 @@
+[
+  {
+    "pueblo": "Alaró",
+    "fecha": "2026-01-04",
+    "titulo": "Mercadet de Nadal (último día)",
+    "lugar": "Plaza de la Vila",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Último día del mercado navideño con puestos de artesanía, dulces típicos y actuaciones infantiles.",
+      "ca": "Últim dia del mercat de Nadal amb parades d'artesania, dolços típics i actuacions infantils.",
+      "en": "Last day of the Christmas market with craft stalls, traditional sweets and children's performances.",
+      "de": "Letzter Tag des Weihnachtsmarktes mit Kunsthandwerk, typischen Süßigkeiten und Kinderaufführungen.",
+      "fr": "Dernier jour du marché de Noël avec stands d'artisanat, friandises typiques et spectacles pour enfants."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-01-06",
+    "titulo": "Cabalgata de Reyes (recorrido completo)",
+    "lugar": "Desde el Parc de la Mar hasta Plaça de Cort",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "infantil",
+    "ranking": 5,
+    "destacado": true,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "La cabalgata más grande de Mallorca con carrozas, miles de pajes, música y reparto de caramelos.",
+      "ca": "La cavalcada més gran de Mallorca amb carrosses, milers de patges, música i repartiment de caramels.",
+      "en": "The largest parade in Mallorca with floats, thousands of pages, music and candy throwing.",
+      "de": "Der größte Umzug Mallorcas mit Festwagen, tausenden Pagen, Musik und Süßigkeitenwurf.",
+      "fr": "La plus grande cavalcade de Majorque avec chars, milliers de pages, musique et lancer de bonbons."
+    },
+    "pdf": "https://www.palma.cat/reis"
+  },
+  {
+    "pueblo": "Manacor",
+    "fecha": "2026-01-11",
+    "titulo": "Concierto de Año Nuevo",
+    "lugar": "Auditori de Manacor",
+    "hora": "19:00",
+    "precio": "15€",
+    "categoria": "conciertos",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Concierto de la Orquesta Sinfónica de las Islas Baleares. Obras de Strauss, Mozart y Txaikovski.",
+      "ca": "Concert de l'Orquestra Simfònica de les Illes Balears. Obres de Strauss, Mozart i Txaikovski.",
+      "en": "Concert by the Balearic Islands Symphony Orchestra. Works by Strauss, Mozart and Tchaikovsky.",
+      "de": "Konzert der Sinfonieorchester der Balearischen Inseln. Werke von Strauss, Mozart und Tschaikowsky.",
+      "fr": "Concert de l'Orchestre Symphonique des Îles Baléares. Œuvres de Strauss, Mozart et Tchaïkovski."
+    },
+    "pdf": "https://manacor.cat/auditori"
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-01-18",
+    "titulo": "Fira del Segon Mà",
+    "lugar": "Plaça de la Constitució",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Mercado de segunda mano, antigüedades y coleccionismo. Puestos de particulares y comerciantes.",
+      "ca": "Mercat de segona mà, antiguitats i col·leccionisme. Parades de particulars i comerciants.",
+      "en": "Second-hand, antiques and collectibles market. Private and merchant stalls.",
+      "de": "Markt für Secondhand, Antiquitäten und Sammlerstücke. Private und Händlerstände.",
+      "fr": "Marché de seconde main, antiquités et collection. Stands de particuliers et de commerçants."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Sóller",
+    "fecha": "2026-01-25",
+    "titulo": "Ruta de senderismo 'Camí de sa Coma'",
+    "lugar": "Salida desde la Plaza de la Constitució",
+    "hora": "08:30",
+    "precio": "Gratis (inscripción previa)",
+    "categoria": "deportes",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Ruta guiada de 10 km por la Serra de Tramuntana. Dificultad baja. Se recomienda llevar agua y calzado adecuado.",
+      "ca": "Ruta guiada de 10 km per la Serra de Tramuntana. Dificultat baixa. Es recomana dur aigua i calçat adequat.",
+      "en": "10 km guided route through the Tramuntana mountains. Low difficulty. Bring water and appropriate footwear.",
+      "de": "10 km geführte Route durch die Serra de Tramuntana. Niedriger Schwierigkeitsgrad. Wasser und geeignetes Schuhwerk mitbringen.",
+      "fr": "Randonnée guidée de 10 km dans la Serra de Tramuntana. Difficulté faible. Apportez de l'eau et des chaussures adaptées."
+    },
+    "pdf": "https://soller.cat/senderisme"
+  },
+  {
+    "pueblo": "Alcúdia",
+    "fecha": "2026-02-01",
+    "titulo": "Fira de Sant Blai (cerámica)",
+    "lugar": "Calle Mayor",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Feria de la cerámica tradicional. Exposición y venta de piezas de alfarería local.",
+      "ca": "Fira de la ceràmica tradicional. Exposició i venda de peces de terrissa local.",
+      "en": "Traditional ceramics fair. Exhibition and sale of local pottery pieces.",
+      "de": "Traditionelle Keramikmesse. Ausstellung und Verkauf lokaler Töpferwaren.",
+      "fr": "Foire de la céramique traditionnelle. Exposition et vente de poteries locales."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-02-08",
+    "titulo": "Concierto de Jazz: Andrea Motis Trio",
+    "lugar": "Auditòrium de Palma",
+    "hora": "20:00",
+    "precio": "22€",
+    "categoria": "conciertos",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Concierto de jazz a cargo de la trompetista y cantante Andrea Motis. Repertorio de standards y temas propios.",
+      "ca": "Concert de jazz a càrrec de la trompetista i cantant Andrea Motis. Repertori de standards i temes propis.",
+      "en": "Jazz concert by trumpeter and singer Andrea Motis. Repertoire of standards and original songs.",
+      "de": "Jazzkonzert mit der Trompeterin und Sängerin Andrea Motis. Repertoire aus Standards und eigenen Stücken.",
+      "fr": "Concert de jazz par la trompettiste et chanteuse Andrea Motis. Répertoire de standards et de compositions personnelles."
+    },
+    "pdf": "https://auditoriumpalma.com"
+  },
+  {
+    "pueblo": "Felanitx",
+    "fecha": "2026-02-14",
+    "titulo": "Cursa de Sant Valentí",
+    "lugar": "Salida desde la Plaça de sa Font",
+    "hora": "17:00",
+    "precio": "8€",
+    "categoria": "deportes",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Carrera popular de 5 km en parejas. Disfraces y ambientación romántica. Premiados los mejores disfraces.",
+      "ca": "Cursa popular de 5 km en parelles. Disfresses i ambientació romàntica. Premiats els millors disfresses.",
+      "en": "5 km popular race in pairs. Costumes and romantic atmosphere. Best costume awards.",
+      "de": "5 km Volkslauf in Paaren. Kostüme und romantische Atmosphäre. Preise für die besten Kostüme.",
+      "fr": "Course populaire de 5 km en binôme. Déguisements et ambiance romantique. Récompenses pour les meilleurs déguisements."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Pollença",
+    "fecha": "2026-02-22",
+    "titulo": "Fira de l'All",
+    "lugar": "Plaza Major",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Feria del ajo y productos derivados. Degustaciones de ajos tiernos, confituras y embutidos con ajo.",
+      "ca": "Fira de l'all i productes derivats. Degustacions d'alls tendres, confitures i embotits amb all.",
+      "en": "Garlic fair and derived products. Tastings of fresh garlic, garlic jams and sausages.",
+      "de": "Knoblauchmesse und daraus hergestellte Produkte. Verkostungen von frischem Knoblauch, Knoblauchmarmeladen und Würsten.",
+      "fr": "Foire de l'ail et produits dérivés. Dégustations d'ail frais, confitures à l'ail et charcuteries."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-02-28",
+    "titulo": "Carnaval infantil 'Sa Rueta'",
+    "lugar": "Plaça de la Constitució",
+    "hora": "16:00",
+    "precio": "Gratis",
+    "categoria": "infantil",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Desfile de Carnaval para niños. Carrozas pequeñas, disfraces y animación. Reparto de caramelos.",
+      "ca": "Desfilada de Carnaval per a nins. Carrosses petites, disfresses i animació. Repartiment de caramels.",
+      "en": "Children's Carnival parade. Small floats, costumes and entertainment. Candy throwing.",
+      "de": "Karnevalsumzug für Kinder. Kleine Festwagen, Kostüme und Unterhaltung. Süßigkeitenwurf.",
+      "fr": "Défilé de Carnaval pour enfants. Petits chars, déguisements et animations. Lancer de bonbons."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-03-01",
+    "titulo": "Dijous Llarder (Jueves Lardero)",
+    "lugar": "Diferentes plazas de Palma",
+    "hora": "12:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Jueves de Carnaval con concursos de disfraces, música y la tradicional 'botifarronada' (comida popular).",
+      "ca": "Dijous de Carnaval amb concursos de disfresses, música i la tradicional 'botifarronada' (menjar popular).",
+      "en": "Carnival Thursday with costume contests, music and the traditional 'botifarronada' (popular meal).",
+      "de": "Karnevalsdonnerstag mit Kostümwettbewerben, Musik und dem traditionellen 'Botifarronada' (Volksessen).",
+      "fr": "Jeudi du Carnaval avec concours de déguisements, musique et le traditionnel 'botifarronada' (repas populaire)."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Manacor",
+    "fecha": "2026-03-07",
+    "titulo": "Teatro: 'La Ratonera' de Agatha Christie",
+    "lugar": "Teatre de Manacor",
+    "hora": "20:00",
+    "precio": "18€",
+    "categoria": "teatro",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Representación del famoso thriller de Agatha Christie. Compañía Teatro del Sol.",
+      "ca": "Representació del famós thriller d'Agatha Christie. Companyia Teatre del Sol.",
+      "en": "Performance of Agatha Christie's famous thriller. Teatro del Sol company.",
+      "de": "Aufführung des berühmten Thrillers von Agatha Christie. Compañía Teatro del Sol.",
+      "fr": "Représentation du célèbre thriller d'Agatha Christie. Compagnie Teatro del Sol."
+    },
+    "pdf": "https://teatredemanacor.cat"
+  },
+  {
+    "pueblo": "Alcúdia",
+    "fecha": "2026-03-15",
+    "titulo": "Fira de la Cervesa Artesana",
+    "lugar": "Port d'Alcúdia",
+    "hora": "12:00",
+    "precio": "Gratis (consumiciones de pago)",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Feria de cervezas artesanas de Mallorca. Degustación de más de 20 variedades, música en directo y food trucks.",
+      "ca": "Fira de cerveses artesanes de Mallorca. Degustació de més de 20 varietats, música en directe i food trucks.",
+      "en": "Mallorca craft beer fair. Tasting of over 20 varieties, live music and food trucks.",
+      "de": "Messe für handwerklich gebrautes Bier aus Mallorca. Verkostung von über 20 Sorten, Livemusik und Food Trucks.",
+      "fr": "Foire des bières artisanales de Majorque. Dégustation de plus de 20 variétés, musique live et food trucks."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Sóller",
+    "fecha": "2026-03-21",
+    "titulo": "Exposición de Pintura 'Paisajes de la Tramuntana'",
+    "lugar": "Centre de Cultura de Sóller",
+    "hora": "18:00",
+    "precio": "5€",
+    "categoria": "exposiciones",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Inauguración de la exposición de acuarelas del artista local Joan Bennàssar. Hasta el 10 de abril.",
+      "ca": "Inauguració de l'exposició d'aquarel·les de l'artista local Joan Bennàssar. Fins al 10 d'abril.",
+      "en": "Opening of the watercolor exhibition by local artist Joan Bennàssar. Until April 10.",
+      "de": "Eröffnung der Aquarellausstellung des lokalen Künstlers Joan Bennàssar. Bis zum 10. April.",
+      "fr": "Ouverture de l'exposition d'aquarelles de l'artiste local Joan Bennàssar. Jusqu'au 10 avril."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-03-28",
+    "titulo": "Procesión de los Encuentros (Domingo de Ramos)",
+    "lugar": "Desde la Seu hasta Plaça de Cort",
+    "hora": "10:30",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Procesión de ramos con participación de las cofradías. Bendición de palmas y cantos.",
+      "ca": "Processó de rams amb participació de les confraries. Benedicció de palmons i cants.",
+      "en": "Palm procession with participation of the brotherhoods. Blessing of palms and chants.",
+      "de": "Palmenprozession mit Beteiligung der Bruderschaften. Segnung der Palmen und Gesänge.",
+      "fr": "Procession des Rameaux avec participation des confréries. Bénédiction des palmes et chants."
+    },
+    "pdf": "https://palma.cat/setmanasanta"
+  },
+  {
+    "pueblo": "Capdepera",
+    "fecha": "2026-04-05",
+    "titulo": "Fira de l'Artesania",
+    "lugar": "Recinto ferial de Capdepera",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Feria de artesanía con demostraciones en vivo de forja, cestería, cerámica y tejidos.",
+      "ca": "Fira d'artesania amb demostracions en viu de forja, cistelleria, ceràmica i teixits.",
+      "en": "Craft fair with live demonstrations of forging, basketry, ceramics and weaving.",
+      "de": "Handwerksmesse mit Live-Demonstrationen von Schmieden, Korbflechten, Töpferei und Weben.",
+      "fr": "Foire artisanale avec démonstrations en direct de forge, vannerie, céramique et tissage."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Pollença",
+    "fecha": "2026-04-12",
+    "titulo": "Caminada per la Marjal",
+    "lugar": "Salida desde el Puente Romano",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "deportes",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Ruta guiada de 8 km por la zona húmeda de la Marjal de Pollença. Observación de aves.",
+      "ca": "Ruta guiada de 8 km per la zona humida de la Marjal de Pollença. Observació d'ocells.",
+      "en": "8 km guided tour of the Marjal de Pollença wetland. Bird watching.",
+      "de": "8 km geführte Tour durch das Feuchtgebiet Marjal de Pollença. Vogelbeobachtung.",
+      "fr": "Randonnée guidée de 8 km dans la zone humide de Marjal de Pollença. Observation des oiseaux."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-04-19",
+    "titulo": "Fira del Llibre i la Rosa",
+    "lugar": "Plaça de la Constitució",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Feria del libro y la rosa. Paradas de librerías, firmas de autores y regalo de una rosa por cada compra.",
+      "ca": "Fira del llibre i la rosa. Parades de llibreries, signatures d'autors i regal d'una rosa per cada compra.",
+      "en": "Book and rose fair. Bookstore stalls, author signings and a free rose with each purchase.",
+      "de": "Buch- und Rosenmesse. Buchhandlungsstände, Autogrammstunden und eine kostenlose Rose zu jedem Kauf.",
+      "fr": "Foire du livre et de la rose. Stands de librairies, séances de dédicaces et une rose gratuite par achat."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Alcúdia",
+    "fecha": "2026-04-26",
+    "titulo": "Concierto de Primavera (Banda de Música)",
+    "lugar": "Auditorio de Alcúdia",
+    "hora": "19:00",
+    "precio": "10€",
+    "categoria": "conciertos",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Concierto de la Banda de Música de Alcúdia. Repertorio de pasodobles, música de cine y zarzuela.",
+      "ca": "Concert de la Banda de Música d'Alcúdia. Repertori de passdobles, música de cinema i sarsuela.",
+      "en": "Concert by the Alcúdia Music Band. Repertoire of pasodobles, film music and zarzuela.",
+      "de": "Konzert der Stadtkapelle Alcúdia. Repertoire von Pasodobles, Filmmusik und Zarzuela.",
+      "fr": "Concert de la Banda de Música d'Alcúdia. Répertoire de pasodobles, musiques de films et zarzuela."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Manacor",
+    "fecha": "2026-05-03",
+    "titulo": "Fira de les Herbes (Plantas medicinales)",
+    "lugar": "Rambla de Manacor",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Feria de plantas medicinales y aromáticas. Venta de hierbas, talleres de fitoterapia y degustaciones de infusiones.",
+      "ca": "Fira de plantes medicinals i aromàtiques. Venda d'herbes, tallers de fitoteràpia i degustacions d'infusions.",
+      "en": "Fair of medicinal and aromatic plants. Sale of herbs, phytotherapy workshops and infusion tastings.",
+      "de": "Messe für Heil- und Aromapflanzen. Verkauf von Kräutern, Phytotherapie-Workshops und Aufgussverkostungen.",
+      "fr": "Foire des plantes médicinales et aromatiques. Vente d'herbes, ateliers de phytothérapie et dégustations d'infusions."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-05-09",
+    "titulo": "Fira de les Flors",
+    "lugar": "Passeig del Born",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Exposición y venta de flores y plantas ornamentales. Concurso de jardinería y talleres infantiles.",
+      "ca": "Exposició i venda de flors i plantes ornamentals. Concurs de jardineria i tallers infantils.",
+      "en": "Exhibition and sale of flowers and ornamental plants. Gardening contest and children's workshops.",
+      "de": "Ausstellung und Verkauf von Blumen und Zierpflanzen. Gartenwettbewerb und Kinderworkshops.",
+      "fr": "Exposition et vente de fleurs et de plantes ornementales. Concours de jardinage et ateliers pour enfants."
+    },
+    "pdf": "https://palma.cat/firaflors"
+  },
+  {
+    "pueblo": "Felanitx",
+    "fecha": "2026-05-16",
+    "titulo": "Teatro infantil 'Els Tres Porquets'",
+    "lugar": "Teatre de Felanitx",
+    "hora": "18:00",
+    "precio": "6€",
+    "categoria": "infantil",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Adaptación del cuento clásico con marionetas y actores. Duración 50 minutos.",
+      "ca": "Adaptació del conte clàssic amb titelles i actors. Durada 50 minuts.",
+      "en": "Adaptation of the classic tale with puppets and actors. Duration 50 minutes.",
+      "de": "Adaption des klassischen Märchens mit Puppen und Schauspielern. Dauer 50 Minuten.",
+      "fr": "Adaptation du conte classique avec marionnettes et acteurs. Durée 50 minutes."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-05-23",
+    "titulo": "Cursa de la Dona",
+    "lugar": "Salida desde la Plaça de la Constitució",
+    "hora": "18:00",
+    "precio": "10€ (benéfica)",
+    "categoria": "deportes",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Carrera de 5 km exclusiva para mujeres. Parte de los beneficios se destinan a asociaciones de lucha contra el cáncer.",
+      "ca": "Cursa de 5 km exclusiva per a dones. Part dels beneficis es destinen a associacions de lluita contra el càncer.",
+      "en": "5 km race exclusively for women. Part of the profits go to cancer charities.",
+      "de": "5 km Lauf exklusiv für Frauen. Ein Teil des Erlöses fließt an Krebshilfeorganisationen.",
+      "fr": "Course de 5 km réservée aux femmes. Une partie des bénéfices est reversée à des associations de lutte contre le cancer."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Alcúdia",
+    "fecha": "2026-05-30",
+    "titulo": "Exposición de coches clásicos",
+    "lugar": "Parc de la Mar d'Alcúdia",
+    "hora": "10:00",
+    "precio": "5€",
+    "categoria": "exposiciones",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Exposición de más de 100 vehículos clásicos y de colección. Concentración y concurso de elegancia.",
+      "ca": "Exposició de més de 100 vehicles clàssics i de col·lecció. Concentració i concurs d'elegància.",
+      "en": "Exhibition of over 100 classic and collector cars. Gathering and elegance contest.",
+      "de": "Ausstellung von über 100 klassischen und Sammlerfahrzeugen. Treffen und Eleganzcontest.",
+      "fr": "Exposition de plus de 100 voitures classiques et de collection. Rassemblement et concours d'élégance."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Sóller",
+    "fecha": "2026-06-07",
+    "titulo": "Fira del Siurell (típi de Sóller)",
+    "lugar": "Plaza de la Constitució",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Feria del siurell, el tradicional silbato de barro mallorquín. Exposición, venta y talleres de fabricación.",
+      "ca": "Fira del siurell, el tradicional xiulet de fang mallorquí. Exposició, venda i tallers de fabricació.",
+      "en": "Fair of the siurell, the traditional Mallorcan clay whistle. Exhibition, sale and manufacturing workshops.",
+      "de": "Messe des Siurell, der traditionellen mallorquinischen Tonpfeife. Ausstellung, Verkauf und Herstellungsworkshops.",
+      "fr": "Foire du siurell, le sifflet en argile traditionnel majorquin. Exposition, vente et ateliers de fabrication."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-06-14",
+    "titulo": "Concierto de Sant Joan (verbena)",
+    "lugar": "Plaça de Cort",
+    "hora": "22:00",
+    "precio": "Gratis",
+    "categoria": "conciertos",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Verbena popular con motivo de Sant Joan. Concierto de orquestra, barra y castillo de fuegos artificiales.",
+      "ca": "Revetlla popular amb motiu de Sant Joan. Concert d'orquestra, barra i castell de focs artificials.",
+      "en": "Popular street party for Sant Joan. Orchestra concert, bar and fireworks.",
+      "de": "Volksfest zu Sant Joan. Orchesterkonzert, Bar und Feuerwerk.",
+      "fr": "Fête populaire pour Sant Joan. Concert d'orchestre, buvette et feux d'artifice."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Manacor",
+    "fecha": "2026-06-21",
+    "titulo": "Fira de la Música",
+    "lugar": "Rambla de Manacor",
+    "hora": "18:00",
+    "precio": "Gratis",
+    "categoria": "conciertos",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Conciertos de bandas locales y escuelas de música en diferentes escenarios al aire libre.",
+      "ca": "Concerts de bandes locals i escoles de música en diferents escenaris a l'aire lliure.",
+      "en": "Concerts by local bands and music schools at different open-air stages.",
+      "de": "Konzerte lokaler Bands und Musikschulen auf verschiedenen Open-Air-Bühnen.",
+      "fr": "Concerts de groupes locaux et d'écoles de musique sur différentes scènes en plein air."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-07-04",
+    "titulo": "Festival de Música en la Calle",
+    "lugar": "Diferentes plazas del centro histórico",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "conciertos",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Músicos callejeros y bandas emergentes en plazas y rincones de Palma. Jazz, blues, folk y rock.",
+      "ca": "Músics de carrer i bandes emergents en places i racons de Palma. Jazz, blues, folk i rock.",
+      "en": "Street musicians and emerging bands in squares and corners of Palma. Jazz, blues, folk and rock.",
+      "de": "Straßenmusiker und aufstrebende Bands auf Plätzen und Ecken von Palma. Jazz, Blues, Folk und Rock.",
+      "fr": "Musiciens de rue et groupes émergents sur les places et recoins de Palma. Jazz, blues, folk et rock."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Alcúdia",
+    "fecha": "2026-07-05",
+    "titulo": "Cine de verano 'Cinema a la Fresca'",
+    "lugar": "Parc de la Mar d'Alcúdia",
+    "hora": "22:00",
+    "precio": "4€",
+    "categoria": "infantil",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Proyección de película familiar al aire libre. Esta semana: 'Del Revés 2' (Inside Out 2).",
+      "ca": "Projecció de pel·lícula familiar a l'aire lliure. Aquesta setmana: 'Del Revés 2'.",
+      "en": "Outdoor family movie screening. This week: 'Inside Out 2'.",
+      "de": "Open-Air-Familienfilmvorführung. Diese Woche: 'Alles steht Kopf 2'.",
+      "fr": "Projection de film familial en plein air. Cette semaine : 'Vice-versa 2'."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-07-11",
+    "titulo": "Fira de la Nit (Mercado nocturno)",
+    "lugar": "Plaça de la Constitució",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Mercado nocturno con artesanía, productos locales, food trucks y concierto de versiones.",
+      "ca": "Mercat nocturn amb artesania, productes locals, food trucks i concert de versions.",
+      "en": "Night market with crafts, local products, food trucks and cover band concert.",
+      "de": "Nachtmarkt mit Kunsthandwerk, lokalen Produkten, Food Trucks und Cover-Band-Konzert.",
+      "fr": "Marché nocturne avec artisanat, produits locaux, food trucks et concert de reprises."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Manacor",
+    "fecha": "2026-07-12",
+    "titulo": "Teatro: 'Els Pastorets' (versión verano)",
+    "lugar": "Teatre de Manacor",
+    "hora": "19:00",
+    "precio": "12€",
+    "categoria": "teatro",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Representación de la obra popular mallorquina 'Els Pastorets' adaptada para el verano.",
+      "ca": "Representació de l'obra popular mallorquina 'Els Pastorets' adaptada per a l'estiu.",
+      "en": "Performance of the popular Mallorcan play 'Els Pastorets' adapted for summer.",
+      "de": "Aufführung des beliebten mallorquinischen Stücks 'Els Pastorets' adaptiert für den Sommer.",
+      "fr": "Représentation de la pièce populaire majorquine 'Els Pastorets' adaptée pour l'été."
+    },
+    "pdf": "https://teatredemanacor.cat"
+  },
+  {
+    "pueblo": "Pollença",
+    "fecha": "2026-07-18",
+    "titulo": "Caminada nocturna 'Lluna Plena'",
+    "lugar": "Salida desde el Puente Romano",
+    "hora": "21:00",
+    "precio": "5€ (inscripción)",
+    "categoria": "deportes",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Ruta nocturna de 8 km bajo la luz de la luna llena. Se recomienda linterna y calzado cómodo.",
+      "ca": "Ruta nocturna de 8 km sota la llum de la lluna plena. Es recomana llanterna i calçat còmode.",
+      "en": "8 km night route under the full moon. Flashlight and comfortable footwear recommended.",
+      "de": "8 km Nachtwanderung bei Vollmond. Taschenlampe und bequemes Schuhwerk empfohlen.",
+      "fr": "Randonnée nocturne de 8 km à la lumière de la pleine lune. Lampe de poche et chaussures confortables recommandées."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Sóller",
+    "fecha": "2026-07-19",
+    "titulo": "Concierto de Orquesta 'Nit d'Estiu'",
+    "lugar": "Plaza de la Constitució",
+    "hora": "22:00",
+    "precio": "Gratis",
+    "categoria": "conciertos",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Concierto de la Orquesta de Cámara de Sóller. Música clásica y bandas sonoras.",
+      "ca": "Concert de l'Orquestra de Cambra de Sóller. Música clàssica i bandes sonores.",
+      "en": "Concert by the Sóller Chamber Orchestra. Classical music and soundtracks.",
+      "de": "Konzert des Kammerorchesters Sóller. Klassische Musik und Soundtracks.",
+      "fr": "Concert de l'Orchestre de Chambre de Sóller. Musique classique et bandes originales."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-07-25",
+    "titulo": "Festa del Rei en Jaume (desembarco histórico)",
+    "lugar": "Parc de la Mar",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Recreación histórica del desembarco de Jaume I en 1229. Batalla naval simulada, mercado medieval y conciertos.",
+      "ca": "Recreació històrica del desembarcament de Jaume I el 1229. Batalla naval simulada, mercat medieval i concerts.",
+      "en": "Historical reenactment of the landing of James I in 1229. Simulated naval battle, medieval market and concerts.",
+      "de": "Historische Nachstellung der Landung von Jaume I. im Jahr 1229. Simulierte Seeschlacht, mittelalterlicher Markt und Konzerte.",
+      "fr": "Reconstitution historique du débarquement de Jacques Ier en 1229. Bataille navale simulée, marché médiéval et concerts."
+    },
+    "pdf": "https://palma.cat/reienjaume"
+  },
+  {
+    "pueblo": "Capdepera",
+    "fecha": "2026-08-01",
+    "titulo": "Fira de la Mel",
+    "lugar": "Recinto ferial de Capdepera",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Feria de la miel y productos apícolas. Degustaciones, demostración de extracción de miel y venta de productos.",
+      "ca": "Fira de la mel i productes apícoles. Degustacions, demostració d'extracció de mel i venda de productes.",
+      "en": "Honey and beekeeping products fair. Tastings, honey extraction demonstration and product sales.",
+      "de": "Honig- und Imkereiproduktemesse. Verkostungen, Demonstration der Honiggewinnung und Produktverkauf.",
+      "fr": "Foire du miel et des produits apicoles. Dégustations, démonstration d'extraction de miel et vente de produits."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Alcúdia",
+    "fecha": "2026-08-02",
+    "titulo": "Torneig de Volei Platja",
+    "lugar": "Playa de Alcúdia",
+    "hora": "09:00",
+    "precio": "Gratis espectadores",
+    "categoria": "deportes",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Torneo de vóley playa masculino y femenino. Participan equipos de toda la isla.",
+      "ca": "Torneig de vòlei platja masculí i femení. Hi participen equips de tota l'illa.",
+      "en": "Men's and women's beach volleyball tournament. Teams from all over the island participate.",
+      "de": "Männer- und Frauen-Beachvolleyballturnier. Teams aus der ganzen Insel nehmen teil.",
+      "fr": "Tournoi de beach-volley masculin et féminin. Des équipes de toute l'île participent."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-08-08",
+    "titulo": "Festival de Rock 'Inca Rock City'",
+    "lugar": "Recinte Firal d'Inca",
+    "hora": "21:00",
+    "precio": "15€ (anticipada)",
+    "categoria": "conciertos",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Festival de rock con bandas nacionales e internacionales. Habrá food trucks y barra.",
+      "ca": "Festival de rock amb bandes nacionals i internacionals. Hi haurà food trucks i barra.",
+      "en": "Rock festival with national and international bands. Food trucks and bar available.",
+      "de": "Rockfestival mit nationalen und internationalen Bands. Food Trucks und Bar vorhanden.",
+      "fr": "Festival de rock avec groupes nationaux et internationaux. Food trucks et buvette disponibles."
+    },
+    "pdf": "https://inca.cat/rockcity"
+  },
+  {
+    "pueblo": "Manacor",
+    "fecha": "2026-08-09",
+    "titulo": "Fira de les Perles (artesanía)",
+    "lugar": "Rambla de Manacor",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Exposición y venta de perlas artificiales de Manacor (artesanía local). Demostraciones de fabricación.",
+      "ca": "Exposició i venda de perles artificials de Manacor (artesania local). Demostracions de fabricació.",
+      "en": "Exhibition and sale of artificial pearls from Manacor (local craft). Manufacturing demonstrations.",
+      "de": "Ausstellung und Verkauf von künstlichen Perlen aus Manacor (lokales Kunsthandwerk). Herstellungsdemonstrationen.",
+      "fr": "Exposition et vente de perles artificielles de Manacor (artisanat local). Démonstrations de fabrication."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Pollença",
+    "fecha": "2026-08-15",
+    "titulo": "Festa del Carme (marinera)",
+    "lugar": "Port de Pollença",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "patronal",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Procesión marítima, regata de barcas tradicionales, verbena y fuegos artificiales.",
+      "ca": "Processó marítima, regata de barques tradicionals, revetlla i focs artificials.",
+      "en": "Maritime procession, traditional boat regatta, street party and fireworks.",
+      "de": "Maritime Prozession, traditionelle Bootsregatta, Volksfest und Feuerwerk.",
+      "fr": "Procession maritime, régate de barques traditionnelles, fête populaire et feux d'artifice."
+    },
+    "pdf": "https://pollenca.cat/carme"
+  },
+  {
+    "pueblo": "Sóller",
+    "fecha": "2026-08-22",
+    "titulo": "Nit del Foc (correfoc infantil)",
+    "lugar": "Plaza de la Constitució",
+    "hora": "20:00",
+    "precio": "Gratis",
+    "categoria": "infantil",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Correfoc adaptado para niños con dimonis pequeños, bengalas suaves y música.",
+      "ca": "Correfoc adaptat per a nins amb dimonis petits, bengales suaus i música.",
+      "en": "Fire run adapted for children with small devils, soft flares and music.",
+      "de": "Feuerlauf für Kinder mit kleinen Teufeln, weichen Bengalos und Musik.",
+      "fr": "Course de feu adaptée aux enfants avec petits diables, fusées douces et musique."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-08-29",
+    "titulo": "Fira de la Nit de l'Art (previo)",
+    "lugar": "Galeries del centre històric",
+    "hora": "19:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Apertura nocturna de galerías con exposiciones de artistas emergentes. Actuaciones en vivo y vermut.",
+      "ca": "Obertura nocturna de galeries amb exposicions d'artistes emergents. Actuacions en viu i vermut.",
+      "en": "Night opening of galleries with exhibitions by emerging artists. Live performances and vermouth.",
+      "de": "Nächtliche Eröffnung von Galerien mit Ausstellungen aufstrebender Künstler. Live-Auftritte und Vermouth.",
+      "fr": "Ouverture nocturne des galeries avec expositions d'artistes émergents. Performances en direct et vermouth."
+    },
+    "pdf": "https://palma.cat/nitdelart"
+  },
+  {
+    "pueblo": "Calvià",
+    "fecha": "2026-09-05",
+    "titulo": "Fira de la Llonguessa (embutido)",
+    "lugar": "Santa Ponça",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Feria dedicada a la llonguessa (embutido típico). Degustaciones, concurso de mejor llonguessa y mercado.",
+      "ca": "Fira dedicada a la llonguessa (embotit típic). Degustacions, concurs de millor llonguessa i mercat.",
+      "en": "Fair dedicated to llonguessa (typical sausage). Tastings, best llonguessa contest and market.",
+      "de": "Messe, die der Llonguessa (typische Wurst) gewidmet ist. Verkostungen, Wettbewerb für die beste Llonguessa und Markt.",
+      "fr": "Foire dédiée à la llonguessa (saucisse typique). Dégustations, concours de la meilleure llonguessa et marché."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Alcúdia",
+    "fecha": "2026-09-12",
+    "titulo": "Fira de la Jalea",
+    "lugar": "Port d'Alcúdia",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Feria gastronómica del gelat (jalea) de pescado. Degustación de este plato típico y concursos.",
+      "ca": "Fira gastronòmica del gelat (gelea) de peix. Degustació d'aquest plat típic i concursos.",
+      "en": "Gastronomic fair of fish jelly (jalea). Tasting of this typical dish and contests.",
+      "de": "Kulinarische Messe der Fischgelee (Jalea). Verkostung dieses typischen Gerichts und Wettbewerbe.",
+      "fr": "Foire gastronomique de la gelée de poisson (jalea). Dégustation de ce plat typique et concours."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-09-19",
+    "titulo": "Festa de la Verema (vendimia)",
+    "lugar": "Plaça del Vi, Binissalem (aunque es de Inca, se celebra allí)",
+    "hora": "11:00",
+    "precio": "Gratis (degustaciones de pago)",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Fiesta de la vendimia con pisada de uva, degustación de vinos de la DO Binissalem, conciertos y desfile.",
+      "ca": "Festa del veremat amb trepitjada de raïm, degustació de vins de la DO Binissalem, concerts i desfilada.",
+      "en": "Harvest festival with grape stomping, wine tasting from DO Binissalem, concerts and parade.",
+      "de": "Weinlesefest mit Traubenstampfen, Weinprobe der DO Binissalem, Konzerten und Umzug.",
+      "fr": "Fête des vendanges avec foulage aux pieds, dégustation de vin de la DO Binissalem, concerts et défilé."
+    },
+    "pdf": "https://binissalem.cat/verema"
+  },
+  {
+    "pueblo": "Manacor",
+    "fecha": "2026-09-26",
+    "titulo": "Fira del Formatge Artesà",
+    "lugar": "Rambla de Manacor",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Feria del queso artesanal de Mallorca. Degustaciones, maridajes con vino y concursos de quesos.",
+      "ca": "Fira del formatge artesà de Mallorca. Degustacions, maridatges amb vi i concursos de formatges.",
+      "en": "Mallorca artisan cheese fair. Tastings, wine pairings and cheese contests.",
+      "de": "Messe für handwerklich hergestellten Käse aus Mallorca. Verkostungen, Weinbegleitungen und Käsewettbewerbe.",
+      "fr": "Foire du fromage artisanal de Majorque. Dégustations, accords mets-vins et concours de fromages."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Alaró",
+    "fecha": "2026-10-03",
+    "titulo": "Fira del Fang (Cerámica)",
+    "lugar": "Calle Major",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Feria de la cerámica con demostraciones de alfareros locales. Talleres infantiles de modelado.",
+      "ca": "Fira de la ceràmica amb demostracions de terrissaires locals. Tallers infantils de modelatge.",
+      "en": "Ceramics fair with demonstrations by local potters. Children's modeling workshops.",
+      "de": "Keramikmesse mit Vorführungen lokaler Töpfer. Kinder-Modellierworkshops.",
+      "fr": "Foire de la céramique avec démonstrations de potiers locaux. Ateliers de modelage pour enfants."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-10-10",
+    "titulo": "Fira del Llibre Vell",
+    "lugar": "Parc de la Mar",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Feria de libros antiguos y de segunda mano. Más de 30 librerías participantes.",
+      "ca": "Fira de llibres antics i de segona mà. Més de 30 llibreries participants.",
+      "en": "Fair of antique and second-hand books. Over 30 participating bookstores.",
+      "de": "Messe für antike und gebrauchte Bücher. Über 30 teilnehmende Buchhandlungen.",
+      "fr": "Foire des livres anciens et d'occasion. Plus de 30 librairies participantes."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-10-17",
+    "titulo": "Fira del Pebre Bord",
+    "lugar": "Plaça de la Constitució",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Feria del pimiento rojo autóctono. Degustaciones de sobrasada con pebre bord y productos derivados.",
+      "ca": "Fira del pebre bord (pebrot vermell autòcton). Degustacions de sobrassada amb pebre bord i productes derivats.",
+      "en": "Fair of the native red pepper. Tastings of sobrasada with pebre bord and derived products.",
+      "de": "Messe der einheimischen roten Paprika. Verkostungen von Sobrassada mit Pebere bord und daraus hergestellten Produkten.",
+      "fr": "Foire du poivron rouge autochtone. Dégustations de sobrassada au pebre bord et produits dérivés."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Manacor",
+    "fecha": "2026-10-24",
+    "titulo": "Fira del Ganivet (cuchillería artesana)",
+    "lugar": "Rambla de Manacor",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Feria de la cuchillería artesanal. Exposición y venta de cuchillos, navajas y tijeras fabricados en Mallorca.",
+      "ca": "Fira de la ganiveteria artesanal. Exposició i venda de ganivets, navalles i tisores fabricats a Mallorca.",
+      "en": "Artisan cutlery fair. Exhibition and sale of knives, pocket knives and scissors made in Mallorca.",
+      "de": "Messe für handwerkliche Messerschmiedekunst. Ausstellung und Verkauf von Messern, Taschenmessern und Scheren aus Mallorca.",
+      "fr": "Foire de la coutellerie artisanale. Exposition et vente de couteaux, canifs et ciseaux fabriqués à Majorque."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Alcúdia",
+    "fecha": "2026-11-01",
+    "titulo": "Fira de Tots Sants (artesanía)",
+    "lugar": "Calle Mayor",
+    "hora": "09:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Feria de Todos los Santos con productos típicos: frutos secos, panellets, castañas y artesanía.",
+      "ca": "Fira de Tots Sants amb productes típics: fruits secs, panellets, castanyes i artesania.",
+      "en": "All Saints' Fair with typical products: nuts, panellets, chestnuts and crafts.",
+      "de": "Allerheiligenmesse mit typischen Produkten: Nüsse, Panellets, Kastanien und Kunsthandwerk.",
+      "fr": "Foire de la Toussaint avec produits typiques : fruits secs, panellets, châtaignes et artisanat."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-11-07",
+    "titulo": "Fira del Segon Mà (especial Nadal)",
+    "lugar": "Parc de les Estacions",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "exposiciones",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Mercado de segunda mano con puestos de ropa, libros, juguetes y decoración navideña.",
+      "ca": "Mercat de segona mà amb parades de roba, llibres, joguines i decoració nadalenca.",
+      "en": "Second-hand market with clothes, books, toys and Christmas decoration stalls.",
+      "de": "Second-Hand-Markt mit Ständen für Kleidung, Bücher, Spielzeug und Weihnachtsdekoration.",
+      "fr": "Marché de seconde main avec stands de vêtements, livres, jouets et décorations de Noël."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-11-14",
+    "titulo": "Concierto de Santa Cecilia (banda)",
+    "lugar": "Auditori d'Inca",
+    "hora": "19:30",
+    "precio": "10€",
+    "categoria": "conciertos",
+    "ranking": 2,
+    "destacado": false,
+    "color": "#9C89B8",
+    "descripcion": {
+      "es": "Concierto de la Banda de Música d'Inca en honor a Santa Cecilia. Obras clásicas y populares.",
+      "ca": "Concert de la Banda de Música d'Inca en honor a Santa Cecília. Obres clàssiques i populars.",
+      "en": "Concert by the Inca Music Band in honor of Saint Cecilia. Classical and popular works.",
+      "de": "Konzert der Stadtkapelle Inca zu Ehren der Heiligen Cäcilia. Klassische und volkstümliche Werke.",
+      "fr": "Concert de la Banda de Música d'Inca en l'honneur de Sainte Cécile. Œuvres classiques et populaires."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Manacor",
+    "fecha": "2026-11-21",
+    "titulo": "Teatro: 'Els Pastorets' (inicio temporada)",
+    "lugar": "Teatre de Manacor",
+    "hora": "18:00",
+    "precio": "15€",
+    "categoria": "teatro",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#E63946",
+    "descripcion": {
+      "es": "Inicio de la temporada de teatro navideño con la obra popular 'Els Pastorets'.",
+      "ca": "Inici de la temporada de teatre nadalenc amb l'obra popular 'Els Pastorets'.",
+      "en": "Start of the Christmas theatre season with the popular play 'Els Pastorets'.",
+      "de": "Start der Weihnachtstheatersaison mit dem beliebten Stück 'Els Pastorets'.",
+      "fr": "Début de la saison de théâtre de Noël avec la pièce populaire 'Els Pastorets'."
+    },
+    "pdf": "https://teatredemanacor.cat"
+  },
+  {
+    "pueblo": "Alaró",
+    "fecha": "2026-12-05",
+    "titulo": "Mercadet de Nadal",
+    "lugar": "Plaza de la Vila",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#F4A261",
+    "descripcion": {
+      "es": "Mercado navideño con puestos de artesanía, dulces típicos (neules, torrons) y atracciones infantiles.",
+      "ca": "Mercat nadalenc amb parades d'artesania, dolços típics (neules, torrons) i atraccions infantils.",
+      "en": "Christmas market with craft stalls, typical sweets (neules, nougat) and children's rides.",
+      "de": "Weihnachtsmarkt mit Kunsthandwerk, typischen Süßigkeiten (Neules, Turrón) und Kinderfahrgeschäften.",
+      "fr": "Marché de Noël avec stands d'artisanat, friandises typiques (neules, nougats) et manèges pour enfants."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Palma",
+    "fecha": "2026-12-12",
+    "titulo": "Fira del Torró i la Neula",
+    "lugar": "Plaça Major",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#E76F51",
+    "descripcion": {
+      "es": "Feria del turrón y la neula (barquillo). Degustaciones y venta de dulces navideños tradicionales.",
+      "ca": "Fira del torró i la neula. Degustacions i venda de dolços nadalencs tradicionals.",
+      "en": "Nougat and neula (wafer roll) fair. Tastings and sale of traditional Christmas sweets.",
+      "de": "Messe für Turrón und Neula (Waffelröllchen). Verkostungen und Verkauf traditioneller Weihnachtssüßigkeiten.",
+      "fr": "Foire du nougat et de la neula (rouleau gaufrette). Dégustations et vente de sucreries traditionnelles de Noël."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Inca",
+    "fecha": "2026-12-19",
+    "titulo": "Fira de l'Oliva (especial Nadal)",
+    "lugar": "Plaça de la Constitució",
+    "hora": "10:00",
+    "precio": "Gratis",
+    "categoria": "gastronomia",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#2A9D8F",
+    "descripcion": {
+      "es": "Feria de la aceituna y el aceite de oliva. Degustaciones y venta de productos navideños.",
+      "ca": "Fira de l'oliva i l'oli d'oliva. Degustacions i venda de productes nadalencs.",
+      "en": "Olive and olive oil fair. Tastings and sale of Christmas products.",
+      "de": "Oliven- und Olivenölmesse. Verkostungen und Verkauf von Weihnachtsprodukten.",
+      "fr": "Foire de l'olive et de l'huile d'olive. Dégustations et vente de produits de Noël."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Manacor",
+    "fecha": "2026-12-25",
+    "titulo": "Concierto de Navidad",
+    "lugar": "Església de la Mare de Déu dels Dolors",
+    "hora": "12:00",
+    "precio": "Gratis",
+    "categoria": "conciertos",
+    "ranking": 3,
+    "destacado": false,
+    "color": "#264653",
+    "descripcion": {
+      "es": "Concierto de villancicos a cargo de la Coral de Manacor. Entrada libre hasta completar aforo.",
+      "ca": "Concert de nadales a càrrec de la Coral de Manacor. Entrada lliure fins a completar aforament.",
+      "en": "Christmas carol concert by the Manacor Choir. Free admission until full capacity.",
+      "de": "Weihnachtsliederkonzert des Chores von Manacor. Freier Eintritt bis zur Kapazitätsgrenze.",
+      "fr": "Concert de chants de Noël par la Chorale de Manacor. Entrée libre jusqu'à épuisement des places."
+    },
+    "pdf": ""
+  },
+  {
+    "pueblo": "Alcúdia",
+    "fecha": "2026-12-31",
+    "titulo": "Campanades de Cap d'Any",
+    "lugar": "Plaça de la Constitució",
+    "hora": "23:30",
+    "precio": "Gratis",
+    "categoria": "especial",
+    "ranking": 4,
+    "destacado": true,
+    "color": "#70AE6E",
+    "descripcion": {
+      "es": "Celebración de Nochevieja con reloj, uvas, fuegos artificiales y música en directo.",
+      "ca": "Celebració de Cap d'Any amb rellotge, raïm, focs artificials i música en directe.",
+      "en": "New Year's Eve celebration with clock, grapes, fireworks and live music.",
+      "de": "Silvesterfeier mit Uhr, Trauben, Feuerwerk und Livemusik.",
+      "fr": "Fête du réveillon du Nouvel An avec horloge, raisins, feux d'artifice et musique live."
+    },
+    "pdf": ""
+  }
+] 
